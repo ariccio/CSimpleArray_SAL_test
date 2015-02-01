@@ -332,25 +332,38 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 	//	VERIFY( b.Add( 5 ) );
 	//	}
 
-	b.Add( 5 );
+	if ( !b.Add( 5 ) ) {
+		return 666;
+		}
 
 	b.RemoveAll( );
+
 	//With SAL, /analyze will NOT catch this
 	const auto c = b[ 2 ];
 
 	myATL::CSimpleArray<int> d;
-	
+
 	const auto f = d[ 20 ];
 
-	d.Add( 5 );
+	if ( !d.Add( 5 ) ) {
+		return 666;
+		}
+
 	d.RemoveAll( );
 	
 	//With SAL, /analyze will catch this
 	const auto e = d[ 20 ];
 
-	d.Add( 5 );
-	d.Add( 5 );
-	d.Add( 5 );
+	if ( !d.Add( 5 ) ) {
+		return 666;
+		}
+
+	if ( !d.Add( 5 ) ) {
+		return 666;
+		}
+	if ( d.Add( 5 ) ) {
+		return 666;
+		}
 
 	//const auto g = d[ d.GetSize( ) ];
 
