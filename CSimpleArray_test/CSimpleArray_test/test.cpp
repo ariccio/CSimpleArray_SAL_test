@@ -63,15 +63,16 @@ class CSimpleArray
 public:
 // Construction/destruction
 	//_At_( m_aT, _Post_ptr_invalid_ )
-	_At_( m_aT, _Post_equal_to_( NULL ) )
-	_At_( m_aT, _Post_count_c_( 0 ) )
+	//_At_( m_aT, _Post_equal_to_( NULL ) )
+	//_At_( m_aT, _Post_count_c_( 0 ) )
+	_At_( m_aT, _Post_readable_size_( 0 ) )
 	_At_( m_nSize, _Post_satisfies_( m_nSize == 0 ) )
 	CSimpleArray() :
 		m_aT(NULL), m_nSize(0), m_nAllocSize(0)
 	{
 	}
 
-	_At_( m_aT, _Post_ptr_invalid_ )
+	//_At_( m_aT, _Post_ptr_invalid_ )
 	~CSimpleArray();
 
 	//_When_( src.m_nSize > 0, _At_( m_aT, _Post_readable_size_( src.m_nSize ) ) )
@@ -90,7 +91,7 @@ public:
 		}
 	}
 
-	_When_( src.m_nSize > 0, _At_( m_aT, _Post_readable_size_( src.m_nSize ) ) )
+	//_When_( src.m_nSize > 0, _At_( m_aT, _Post_readable_size_( src.m_nSize ) ) )
 	CSimpleArray< T, TEqual >& operator=(_In_ const CSimpleArray< T, TEqual >& src)
 	{
 		if (GetSize() != src.GetSize())
@@ -113,15 +114,17 @@ public:
 // Operations
 	_At_( m_aT, _Post_readable_size_( m_nSize ) )
 	_At_( m_aT, _Post_writable_size_( m_nSize ) )
+	_Ret_range_( 0, INT_MAX )
 	int GetSize() const
 	{
 		return m_nSize;
 	}
 
 	_Success_( return == TRUE )
+	_At_( m_aT, _Post_readable_size_( m_nSize ) )
 	_At_( m_nSize, _Post_satisfies_( m_nSize == ( _Old_( m_nSize ) + 1 ) ) ) 
 	_At_( m_aT, _Post_count_x_( ( _Old_( m_nSize ) + 1 ) ) ) 
-	//_At_( m_aT, _When_( m_aT == NULL, _Post_satisfies_( m_aT != NULL ) ) )
+	_At_( m_aT, _When_( m_aT == NULL, _Post_satisfies_( m_aT != NULL ) ) )
 	BOOL Add(_In_ const T& t)
 	{
 		if(m_nSize == m_nAllocSize)
@@ -151,7 +154,7 @@ public:
 	}
 
 	_Success_( return == TRUE )
-	_Post_satisfies_( m_nSize == ( _Old_( m_nSize ) - 1 ) )
+	//_Post_satisfies_( m_nSize == ( _Old_( m_nSize ) - 1 ) )
 	BOOL Remove(_In_ const T& t)
 	{
 		int nIndex = Find(t);
@@ -161,8 +164,8 @@ public:
 	}
 	
 	_Success_( return == TRUE )
-	_Pre_satisfies_( m_nSize > 0 )
-	_At_( m_aT, _Post_count_x_( ( _Old_( m_nSize ) - 1 ) ) )
+	//_Pre_satisfies_( this->m_nSize > 0 )
+	//_At_( m_aT, _Post_count_x_( ( _Old_( m_nSize ) - 1 ) ) )
 	BOOL RemoveAt(_In_ _In_range_( 0, m_nSize ) int nIndex)
 	{
 		ATLASSERT(nIndex >= 0 && nIndex < m_nSize);
@@ -177,7 +180,7 @@ public:
 
 	//_At_( this->m_aT, _Post_count_c_( 0 ) )
 	//_At_( this->m_nSize, _Post_equal_to_( 0 ) )
-	_At_( this->m_aT, _Post_invalid_ )
+	//_At_( this->m_aT, _Post_invalid_ )
 	void RemoveAll()
 	{
 		if(m_aT != NULL)
@@ -192,7 +195,9 @@ public:
     }
 
 	_At_( nIndex, _In_range_( 0, this->m_nSize ) )
+	_Pre_satisfies_( nIndex < this->m_nSize )
 	_At_( this->m_aT, _Pre_count_( this->m_nSize ) )
+	_At_( this->m_aT, _Readable_elements_( this->m_nSize ) )
 	const T& operator[] (_In_ int nIndex) const
 	{
 		ATLASSERT(nIndex >= 0 && nIndex < m_nSize);
@@ -206,6 +211,8 @@ public:
 	_At_( nIndex, _In_range_( 0, m_nSize ) )
 	_At_( m_aT, _Pre_readable_size_( m_nSize ) )
 	_At_( m_aT, _Pre_writable_size_( m_nSize ) )
+	_At_( this->m_aT, _Writable_elements_( this->m_nSize ) )
+	_Pre_satisfies_( nIndex < this->m_nSize )
 	T& operator[] (_In_ int nIndex)
 	{
 		ATLASSERT(nIndex >= 0 && nIndex < m_nSize);
@@ -217,21 +224,21 @@ public:
 	}
 
 	//_Ret_maybenull_
-	_When_( this->m_aT == NULL, _Ret_null_ )
-	_When_( this->m_aT != NULL, _Ret_notnull_ )
-	_When_( this->m_aT != NULL, _At_( return, _Post_count_( this->m_nSize ) ) )
-	_When_( this->m_aT != NULL, _At_( return, _Post_cap_( this->m_nAllocSize ) ) )
-	_When_( return != NULL, _At_( return, _Post_count_( this->m_nSize ) ) )
-	_When_( return != NULL, _At_( return, _Post_cap_( this->m_nAllocSize ) ) )
-	_Ret_count_x_( m_nSize )
+	//_When_( this->m_aT == NULL, _Ret_null_ )
+	//_When_( this->m_aT != NULL, _Ret_notnull_ )
+	//_When_( this->m_aT != NULL, _At_( return, _Post_count_( this->m_nSize ) ) )
+	//_When_( this->m_aT != NULL, _At_( return, _Post_cap_( this->m_nAllocSize ) ) )
+	//_When_( return != NULL, _At_( return, _Post_count_( this->m_nSize ) ) )
+	//_When_( return != NULL, _At_( return, _Post_cap_( this->m_nAllocSize ) ) )
+	//_Ret_count_x_( m_nSize )
 	T* GetData() const
 	{
 		return m_aT;
 	}
 
 	_Success_( return != -1 )
-	_Pre_satisfies_( this->m_aT != NULL )
-	_Ret_range_( 0, this->m_nSize )
+	//_Pre_satisfies_( this->m_aT != NULL )
+	//_Ret_range_( 0, this->m_nSize )
 	int Find(_In_ const T& t) const
 	{
 		for(int i = 0; i < m_nSize; i++)
@@ -243,9 +250,12 @@ public:
 	}
 
 	_Success_( return == TRUE )
-	_At_( nIndex, _In_range_( 0, this->m_nSize ) )
-	_At_( m_aT, _Pre_cap_( this->m_nSize ) )
-	_Check_return_
+	//_At_( nIndex, _In_range_( 0, this->m_nSize ) )
+	//_Pre_satisfies_( nIndex < this->m_nSize )
+	//_At_( m_aT, _Pre_cap_( this->m_nSize ) )
+	//_At_( m_aT, _Readable_elements_( this->m_nSize ) )
+	//_At_( m_aT, _Writable_elements_( this->m_nSize ) )
+	//_Check_return_
 	BOOL SetAtIndex(
 		_In_ int nIndex,
 		_In_ const T& t)
@@ -280,7 +290,8 @@ public:
 	};
 
 // Implementation
-	_At_( nIndex, _In_range_( 0, m_nAllocSize ) )
+	//_At_( nIndex, _In_range_( 0, m_nAllocSize ) )
+	_Pre_satisfies_( nIndex < m_nAllocSize )
 	void InternalSetAtIndex(
 		_In_ int nIndex,
 		_In_ const T& t)
@@ -289,8 +300,11 @@ public:
 	}
 
 	typedef T _ArrayElementType;
-	_Field_size_part_( m_nSize, m_nAllocSize ) T* m_aT;
-	_Field_range_( 0, m_nAllocSize )int m_nSize;
+	_Field_size_part_( m_nAllocSize, m_nSize ) T* m_aT;
+	int m_nSize;
+	//_Field_size_( m_nSize ) T* m_aT;
+	//T* m_aT;
+	//int m_nSize;
 	int m_nAllocSize;
 };
 
@@ -319,30 +333,30 @@ template <class T, class TEqual> inline CSimpleArray<T, TEqual>::~CSimpleArray()
 
 CWinApp theApp;
 
-_At_( in, _In_range_( 10, 100 ) )
-void test_analyze_ten_or_onehundred( int in ) {
-	printf( "%i\r\n", in );
-	ASSERT( in >= 10 ); ASSERT( in <= 100 );
-	}
-
-_At_( in, _In_range_( 1, 2 ) )
-void test_analyze_one_or_two( int in ) {
-	printf( "%i\r\n", in );
-	ASSERT( in >= 1 ); ASSERT( in <= 2 );
-	}
-
-_At_( in, _In_range_( 2, 3 ) )
-void test_analyze_two_or_three( int in ) {
-	printf( "%i\r\n", in );
-	ASSERT( in >= 2 ); ASSERT( in <= 3 );
-	}
-
-
-_At_( in, _In_range_( 0, 0 ) )
-void test_analyze_zero( int in ) {
-	printf( "%i\r\n", in );
-	ASSERT( in >= 0 );
-	}
+////_At_( in, _In_range_( 10, 100 ) )
+//void test_analyze_ten_or_onehundred( int in ) {
+//	printf( "%i\r\n", in );
+//	ASSERT( in >= 10 ); ASSERT( in <= 100 );
+//	}
+//
+////_At_( in, _In_range_( 1, 2 ) )
+//void test_analyze_one_or_two( int in ) {
+//	printf( "%i\r\n", in );
+//	ASSERT( in >= 1 ); ASSERT( in <= 2 );
+//	}
+//
+////_At_( in, _In_range_( 2, 3 ) )
+//void test_analyze_two_or_three( int in ) {
+//	printf( "%i\r\n", in );
+//	ASSERT( in >= 2 ); ASSERT( in <= 3 );
+//	}
+//
+//
+////_At_( in, _In_range_( 0, 0 ) )
+//void test_analyze_zero( int in ) {
+//	printf( "%i\r\n", in );
+//	ASSERT( in >= 0 );
+//	}
 
 int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[ ], WCHAR* envp[ ] ) {
 	//printf( "start!\r\n" );
@@ -360,13 +374,13 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 		}
 
 	//built-in CSimpleArray
-	ATL::CSimpleArray<int> b;
+	//ATL::CSimpleArray<int> b;
 
-	b.Add( 5 );
+	//b.Add( 5 );
 
-	b.RemoveAll( );
+	//b.RemoveAll( );
 	//With SAL, /analyze will NOT catch this
-	const auto c = b[ 2 ];
+	//const auto c = b[ 2 ];
 
 
 
@@ -375,14 +389,20 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 	//modified CSimpleArray
 	myATL::CSimpleArray<int> d;
 
-	//this should not fail!
-	test_analyze_zero( d.m_nSize );
+	if ( !d.Add( 5 ) ) {
+		const auto z = d[ 0 ];
+		}
+
+	d.RemoveAll( );
+
+	////this should not fail!
+	//test_analyze_zero( d.m_nSize );
 
 
-	//these should fail!
-	test_analyze_ten_or_onehundred( d.m_nSize );
-	test_analyze_one_or_two( d.m_nSize );
-	test_analyze_two_or_three( d.m_nSize );
+	////these should fail!
+	//test_analyze_ten_or_onehundred( d.m_nSize );
+	//test_analyze_one_or_two( d.m_nSize );
+	//test_analyze_two_or_three( d.m_nSize );
 
 
 
@@ -399,7 +419,7 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 
 	//these should fail!
 	const auto u = d[ 1 ];
-	test_analyze_zero( d.m_nSize );
+	//test_analyze_zero( d.m_nSize );
 
 	d.RemoveAll( );
 	
@@ -409,7 +429,7 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 	const auto e = d[ 1 ];
 	
 	//this should fail!
-	test_analyze_one_or_two( d.m_nSize );
+	//test_analyze_one_or_two( d.m_nSize );
 
 
 
@@ -424,10 +444,10 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 	
 	//these should fail!
 	const auto g = d[ 1 ];
-	test_analyze_two_or_three( d.m_nSize );
+	//test_analyze_two_or_three( d.m_nSize );
 
 	//this should not fail!
-	test_analyze_one_or_two( d.m_nSize );
+	//test_analyze_one_or_two( d.m_nSize );
 
 
 	if ( !d.Add( 5 ) ) {
@@ -448,14 +468,14 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 	//these should fail!
 	const auto m = d[ 4 ];
 	const auto q = d[ d.GetSize( ) ];
-	test_analyze_ten_or_onehundred( d.m_nSize );
-	test_analyze_one_or_two( d.m_nSize );
+	//test_analyze_ten_or_onehundred( d.m_nSize );
+	//test_analyze_one_or_two( d.m_nSize );
 
 	//this should not fail!
-	test_analyze_two_or_three( d.m_nSize );
+	//test_analyze_two_or_three( d.m_nSize );
 
 	//confirms that `/analyze`'s internal model thinks d is an array of 0 elements (should fail!)
-	test_analyze_zero( d.m_nSize );
+	//test_analyze_zero( d.m_nSize );
 
 	//For some reason, `/analyze`'s internal model thinks h is an array of 0 bytes.
 	//It seems to think that `this->m_nSize` == 0 bytes at the call.
