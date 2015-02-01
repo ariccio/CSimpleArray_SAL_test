@@ -1981,18 +1981,19 @@ _TEXT	ENDS
 ; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
 ;	COMDAT _wmain
 _TEXT	SEGMENT
-$T2 = -460						; size = 4
-$T3 = -448						; size = 4
-$T4 = -436						; size = 4
-$T5 = -424						; size = 4
-$T6 = -412						; size = 4
-$T7 = -400						; size = 4
-$T8 = -388						; size = 4
-$T9 = -376						; size = 4
-$T10 = -364						; size = 4
-$T11 = -352						; size = 4
-$T12 = -340						; size = 4
-_i$ = -136						; size = 4
+$T2 = -472						; size = 4
+$T3 = -460						; size = 4
+$T4 = -448						; size = 4
+$T5 = -436						; size = 4
+$T6 = -424						; size = 4
+$T7 = -412						; size = 4
+$T8 = -400						; size = 4
+$T9 = -388						; size = 4
+$T10 = -376						; size = 4
+$T11 = -364						; size = 4
+$T12 = -352						; size = 4
+_i$ = -148						; size = 4
+_j$ = -136						; size = 4
 _h$ = -124						; size = 4
 _e$ = -112						; size = 4
 _f$ = -100						; size = 4
@@ -2017,14 +2018,14 @@ _wmain	PROC						; COMDAT
   0000a	64 a1 00 00 00
 	00		 mov	 eax, DWORD PTR fs:0
   00010	50		 push	 eax
-  00011	81 ec c4 01 00
-	00		 sub	 esp, 452		; 000001c4H
+  00011	81 ec d0 01 00
+	00		 sub	 esp, 464		; 000001d0H
   00017	53		 push	 ebx
   00018	56		 push	 esi
   00019	57		 push	 edi
-  0001a	8d bd 30 fe ff
-	ff		 lea	 edi, DWORD PTR [ebp-464]
-  00020	b9 71 00 00 00	 mov	 ecx, 113		; 00000071H
+  0001a	8d bd 24 fe ff
+	ff		 lea	 edi, DWORD PTR [ebp-476]
+  00020	b9 74 00 00 00	 mov	 ecx, 116		; 00000074H
   00025	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
   0002a	f3 ab		 rep stosd
   0002c	a1 00 00 00 00	 mov	 eax, DWORD PTR ___security_cookie
@@ -2079,7 +2080,7 @@ _wmain	PROC						; COMDAT
 ; 320  : 		return ERROR_MOD_NOT_FOUND;
 
   00091	b8 7e 00 00 00	 mov	 eax, 126		; 0000007eH
-  00096	e9 82 02 00 00	 jmp	 $LN8@wmain
+  00096	e9 95 02 00 00	 jmp	 $LN8@wmain
 $LN7@wmain:
 
 ; 321  : 		}
@@ -2122,7 +2123,7 @@ $LN7@wmain:
 ; 325  : 		return ERROR_APP_INIT_FAILURE;
 
   000ec	b8 3f 02 00 00	 mov	 eax, 575		; 0000023fH
-  000f1	e9 27 02 00 00	 jmp	 $LN8@wmain
+  000f1	e9 3a 02 00 00	 jmp	 $LN8@wmain
 $LN6@wmain:
 
 ; 326  : 		}
@@ -2145,9 +2146,9 @@ $LN6@wmain:
 ; 334  : 
 ; 335  : 	if ( !b.Add( 5 ) ) {
 
-  0010f	c7 85 34 fe ff
+  0010f	c7 85 28 fe ff
 	ff 05 00 00 00	 mov	 DWORD PTR $T2[ebp], 5
-  00119	8d 85 34 fe ff
+  00119	8d 85 28 fe ff
 	ff		 lea	 eax, DWORD PTR $T2[ebp]
   0011f	50		 push	 eax
   00120	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
@@ -2157,15 +2158,15 @@ $LN6@wmain:
 
 ; 336  : 		return 666;
 
-  0012c	c7 85 40 fe ff
+  0012c	c7 85 34 fe ff
 	ff 9a 02 00 00	 mov	 DWORD PTR $T3[ebp], 666	; 0000029aH
   00136	c7 45 fc ff ff
 	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
   0013d	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
   00140	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
-  00145	8b 85 40 fe ff
+  00145	8b 85 34 fe ff
 	ff		 mov	 eax, DWORD PTR $T3[ebp]
-  0014b	e9 cd 01 00 00	 jmp	 $LN8@wmain
+  0014b	e9 e0 01 00 00	 jmp	 $LN8@wmain
 $LN5@wmain:
 
 ; 337  : 		}
@@ -2207,9 +2208,9 @@ $LN5@wmain:
 ; 347  : 
 ; 348  : 	if ( !d.Add( 5 ) ) {
 
-  0018c	c7 85 4c fe ff
+  0018c	c7 85 40 fe ff
 	ff 05 00 00 00	 mov	 DWORD PTR $T4[ebp], 5
-  00196	8d 85 4c fe ff
+  00196	8d 85 40 fe ff
 	ff		 lea	 eax, DWORD PTR $T4[ebp]
   0019c	50		 push	 eax
   0019d	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
@@ -2219,7 +2220,7 @@ $LN5@wmain:
 
 ; 349  : 		return 666;
 
-  001a9	c7 85 58 fe ff
+  001a9	c7 85 4c fe ff
 	ff 9a 02 00 00	 mov	 DWORD PTR $T5[ebp], 666	; 0000029aH
   001b3	c6 45 fc 00	 mov	 BYTE PTR __$EHRec$[ebp+8], 0
   001b7	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
@@ -2228,9 +2229,9 @@ $LN5@wmain:
 	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
   001c6	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
   001c9	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
-  001ce	8b 85 58 fe ff
+  001ce	8b 85 4c fe ff
 	ff		 mov	 eax, DWORD PTR $T5[ebp]
-  001d4	e9 44 01 00 00	 jmp	 $LN8@wmain
+  001d4	e9 57 01 00 00	 jmp	 $LN8@wmain
 $LN4@wmain:
 
 ; 350  : 		}
@@ -2253,9 +2254,9 @@ $LN4@wmain:
 ; 356  : 
 ; 357  : 	if ( !d.Add( 5 ) ) {
 
-  001f0	c7 85 64 fe ff
+  001f0	c7 85 58 fe ff
 	ff 05 00 00 00	 mov	 DWORD PTR $T6[ebp], 5
-  001fa	8d 85 64 fe ff
+  001fa	8d 85 58 fe ff
 	ff		 lea	 eax, DWORD PTR $T6[ebp]
   00200	50		 push	 eax
   00201	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
@@ -2265,7 +2266,7 @@ $LN4@wmain:
 
 ; 358  : 		return 666;
 
-  0020d	c7 85 70 fe ff
+  0020d	c7 85 64 fe ff
 	ff 9a 02 00 00	 mov	 DWORD PTR $T7[ebp], 666	; 0000029aH
   00217	c6 45 fc 00	 mov	 BYTE PTR __$EHRec$[ebp+8], 0
   0021b	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
@@ -2274,18 +2275,18 @@ $LN4@wmain:
 	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
   0022a	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
   0022d	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
-  00232	8b 85 70 fe ff
+  00232	8b 85 64 fe ff
 	ff		 mov	 eax, DWORD PTR $T7[ebp]
-  00238	e9 e0 00 00 00	 jmp	 $LN8@wmain
+  00238	e9 f3 00 00 00	 jmp	 $LN8@wmain
 $LN3@wmain:
 
 ; 359  : 		}
 ; 360  : 
 ; 361  : 	if ( !d.Add( 5 ) ) {
 
-  0023d	c7 85 7c fe ff
+  0023d	c7 85 70 fe ff
 	ff 05 00 00 00	 mov	 DWORD PTR $T8[ebp], 5
-  00247	8d 85 7c fe ff
+  00247	8d 85 70 fe ff
 	ff		 lea	 eax, DWORD PTR $T8[ebp]
   0024d	50		 push	 eax
   0024e	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
@@ -2295,7 +2296,7 @@ $LN3@wmain:
 
 ; 362  : 		return 666;
 
-  0025a	c7 85 88 fe ff
+  0025a	c7 85 7c fe ff
 	ff 9a 02 00 00	 mov	 DWORD PTR $T9[ebp], 666	; 0000029aH
   00264	c6 45 fc 00	 mov	 BYTE PTR __$EHRec$[ebp+8], 0
   00268	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
@@ -2304,17 +2305,17 @@ $LN3@wmain:
 	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
   00277	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
   0027a	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
-  0027f	8b 85 88 fe ff
+  0027f	8b 85 7c fe ff
 	ff		 mov	 eax, DWORD PTR $T9[ebp]
-  00285	e9 93 00 00 00	 jmp	 $LN8@wmain
+  00285	e9 a6 00 00 00	 jmp	 $LN8@wmain
 $LN2@wmain:
 
 ; 363  : 		}
 ; 364  : 	if ( d.Add( 5 ) ) {
 
-  0028a	c7 85 94 fe ff
+  0028a	c7 85 88 fe ff
 	ff 05 00 00 00	 mov	 DWORD PTR $T10[ebp], 5
-  00294	8d 85 94 fe ff
+  00294	8d 85 88 fe ff
 	ff		 lea	 eax, DWORD PTR $T10[ebp]
   0029a	50		 push	 eax
   0029b	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
@@ -2324,7 +2325,7 @@ $LN2@wmain:
 
 ; 365  : 		return 666;
 
-  002a7	c7 85 a0 fe ff
+  002a7	c7 85 94 fe ff
 	ff 9a 02 00 00	 mov	 DWORD PTR $T11[ebp], 666 ; 0000029aH
   002b1	c6 45 fc 00	 mov	 BYTE PTR __$EHRec$[ebp+8], 0
   002b5	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
@@ -2333,91 +2334,113 @@ $LN2@wmain:
 	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
   002c4	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
   002c7	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
-  002cc	8b 85 a0 fe ff
+  002cc	8b 85 94 fe ff
 	ff		 mov	 eax, DWORD PTR $T11[ebp]
-  002d2	eb 49		 jmp	 SHORT $LN8@wmain
+  002d2	eb 5c		 jmp	 SHORT $LN8@wmain
 $LN1@wmain:
 
 ; 366  : 		}
 ; 367  : 
 ; 368  : 	//const auto g = d[ d.GetSize( ) ];
 ; 369  : 
-; 370  : 	const auto h = d.GetData( );
+; 370  : 	//well yeah, h MAY be null, but NOT here.
+; 371  : 	const auto h = d.GetData( );
 
   002d4	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
   002d7	e8 00 00 00 00	 call	 ?GetData@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEPAHXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetData
   002dc	89 45 84	 mov	 DWORD PTR _h$[ebp], eax
 
-; 371  : 	const auto i = h[ 3 ];
+; 372  : 
+; 373  : 
+; 374  : 
+; 375  : 	/*
+; 376  : C6385	Read overrun	Reading invalid data from 'h':  the readable size is 'this->m_nSize*4' bytes, but '12' bytes may be read.
+; 377  : 		371 'h' is a 0 byte array
+; 378  : 		382 Invalid read from 'h', (outside its readable range)
+; 379  : 	
+; 380  : 	*/
+; 381  : 
+; 382  : 	const auto j = h[ 2 ];
 
   002df	b8 04 00 00 00	 mov	 eax, 4
-  002e4	6b c8 03	 imul	 ecx, eax, 3
-  002e7	8b 55 84	 mov	 edx, DWORD PTR _h$[ebp]
-  002ea	8b 04 0a	 mov	 eax, DWORD PTR [edx+ecx]
-  002ed	89 85 78 ff ff
+  002e4	d1 e0		 shl	 eax, 1
+  002e6	8b 4d 84	 mov	 ecx, DWORD PTR _h$[ebp]
+  002e9	8b 14 01	 mov	 edx, DWORD PTR [ecx+eax]
+  002ec	89 95 78 ff ff
+	ff		 mov	 DWORD PTR _j$[ebp], edx
+
+; 383  : 
+; 384  : 	//this is one past the end of the readable range!
+; 385  : 	const auto i = h[ 3 ];
+
+  002f2	b8 04 00 00 00	 mov	 eax, 4
+  002f7	6b c8 03	 imul	 ecx, eax, 3
+  002fa	8b 55 84	 mov	 edx, DWORD PTR _h$[ebp]
+  002fd	8b 04 0a	 mov	 eax, DWORD PTR [edx+ecx]
+  00300	89 85 6c ff ff
 	ff		 mov	 DWORD PTR _i$[ebp], eax
 
-; 372  : 
-; 373  : 	return nRetCode;
+; 386  : 
+; 387  : 	return nRetCode;
 
-  002f3	8b 45 dc	 mov	 eax, DWORD PTR _nRetCode$[ebp]
-  002f6	89 85 ac fe ff
+  00306	8b 45 dc	 mov	 eax, DWORD PTR _nRetCode$[ebp]
+  00309	89 85 a0 fe ff
 	ff		 mov	 DWORD PTR $T12[ebp], eax
-  002fc	c6 45 fc 00	 mov	 BYTE PTR __$EHRec$[ebp+8], 0
-  00300	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00303	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  00308	c7 45 fc ff ff
+  0030f	c6 45 fc 00	 mov	 BYTE PTR __$EHRec$[ebp+8], 0
+  00313	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  00316	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
+  0031b	c7 45 fc ff ff
 	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
-  0030f	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
-  00312	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
-  00317	8b 85 ac fe ff
+  00322	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
+  00325	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
+  0032a	8b 85 a0 fe ff
 	ff		 mov	 eax, DWORD PTR $T12[ebp]
 $LN8@wmain:
 
-; 374  : 	}
+; 388  : 	}
 
-  0031d	52		 push	 edx
-  0031e	8b cd		 mov	 ecx, ebp
-  00320	50		 push	 eax
-  00321	8d 15 00 00 00
+  00330	52		 push	 edx
+  00331	8b cd		 mov	 ecx, ebp
+  00333	50		 push	 eax
+  00334	8d 15 00 00 00
 	00		 lea	 edx, DWORD PTR $LN16@wmain
-  00327	e8 00 00 00 00	 call	 @_RTC_CheckStackVars@8
-  0032c	58		 pop	 eax
-  0032d	5a		 pop	 edx
-  0032e	8b 4d f4	 mov	 ecx, DWORD PTR __$EHRec$[ebp]
-  00331	64 89 0d 00 00
+  0033a	e8 00 00 00 00	 call	 @_RTC_CheckStackVars@8
+  0033f	58		 pop	 eax
+  00340	5a		 pop	 edx
+  00341	8b 4d f4	 mov	 ecx, DWORD PTR __$EHRec$[ebp]
+  00344	64 89 0d 00 00
 	00 00		 mov	 DWORD PTR fs:0, ecx
-  00338	59		 pop	 ecx
-  00339	5f		 pop	 edi
-  0033a	5e		 pop	 esi
-  0033b	5b		 pop	 ebx
-  0033c	8b 4d f0	 mov	 ecx, DWORD PTR __$ArrayPad$[ebp]
-  0033f	33 cd		 xor	 ecx, ebp
-  00341	e8 00 00 00 00	 call	 @__security_check_cookie@4
-  00346	81 c4 d0 01 00
-	00		 add	 esp, 464		; 000001d0H
-  0034c	3b ec		 cmp	 ebp, esp
-  0034e	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  00353	8b e5		 mov	 esp, ebp
-  00355	5d		 pop	 ebp
-  00356	c3		 ret	 0
-  00357	90		 npad	 1
+  0034b	59		 pop	 ecx
+  0034c	5f		 pop	 edi
+  0034d	5e		 pop	 esi
+  0034e	5b		 pop	 ebx
+  0034f	8b 4d f0	 mov	 ecx, DWORD PTR __$ArrayPad$[ebp]
+  00352	33 cd		 xor	 ecx, ebp
+  00354	e8 00 00 00 00	 call	 @__security_check_cookie@4
+  00359	81 c4 dc 01 00
+	00		 add	 esp, 476		; 000001dcH
+  0035f	3b ec		 cmp	 ebp, esp
+  00361	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  00366	8b e5		 mov	 esp, ebp
+  00368	5d		 pop	 ebp
+  00369	c3		 ret	 0
+  0036a	8b ff		 npad	 2
 $LN16@wmain:
-  00358	02 00 00 00	 DD	 2
-  0035c	00 00 00 00	 DD	 $LN15@wmain
+  0036c	02 00 00 00	 DD	 2
+  00370	00 00 00 00	 DD	 $LN15@wmain
 $LN15@wmain:
-  00360	c8 ff ff ff	 DD	 -56			; ffffffc8H
-  00364	0c 00 00 00	 DD	 12			; 0000000cH
-  00368	00 00 00 00	 DD	 $LN12@wmain
-  0036c	a8 ff ff ff	 DD	 -88			; ffffffa8H
-  00370	0c 00 00 00	 DD	 12			; 0000000cH
-  00374	00 00 00 00	 DD	 $LN13@wmain
+  00374	c8 ff ff ff	 DD	 -56			; ffffffc8H
+  00378	0c 00 00 00	 DD	 12			; 0000000cH
+  0037c	00 00 00 00	 DD	 $LN12@wmain
+  00380	a8 ff ff ff	 DD	 -88			; ffffffa8H
+  00384	0c 00 00 00	 DD	 12			; 0000000cH
+  00388	00 00 00 00	 DD	 $LN13@wmain
 $LN13@wmain:
-  00378	64		 DB	 100			; 00000064H
-  00379	00		 DB	 0
+  0038c	64		 DB	 100			; 00000064H
+  0038d	00		 DB	 0
 $LN12@wmain:
-  0037a	62		 DB	 98			; 00000062H
-  0037b	00		 DB	 0
+  0038e	62		 DB	 98			; 00000062H
+  0038f	00		 DB	 0
 _TEXT	ENDS
 ;	COMDAT text$x
 text$x	SEGMENT
@@ -2430,8 +2453,8 @@ __unwindfunclet$_wmain$1:
 __ehhandler$_wmain:
   00010	8b 54 24 08	 mov	 edx, DWORD PTR [esp+8]
   00014	8d 42 0c	 lea	 eax, DWORD PTR [edx+12]
-  00017	8b 8a 2c fe ff
-	ff		 mov	 ecx, DWORD PTR [edx-468]
+  00017	8b 8a 20 fe ff
+	ff		 mov	 ecx, DWORD PTR [edx-480]
   0001d	33 c8		 xor	 ecx, eax
   0001f	e8 00 00 00 00	 call	 @__security_check_cookie@4
   00024	8b 4a fc	 mov	 ecx, DWORD PTR [edx-4]

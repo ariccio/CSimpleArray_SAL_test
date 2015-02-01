@@ -367,7 +367,21 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 
 	//const auto g = d[ d.GetSize( ) ];
 
+	//well yeah, h MAY be null, but NOT here.
 	const auto h = d.GetData( );
+
+
+
+	/*
+C6385	Read overrun	Reading invalid data from 'h':  the readable size is 'this->m_nSize*4' bytes, but '12' bytes may be read.
+		371 'h' is a 0 byte array
+		382 Invalid read from 'h', (outside its readable range)
+	
+	*/
+
+	const auto j = h[ 2 ];
+
+	//this is one past the end of the readable range!
 	const auto i = h[ 3 ];
 
 	return nRetCode;
