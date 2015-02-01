@@ -1,4 +1,4 @@
-﻿Build started 2/1/2015 3:48:29 AM.
+﻿Build started 12/25/2014 12:21:56 AM.
 Environment at start of build:
 ALLUSERSPROFILE = C:\ProgramData
 AMPLXE_LANG = en
@@ -14,8 +14,9 @@ diff = C:\wbin\diff.exe
 dot = "C:\Python33\Lib\site-packages\graphviz\dot.py"
 DXSDK_DIR = C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\
 EMET_CE = I:-1;S:0;F:0;E:0;V:Nov  9 2014 15:48:33
-EMET_Settings = Nov  9 2014 @ 15:50:02; PID: 0x490/1168; ReportingSettings:7; ExploitAction:1; DEP:1; SEHOP:1; NullPage:1; HeapSpray:1; EAF:1; EAF+:1; MandatoryASLR:1; BottomUpASLR:1; StackPivot:1; Caller:1; LoadLib:1; MemProt:1; DeepHooks:1; BannedFunctions:1; AntiDetours:1; SimExecFlow:1=2/15; ASR:0; nHk:54; 
+EMET_Settings = Nov  9 2014 @ 15:48:47; PID: 0x91f8/37368; ReportingSettings:7; ExploitAction:1; DEP:1; SEHOP:2; NullPage:1; HeapSpray:1; EAF:1; EAF+:1; MandatoryASLR:1; BottomUpASLR:1; StackPivot:1; Caller:0; LoadLib:1; MemProt:1; DeepHooks:1; BannedFunctions:1; AntiDetours:1; SimExecFlow:1=2/15; ASR:0; nHk:54; 
 FP_NO_HOST_CHECK = NO
+FugueRepository = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\TEAM TOOLS\STATIC ANALYSIS TOOLS\FxCop\Repository
 grep = C:\wbin\grep.exe
 head = C:\wbin\head.exe
 HOMEDRIVE = C:
@@ -36,8 +37,10 @@ MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries
 MSBuildLoadMicrosoftTargetsReadOnly = true
 NUMBER_OF_PROCESSORS = 8
 OS = Windows_NT
-Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap
+Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW
+pex_clientid = pex37368_1
+pex_server_channel = pex37368
 pip-2.7 = C:\Python27\Scripts\pip-script.py
 PkgDefApplicationConfigFile = C:\Users\Alexander Riccio\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
 printenv.exe = C:\wbin\printenv.exe
@@ -56,7 +59,6 @@ python = C:\Python33\python.exe
 python27 = C:\Python27\python.exe
 sed = C:\wbin\sed.exe
 seq = C:\wbin\seq.exe
-SESSIONNAME = Console
 split = C:\wbin\split.exe
 SystemDrive = C:
 SystemRoot = C:\WINDOWS
@@ -96,8 +98,8 @@ zcat = C:\wbin\zcat.exe
 _NT_DEBUGGER_EXTENSION_PATH = "C:\Users\Alexander Riccio\WinDBGExtensions"
 _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
 
-03:48:29.756     1>Project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" on node 2 (Build target(s)).
-03:48:29.756     1>Initial Properties:
+00:21:56.446     1>Project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" on node 2 (Build target(s)).
+00:21:56.446     1>Initial Properties:
                    _AfterCompileWinFXInternalDependsOn = 
                            PrepareResourcesForSatelliteAssemblies;
                            MergeLocalizationDirectives;
@@ -666,13 +668,12 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                    EmbeddedWin32Manifest = 
                    EmbedManifest = true
                    EmbedManifestBy = MT
-                   EMET_CE = I:-1;S:0;F:0;E:0;V:Nov  9 2014 15:48:33
-                   EMET_Settings = Nov  9 2014 @ 15:50:02; PID: 0x490/1168; ReportingSettings:7; ExploitAction:1; DEP:1; SEHOP:1; NullPage:1; HeapSpray:1; EAF:1; EAF+:1; MandatoryASLR:1; BottomUpASLR:1; StackPivot:1; Caller:1; LoadLib:1; MemProt:1; DeepHooks:1; BannedFunctions:1; AntiDetours:1; SimExecFlow:1=2/15; ASR:0; nHk:54; 
+                   EMET_Settings = Nov  9 2014 @ 15:48:47; PID: 0x91f8/37368; ReportingSettings:7; ExploitAction:1; DEP:1; SEHOP:2; NullPage:1; HeapSpray:1; EAF:1; EAF+:1; MandatoryASLR:1; BottomUpASLR:1; StackPivot:1; Caller:0; LoadLib:1; MemProt:1; DeepHooks:1; BannedFunctions:1; AntiDetours:1; SimExecFlow:1=2/15; ASR:0; nHk:54; 
                    EnableManagedIncrementalBuild = false
                    EntityDeployDependsOn = 
                    EntityDeployIntermediateResourcePath = Release\edmxResourcesToEmbed\
                    ExcludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;
-                   ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap;
+                   ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap;
                    ExpandSDKAllowedReferenceExtensions = 
                          .winmd;
                          .dll
@@ -847,7 +848,7 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                    MSBuildProjectFullPath = C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj
                    MSBuildProjectName = CSimpleArray_test
                    MSBuildRuntimeVersion = 4.0.30319
-                   MSBuildStartupDirectory = C:\WINDOWS\system32
+                   MSBuildStartupDirectory = C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test
                    MSBuildToolsPath = C:\Program Files (x86)\MSBuild\12.0\bin
                    MSBuildToolsPath32 = C:\Program Files (x86)\MSBuild\12.0\bin\
                    MSBuildToolsRoot = C:\Program Files (x86)\MSBuild\
@@ -867,7 +868,7 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                    OutputType = exe
                    OverwriteReadOnlyFiles = false
                    ParallelDebugEnvironment = Auto
-                   Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap
+                   Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap
                    PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW
                    PkgDefApplicationConfigFile = C:\Users\Alexander Riccio\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
                    Platform = Win32
@@ -1047,7 +1048,6 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                    SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
                    sed = C:\wbin\sed.exe
                    seq = C:\wbin\seq.exe
-                   SESSIONNAME = Console
                    SGenFilesOutputGroupDependsOn = 
                    SGenShouldGenerateSerializer = true
                    SGenUseKeep = false
@@ -1220,8 +1220,8 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                    YieldDuringToolExecution = true
                    zcat = C:\wbin\zcat.exe
 
-03:48:29.756     1>Building with tools version "12.0".
-03:48:29.757     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (entry point):
+00:21:56.446     1>Building with tools version "12.0".
+00:21:56.446     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (entry point):
                    Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
                    Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
                    Using "Message" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
@@ -1238,17 +1238,17 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                    Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\' != '' and !HasTrailingSlash('C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\')).
                    Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
                    Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Release\' != '' and !HasTrailingSlash('Release\')).
-03:48:29.760     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "CSimpleArray_test.vcxproj".: (TargetId:2)
-03:48:29.760     1>Target "_PrepareForBuild: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
+00:21:56.448     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "CSimpleArray_test.vcxproj".: (TargetId:2)
+00:21:56.448     1>Target "_PrepareForBuild: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
                    Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
-03:48:29.760     1>Done building target "_PrepareForBuild" in project "CSimpleArray_test.vcxproj".: (TargetId:3)
-03:48:29.760     1>Target "_PrepareForReferenceResolution: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
+00:21:56.449     1>Done building target "_PrepareForBuild" in project "CSimpleArray_test.vcxproj".: (TargetId:3)
+00:21:56.449     1>Target "_PrepareForReferenceResolution: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
                    Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
-03:48:29.760     1>Done building target "_PrepareForReferenceResolution" in project "CSimpleArray_test.vcxproj".: (TargetId:4)
+00:21:56.449     1>Done building target "_PrepareForReferenceResolution" in project "CSimpleArray_test.vcxproj".: (TargetId:4)
                    Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('stdafx.cpp;test.cpp'!='' and 'false'=='true' and '' != 'false').
-03:48:29.760     1>Target "BeforeResolveReferences: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
-03:48:29.760     1>Done building target "BeforeResolveReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:5)
-03:48:29.760     1>Target "AssignProjectConfiguration: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
+00:21:56.449     1>Target "BeforeResolveReferences: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
+00:21:56.449     1>Done building target "BeforeResolveReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:5)
+00:21:56.449     1>Target "AssignProjectConfiguration: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
                    Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignProjectConfiguration" (TaskId:4)
                      Task Parameter:CurrentProject=C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj (TaskId:4)
@@ -1262,35 +1262,35 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                      Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:4)
                      Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:4)
                    Done executing task "AssignProjectConfiguration". (TaskId:4)
-03:48:29.761     1>Done building target "AssignProjectConfiguration" in project "CSimpleArray_test.vcxproj".: (TargetId:6)
+00:21:56.450     1>Done building target "AssignProjectConfiguration" in project "CSimpleArray_test.vcxproj".: (TargetId:6)
                    Target "AssignProjectConfiguration" skipped. Previously built successfully.
-03:48:29.761     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveProjectReferences" depends on it):
+00:21:56.450     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveProjectReferences" depends on it):
                    Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
-03:48:29.761     1>Done building target "_SplitProjectReferencesByFileExistence" in project "CSimpleArray_test.vcxproj".: (TargetId:7)
+00:21:56.450     1>Done building target "_SplitProjectReferencesByFileExistence" in project "CSimpleArray_test.vcxproj".: (TargetId:7)
                    Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
-03:48:29.761     1>Target "ResolveProjectReferences: (TargetId:8)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
+00:21:56.450     1>Target "ResolveProjectReferences: (TargetId:8)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '12.0' != '10.0' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '12.0' == '10.0' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
                    Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
-03:48:29.762     1>Done building target "ResolveProjectReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:8)
+00:21:56.450     1>Done building target "ResolveProjectReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:8)
                    Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
                    Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
-03:48:29.762     1>Target "GetFrameworkPaths: (TargetId:9)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveAssemblyReferences" depends on it):
-03:48:29.762     1>Done building target "GetFrameworkPaths" in project "CSimpleArray_test.vcxproj".: (TargetId:9)
+00:21:56.450     1>Target "GetFrameworkPaths: (TargetId:9)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+00:21:56.450     1>Done building target "GetFrameworkPaths" in project "CSimpleArray_test.vcxproj".: (TargetId:9)
                    Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
-03:48:29.762     1>Target "GetReferenceAssemblyPaths: (TargetId:10)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+00:21:56.450     1>Target "GetReferenceAssemblyPaths: (TargetId:10)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
-03:48:29.762     1>Done building target "GetReferenceAssemblyPaths" in project "CSimpleArray_test.vcxproj".: (TargetId:10)
-03:48:29.762     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:11)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareForBuild" depends on it):
+00:21:56.451     1>Done building target "GetReferenceAssemblyPaths" in project "CSimpleArray_test.vcxproj".: (TargetId:10)
+00:21:56.451     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:11)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareForBuild" depends on it):
                    Using "SetEnv" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
                    Task "SetEnv" (TaskId:5)
                      Task Parameter:Name=PATH (TaskId:5)
-                     Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap; (TaskId:5)
+                     Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap; (TaskId:5)
                      Task Parameter:Prefix=False (TaskId:5)
-                     PATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap; (TaskId:5)
+                     PATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap; (TaskId:5)
                    Done executing task "SetEnv". (TaskId:5)
                    Task "SetEnv" (TaskId:6)
                      Task Parameter:Name=LIB (TaskId:6)
@@ -1310,27 +1310,27 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                      Task Parameter:Prefix=False (TaskId:8)
                      INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;; (TaskId:8)
                    Done executing task "SetEnv". (TaskId:8)
-03:48:29.770     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "CSimpleArray_test.vcxproj".: (TargetId:11)
+00:21:56.455     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "CSimpleArray_test.vcxproj".: (TargetId:11)
                    Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
-03:48:29.770     1>Target "GetResolvedWinMD: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareForBuild" depends on it):
-03:48:29.770     1>Done building target "GetResolvedWinMD" in project "CSimpleArray_test.vcxproj".: (TargetId:12)
-03:48:29.770     1>Target "PlatformPrepareForBuild: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareForBuild" depends on it):
+00:21:56.455     1>Target "GetResolvedWinMD: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareForBuild" depends on it):
+00:21:56.455     1>Done building target "GetResolvedWinMD" in project "CSimpleArray_test.vcxproj".: (TargetId:12)
+00:21:56.455     1>Target "PlatformPrepareForBuild: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareForBuild" depends on it):
                    Task "VCMessage" skipped, due to false condition; ('$(_Error64bitToolsNotInstalled)' == 'true') was evaluated as ('' == 'true').
                    Task "VCMessage" skipped, due to false condition; ('$(ConfigurationPlatformExists)' != 'true') was evaluated as ('true' != 'true').
                    Task "VCMessage" skipped, due to false condition; ('$(ToolsetTargetsFound)' != 'true') was evaluated as ('true' != 'true').
-03:48:29.770     1>Done building target "PlatformPrepareForBuild" in project "CSimpleArray_test.vcxproj".: (TargetId:13)
+00:21:56.455     1>Done building target "PlatformPrepareForBuild" in project "CSimpleArray_test.vcxproj".: (TargetId:13)
                    Target "GetFrameworkPaths" skipped. Previously built successfully.
                    Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
                    Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
-03:48:29.770     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareForBuild" depends on it):
+00:21:56.455     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareForBuild" depends on it):
                    Initializing task factory "CodeTaskFactory" from assembly "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Build.Tasks.v12.0.dll".
                    Using "SetEnvironmentVariable" task from the task factory "Code Task Factory".
                    Task "SetEnvironmentVariable" (TaskId:9)
                      Task Parameter:EnvValue=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;; (TaskId:9)
                      Task Parameter:EnvKey=CAExcludePath (TaskId:9)
                    Done executing task "SetEnvironmentVariable". (TaskId:9)
-03:48:29.775     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "CSimpleArray_test.vcxproj".: (TargetId:14)
-03:48:29.775     1>Target "PrepareForBuild: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+00:21:56.460     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "CSimpleArray_test.vcxproj".: (TargetId:14)
+00:21:56.460     1>Target "PrepareForBuild: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as ('' != 'true' and 'true' != 'true').
                    Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "MakeDir" (TaskId:10)
@@ -1354,34 +1354,34 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                              C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\
                              Release\CSimpleA.A39469B8.tlog\ (TaskId:11)
                    Done executing task "MakeDir". (TaskId:11)
-03:48:29.777     1>Done building target "PrepareForBuild" in project "CSimpleArray_test.vcxproj".: (TargetId:15)
+00:21:56.462     1>Done building target "PrepareForBuild" in project "CSimpleArray_test.vcxproj".: (TargetId:15)
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
                    Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('stdafx.cpp;test.cpp'!='' and 'false'=='true' and '' != 'false').
-03:48:29.777     1>Target "GetInstalledSDKLocations: (TargetId:16)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveSDKReferences" depends on it):
+00:21:56.462     1>Target "GetInstalledSDKLocations: (TargetId:16)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveSDKReferences" depends on it):
                    Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
-03:48:29.777     1>Done building target "GetInstalledSDKLocations" in project "CSimpleArray_test.vcxproj".: (TargetId:16)
-03:48:29.777     1>Target "ResolveSDKReferences: (TargetId:17)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+00:21:56.462     1>Done building target "GetInstalledSDKLocations" in project "CSimpleArray_test.vcxproj".: (TargetId:16)
+00:21:56.462     1>Target "ResolveSDKReferences: (TargetId:17)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
-03:48:29.777     1>Done building target "ResolveSDKReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:17)
+00:21:56.462     1>Done building target "ResolveSDKReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:17)
                    Target "ResolveSDKReferences" skipped. Previously built successfully.
-03:48:29.777     1>Target "ExpandSDKReferences: (TargetId:18)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+00:21:56.462     1>Target "ExpandSDKReferences: (TargetId:18)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
-03:48:29.777     1>Done building target "ExpandSDKReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:18)
-03:48:29.777     1>Target "ResolveAssemblyReferences: (TargetId:19)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
+00:21:56.462     1>Done building target "ExpandSDKReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:18)
+00:21:56.462     1>Target "ResolveAssemblyReferences: (TargetId:19)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
                    Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
-03:48:29.778     1>Done building target "ResolveAssemblyReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:19)
+00:21:56.462     1>Done building target "ResolveAssemblyReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:19)
                    Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and 'true' == 'true').
                    Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and 'true' == 'true' and Exists('Release\CSimpleArray_test.vcxproj.CSimpleArray_test.exe.config')).
                    Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
-03:48:29.778     1>Target "AfterResolveReferences: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
-03:48:29.778     1>Done building target "AfterResolveReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:20)
+00:21:56.462     1>Target "AfterResolveReferences: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ResolveReferences" depends on it):
+00:21:56.462     1>Done building target "AfterResolveReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:20)
                    Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
                    Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
-03:48:29.778     1>Target "ResolveReferences: (TargetId:21)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
-03:48:29.778     1>Done building target "ResolveReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:21)
+00:21:56.462     1>Target "ResolveReferences: (TargetId:21)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
+00:21:56.462     1>Done building target "ResolveReferences" in project "CSimpleArray_test.vcxproj".: (TargetId:21)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "PrepareForBuild" skipped. Previously built successfully.
-03:48:29.778     1>Target "InitializeBuildStatus: (TargetId:22)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
+00:21:56.462     1>Target "InitializeBuildStatus: (TargetId:22)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
                    Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "ReadLinesFromFile" (TaskId:12)
                      Task Parameter:File=Release\CSimpleA.A39469B8.tlog\CSimpleArray_test.lastbuildstate (TaskId:12)
@@ -1401,68 +1401,68 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                      Task Parameter:Files=Release\CSimpleA.A39469B8.tlog\unsuccessfulbuild (TaskId:14)
                      Creating "Release\CSimpleA.A39469B8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:14)
                    Done executing task "Touch". (TaskId:14)
-03:48:29.781     1>Done building target "InitializeBuildStatus" in project "CSimpleArray_test.vcxproj".: (TargetId:22)
+00:21:56.470     1>Done building target "InitializeBuildStatus" in project "CSimpleArray_test.vcxproj".: (TargetId:22)
                    Target "AssignProjectConfiguration" skipped. Previously built successfully.
                    Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
-03:48:29.781     1>Target "BuildGenerateSourcesTraverse: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildGenerateSources" depends on it):
+00:21:56.470     1>Target "BuildGenerateSourcesTraverse: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildGenerateSources" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
-03:48:29.781     1>Done building target "BuildGenerateSourcesTraverse" in project "CSimpleArray_test.vcxproj".: (TargetId:23)
+00:21:56.471     1>Done building target "BuildGenerateSourcesTraverse" in project "CSimpleArray_test.vcxproj".: (TargetId:23)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-03:48:29.781     1>Target "BeforeBuildGenerateSources: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-03:48:29.781     1>Done building target "BeforeBuildGenerateSources" in project "CSimpleArray_test.vcxproj".: (TargetId:24)
-03:48:29.781     1>Target "PreBuildEvent: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+00:21:56.471     1>Target "BeforeBuildGenerateSources: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+00:21:56.471     1>Done building target "BeforeBuildGenerateSources" in project "CSimpleArray_test.vcxproj".: (TargetId:24)
+00:21:56.471     1>Target "PreBuildEvent: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
-03:48:29.781     1>Done building target "PreBuildEvent" in project "CSimpleArray_test.vcxproj".: (TargetId:25)
+00:21:56.471     1>Done building target "PreBuildEvent" in project "CSimpleArray_test.vcxproj".: (TargetId:25)
                    Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
                    Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
-03:48:29.781     1>Target "_Xsd: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-03:48:29.781     1>Done building target "_Xsd" in project "CSimpleArray_test.vcxproj".: (TargetId:26)
-03:48:29.781     1>Target "MakeDirsForMidl: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Midl" depends on it):
+00:21:56.471     1>Target "_Xsd: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+00:21:56.471     1>Done building target "_Xsd" in project "CSimpleArray_test.vcxproj".: (TargetId:26)
+00:21:56.471     1>Target "MakeDirsForMidl: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Midl" depends on it):
                    Task "Makedir" (TaskId:15)
                    Done executing task "Makedir". (TaskId:15)
-03:48:29.781     1>Done building target "MakeDirsForMidl" in project "CSimpleArray_test.vcxproj".: (TargetId:27)
+00:21:56.471     1>Done building target "MakeDirsForMidl" in project "CSimpleArray_test.vcxproj".: (TargetId:27)
                    Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
                    Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
                    Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
-03:48:29.781     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Midl" depends on it):
-03:48:29.781     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "CSimpleArray_test.vcxproj".: (TargetId:28)
-03:48:29.781     1>Target "AfterMidl: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Midl" depends on it):
-03:48:29.781     1>Done building target "AfterMidl" in project "CSimpleArray_test.vcxproj".: (TargetId:29)
-03:48:29.781     1>Target "_Midl: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-03:48:29.781     1>Done building target "_Midl" in project "CSimpleArray_test.vcxproj".: (TargetId:30)
-03:48:29.781     1>Target "AfterBuildGenerateSources: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-03:48:29.781     1>Done building target "AfterBuildGenerateSources" in project "CSimpleArray_test.vcxproj".: (TargetId:31)
-03:48:29.781     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-03:48:29.781     1>Done building target "AfterBuildGenerateSourcesEvent" in project "CSimpleArray_test.vcxproj".: (TargetId:32)
-03:48:29.782     1>Target "_BuildGenerateSourcesAction: (TargetId:33)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildGenerateSources" depends on it):
-03:48:29.782     1>Done building target "_BuildGenerateSourcesAction" in project "CSimpleArray_test.vcxproj".: (TargetId:33)
-03:48:29.782     1>Target "BuildGenerateSources: (TargetId:34)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
-03:48:29.782     1>Done building target "BuildGenerateSources" in project "CSimpleArray_test.vcxproj".: (TargetId:34)
+00:21:56.471     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Midl" depends on it):
+00:21:56.471     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "CSimpleArray_test.vcxproj".: (TargetId:28)
+00:21:56.471     1>Target "AfterMidl: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Midl" depends on it):
+00:21:56.471     1>Done building target "AfterMidl" in project "CSimpleArray_test.vcxproj".: (TargetId:29)
+00:21:56.471     1>Target "_Midl: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+00:21:56.471     1>Done building target "_Midl" in project "CSimpleArray_test.vcxproj".: (TargetId:30)
+00:21:56.471     1>Target "AfterBuildGenerateSources: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+00:21:56.471     1>Done building target "AfterBuildGenerateSources" in project "CSimpleArray_test.vcxproj".: (TargetId:31)
+00:21:56.471     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+00:21:56.471     1>Done building target "AfterBuildGenerateSourcesEvent" in project "CSimpleArray_test.vcxproj".: (TargetId:32)
+00:21:56.471     1>Target "_BuildGenerateSourcesAction: (TargetId:33)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildGenerateSources" depends on it):
+00:21:56.471     1>Done building target "_BuildGenerateSourcesAction" in project "CSimpleArray_test.vcxproj".: (TargetId:33)
+00:21:56.471     1>Target "BuildGenerateSources: (TargetId:34)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
+00:21:56.471     1>Done building target "BuildGenerateSources" in project "CSimpleArray_test.vcxproj".: (TargetId:34)
                    Target "AssignProjectConfiguration" skipped. Previously built successfully.
                    Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
-03:48:29.782     1>Target "BuildCompileTraverse: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildCompile" depends on it):
+00:21:56.471     1>Target "BuildCompileTraverse: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildCompile" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-03:48:29.782     1>Done building target "BuildCompileTraverse" in project "CSimpleArray_test.vcxproj".: (TargetId:35)
+00:21:56.471     1>Done building target "BuildCompileTraverse" in project "CSimpleArray_test.vcxproj".: (TargetId:35)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-03:48:29.782     1>Target "BeforeClCompile: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
-03:48:29.782     1>Done building target "BeforeClCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:36)
+00:21:56.471     1>Target "BeforeClCompile: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
+00:21:56.471     1>Done building target "BeforeClCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:36)
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
-03:48:29.782     1>Target "ComputeCLInputPDBName: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
-03:48:29.782     1>Done building target "ComputeCLInputPDBName" in project "CSimpleArray_test.vcxproj".: (TargetId:37)
+00:21:56.471     1>Target "ComputeCLInputPDBName: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
+00:21:56.471     1>Done building target "ComputeCLInputPDBName" in project "CSimpleArray_test.vcxproj".: (TargetId:37)
                    Target "ResolveReferences" skipped. Previously built successfully.
-03:48:29.783     1>Target "ComputeReferenceCLInput: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
+00:21:56.471     1>Target "ComputeReferenceCLInput: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
                    Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
                    Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
-03:48:29.783     1>Done building target "ComputeReferenceCLInput" in project "CSimpleArray_test.vcxproj".: (TargetId:38)
-03:48:29.783     1>Target "WarnCompileDuplicatedFilename: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
+00:21:56.472     1>Done building target "ComputeReferenceCLInput" in project "CSimpleArray_test.vcxproj".: (TargetId:38)
+00:21:56.472     1>Target "WarnCompileDuplicatedFilename: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'stdafx.cpp' != 'stdafx.cpp' and 'Release\' == 'Release\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'test.cpp' != 'test.cpp' and 'Release\' == 'Release\').
-03:48:29.784     1>Done building target "WarnCompileDuplicatedFilename" in project "CSimpleArray_test.vcxproj".: (TargetId:39)
-03:48:29.784     1>Target "MakeDirsForCl: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
+00:21:56.472     1>Done building target "WarnCompileDuplicatedFilename" in project "CSimpleArray_test.vcxproj".: (TargetId:39)
+00:21:56.472     1>Target "MakeDirsForCl: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
                    Task "MakeDir" (TaskId:16)
                      Task Parameter:
                          Directories=
@@ -1473,25 +1473,25 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                              C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\Release
                              C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\Release (TaskId:16)
                    Done executing task "MakeDir". (TaskId:16)
-03:48:29.785     1>Done building target "MakeDirsForCl" in project "CSimpleArray_test.vcxproj".: (TargetId:40)
+00:21:56.473     1>Done building target "MakeDirsForCl" in project "CSimpleArray_test.vcxproj".: (TargetId:40)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
                    Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
-03:48:29.785     1>Target "_SelectedFiles: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "SelectClCompile" depends on it):
-03:48:29.785     1>Done building target "_SelectedFiles" in project "CSimpleArray_test.vcxproj".: (TargetId:41)
+00:21:56.473     1>Target "_SelectedFiles: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "SelectClCompile" depends on it):
+00:21:56.473     1>Done building target "_SelectedFiles" in project "CSimpleArray_test.vcxproj".: (TargetId:41)
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
                    Target "ComputeCLInputPDBName" skipped. Previously built successfully.
                    Target "ComputeReferenceCLInput" skipped. Previously built successfully.
                    Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
                    Target "_SelectedFiles" skipped. Previously built successfully.
-03:48:29.785     1>Target "SelectCustomBuild: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "SelectClCompile" depends on it):
-03:48:29.785     1>Done building target "SelectCustomBuild" in project "CSimpleArray_test.vcxproj".: (TargetId:42)
-03:48:29.785     1>Target "SelectClCompile: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ClCompile" depends on it):
-03:48:29.785     1>Done building target "SelectClCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:43)
+00:21:56.473     1>Target "SelectCustomBuild: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "SelectClCompile" depends on it):
+00:21:56.473     1>Done building target "SelectCustomBuild" in project "CSimpleArray_test.vcxproj".: (TargetId:42)
+00:21:56.473     1>Target "SelectClCompile: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ClCompile" depends on it):
+00:21:56.473     1>Done building target "SelectClCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:43)
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('stdafx.cpp;test.cpp' != '' and 'false' == 'True').
                    Target "CheckIntelEnvironmentForVCLibsTBB" skipped, due to false condition; ('$(PlatformToolset)' == 'v120' AND '$(UseIntelTBB)' == 'true' AND '$(UseEnv)' != 'true') was evaluated as ('v120' == 'v120' AND 'false' == 'true' AND '' != 'true').
-03:48:29.785     1>Target "ClCompile: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
+00:21:56.473     1>Target "ClCompile: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
                    Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('ProgramDatabase' != '' and 'ProgramDatabase' != 'OldStyle' and 'Release\vc120.pdb' != '' and !Exists(Release\vc120.pdb)).
                    Using "CL" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
                    Task "CL" (TaskId:17)
@@ -1879,86 +1879,86 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                      	C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\Release\CSimpleA.A39469B8.tlog\cl.read.1.tlog (TaskId:18)
                      Outputs for C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\TEST.CPP: (TaskId:18)
                      	C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\RELEASE\TEST.OBJ (TaskId:18)
-                     test.cpp will be compiled as C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\test.cpp was modified at 2/1/2015 3:48:29 AM. (TaskId:18)
+                     test.cpp will be compiled as C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\test.cpp was modified at 12/25/2014 12:21:55 AM. (TaskId:18)
                      Outputs for C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\TEST.CPP: (TaskId:18)
                      	C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\RELEASE\TEST.OBJ (TaskId:18)
                      Write Tracking Logs: (TaskId:18)
                      	Release\CSimpleA.A39469B8.tlog\cl.write.1.tlog (TaskId:18)
                      Environment Variables passed to tool: (TaskId:18)
-                       VS_UNICODE_OUTPUT=1564 (TaskId:18)
+                       VS_UNICODE_OUTPUT=1676 (TaskId:18)
                      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /sdl /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\CSimpleArray_test.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt  /Qvec-report:2  /analyze:quiet test.cpp (TaskId:18)
                      Tracking command: (TaskId:18)
-                     C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\Release\CSimpleA.A39469B8.tlog" /r "C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\TEST.CPP" /b MSBuildConsole_CancelEvent718287732cfa4b1c82a64fec96e52c81  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe"  /c /Zi /nologo /W4 /WX- /sdl /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\CSimpleArray_test.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt  /Qvec-report:2  /analyze:quiet test.cpp (TaskId:18)
+                     C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\Release\CSimpleA.A39469B8.tlog" /r "C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\TEST.CPP" /b MSBuildConsole_CancelEventcc6b3c7614c6491993ddbd7f89b0e6d3  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe"  /c /Zi /nologo /W4 /WX- /sdl /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\CSimpleArray_test.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt  /Qvec-report:2  /analyze:quiet test.cpp (TaskId:18)
                      test.cpp (TaskId:18)
-03:48:29.902     1>test.cpp(357): warning C4100: 'envp' : unreferenced formal parameter
-03:48:29.902     1>test.cpp(357): warning C4100: 'argv' : unreferenced formal parameter
-03:48:29.902     1>test.cpp(357): warning C4100: 'argc' : unreferenced formal parameter
+00:21:56.784     1>test.cpp(347): warning C4100: 'envp' : unreferenced formal parameter
+00:21:56.784     1>test.cpp(347): warning C4100: 'argv' : unreferenced formal parameter
+00:21:56.784     1>test.cpp(347): warning C4100: 'argc' : unreferenced formal parameter
                    Done executing task "CL". (TaskId:18)
-03:48:30.213     1>Done building target "ClCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:44)
+00:21:57.069     1>Done building target "ClCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:44)
                    Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('stdafx.cpp;test.cpp' != '' and 'false' == 'True').
-03:48:30.213     1>Target "AfterClCompile: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
-03:48:30.214     1>Done building target "AfterClCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:45)
-03:48:30.214     1>Target "_ClCompile: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildCompileAction" depends on it):
-03:48:30.214     1>Done building target "_ClCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:46)
+00:21:57.069     1>Target "AfterClCompile: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ClCompile" depends on it):
+00:21:57.069     1>Done building target "AfterClCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:45)
+00:21:57.069     1>Target "_ClCompile: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildCompileAction" depends on it):
+00:21:57.069     1>Done building target "_ClCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:46)
                    Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
-03:48:30.214     1>Target "BeforeResourceCompile: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ResourceCompile" depends on it):
-03:48:30.214     1>Done building target "BeforeResourceCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:47)
-03:48:30.214     1>Target "MakeDirsForResourceCompile: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ResourceCompile" depends on it):
+00:21:57.069     1>Target "BeforeResourceCompile: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ResourceCompile" depends on it):
+00:21:57.069     1>Done building target "BeforeResourceCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:47)
+00:21:57.069     1>Target "MakeDirsForResourceCompile: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ResourceCompile" depends on it):
                    Task "MakeDir" (TaskId:19)
                    Done executing task "MakeDir". (TaskId:19)
-03:48:30.214     1>Done building target "MakeDirsForResourceCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:48)
+00:21:57.069     1>Done building target "MakeDirsForResourceCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:48)
                    Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
-03:48:30.214     1>Target "AfterResourceCompile: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ResourceCompile" depends on it):
-03:48:30.214     1>Done building target "AfterResourceCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:49)
-03:48:30.214     1>Target "_ResourceCompile: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildCompileAction" depends on it):
-03:48:30.214     1>Done building target "_ResourceCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:50)
+00:21:57.069     1>Target "AfterResourceCompile: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_ResourceCompile" depends on it):
+00:21:57.069     1>Done building target "AfterResourceCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:49)
+00:21:57.069     1>Target "_ResourceCompile: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildCompileAction" depends on it):
+00:21:57.069     1>Done building target "_ResourceCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:50)
                    Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
                    Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
-03:48:30.214     1>Target "AfterBuildCompileEvent: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildCompileAction" depends on it):
-03:48:30.214     1>Done building target "AfterBuildCompileEvent" in project "CSimpleArray_test.vcxproj".: (TargetId:51)
-03:48:30.214     1>Target "_BuildCompileAction: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildCompile" depends on it):
-03:48:30.214     1>Done building target "_BuildCompileAction" in project "CSimpleArray_test.vcxproj".: (TargetId:52)
-03:48:30.214     1>Target "BuildCompile: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
-03:48:30.214     1>Done building target "BuildCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:53)
+00:21:57.069     1>Target "AfterBuildCompileEvent: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildCompileAction" depends on it):
+00:21:57.069     1>Done building target "AfterBuildCompileEvent" in project "CSimpleArray_test.vcxproj".: (TargetId:51)
+00:21:57.069     1>Target "_BuildCompileAction: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildCompile" depends on it):
+00:21:57.069     1>Done building target "_BuildCompileAction" in project "CSimpleArray_test.vcxproj".: (TargetId:52)
+00:21:57.069     1>Target "BuildCompile: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
+00:21:57.069     1>Done building target "BuildCompile" in project "CSimpleArray_test.vcxproj".: (TargetId:53)
                    Target "AssignProjectConfiguration" skipped. Previously built successfully.
                    Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
-03:48:30.214     1>Target "BuildLinkTraverse: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildLink" depends on it):
+00:21:57.070     1>Target "BuildLinkTraverse: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildLink" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-03:48:30.214     1>Done building target "BuildLinkTraverse" in project "CSimpleArray_test.vcxproj".: (TargetId:54)
+00:21:57.070     1>Done building target "BuildLinkTraverse" in project "CSimpleArray_test.vcxproj".: (TargetId:54)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-03:48:30.214     1>Target "ComputeLegacyManifestEmbedding: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:57.070     1>Target "ComputeLegacyManifestEmbedding: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "VCMessage" skipped, due to false condition; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
-03:48:30.215     1>Done building target "ComputeLegacyManifestEmbedding" in project "CSimpleArray_test.vcxproj".: (TargetId:55)
-03:48:30.215     1>Target "BeforeLink: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
-03:48:30.215     1>Done building target "BeforeLink" in project "CSimpleArray_test.vcxproj".: (TargetId:56)
-03:48:30.215     1>Target "ComputeRCOutputs: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
-03:48:30.215     1>Done building target "ComputeRCOutputs" in project "CSimpleArray_test.vcxproj".: (TargetId:57)
-03:48:30.215     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
-03:48:30.215     1>Done building target "ComputeRCGeneratedLinkInputs" in project "CSimpleArray_test.vcxproj".: (TargetId:58)
-03:48:30.215     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
-03:48:30.215     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "CSimpleArray_test.vcxproj".: (TargetId:59)
-03:48:30.215     1>Target "ComputeCustomBuildOutput: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.070     1>Done building target "ComputeLegacyManifestEmbedding" in project "CSimpleArray_test.vcxproj".: (TargetId:55)
+00:21:57.070     1>Target "BeforeLink: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.070     1>Done building target "BeforeLink" in project "CSimpleArray_test.vcxproj".: (TargetId:56)
+00:21:57.070     1>Target "ComputeRCOutputs: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+00:21:57.070     1>Done building target "ComputeRCOutputs" in project "CSimpleArray_test.vcxproj".: (TargetId:57)
+00:21:57.070     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.070     1>Done building target "ComputeRCGeneratedLinkInputs" in project "CSimpleArray_test.vcxproj".: (TargetId:58)
+00:21:57.070     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.070     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "CSimpleArray_test.vcxproj".: (TargetId:59)
+00:21:57.070     1>Target "ComputeCustomBuildOutput: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
                    Task "CreateItem" skipped, due to false condition; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') was evaluated as (''!='').
                    Task "MakeDir" (TaskId:20)
                    Done executing task "MakeDir". (TaskId:20)
-03:48:30.215     1>Done building target "ComputeCustomBuildOutput" in project "CSimpleArray_test.vcxproj".: (TargetId:60)
+00:21:57.070     1>Done building target "ComputeCustomBuildOutput" in project "CSimpleArray_test.vcxproj".: (TargetId:60)
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
                    Target "ComputeCLInputPDBName" skipped. Previously built successfully.
                    Target "ComputeReferenceCLInput" skipped. Previously built successfully.
                    Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
-03:48:30.215     1>Target "ComputeCLOutputs: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
-03:48:30.216     1>Done building target "ComputeCLOutputs" in project "CSimpleArray_test.vcxproj".: (TargetId:61)
-03:48:30.216     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
-03:48:30.216     1>Done building target "ComputeCLGeneratedLinkInputs" in project "CSimpleArray_test.vcxproj".: (TargetId:62)
-03:48:30.216     1>Target "ComputeLinkInputsFromProject: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
-03:48:30.216     1>Done building target "ComputeLinkInputsFromProject" in project "CSimpleArray_test.vcxproj".: (TargetId:63)
+00:21:57.070     1>Target "ComputeCLOutputs: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+00:21:57.071     1>Done building target "ComputeCLOutputs" in project "CSimpleArray_test.vcxproj".: (TargetId:61)
+00:21:57.071     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.071     1>Done building target "ComputeCLGeneratedLinkInputs" in project "CSimpleArray_test.vcxproj".: (TargetId:62)
+00:21:57.071     1>Target "ComputeLinkInputsFromProject: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.071     1>Done building target "ComputeLinkInputsFromProject" in project "CSimpleArray_test.vcxproj".: (TargetId:63)
                    Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
-03:48:30.216     1>Target "ComputeManifestInputsTargets: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
-03:48:30.216     1>Done building target "ComputeManifestInputsTargets" in project "CSimpleArray_test.vcxproj".: (TargetId:64)
+00:21:57.071     1>Target "ComputeManifestInputsTargets: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.071     1>Done building target "ComputeManifestInputsTargets" in project "CSimpleArray_test.vcxproj".: (TargetId:64)
                    Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('MT' == 'LINK' and '' != '').
                    Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
-03:48:30.217     1>Target "AssignTargetPaths: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareResourceNames" depends on it):
+00:21:57.071     1>Target "AssignTargetPaths: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareResourceNames" depends on it):
                    Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignTargetPath" (TaskId:21)
                      Task Parameter:RootFolder=C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test (TaskId:21)
@@ -1973,9 +1973,9 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                      Task Parameter:RootFolder=C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test (TaskId:24)
                    Done executing task "AssignTargetPath". (TaskId:24)
                    Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
-03:48:30.217     1>Done building target "AssignTargetPaths" in project "CSimpleArray_test.vcxproj".: (TargetId:65)
+00:21:57.071     1>Done building target "AssignTargetPaths" in project "CSimpleArray_test.vcxproj".: (TargetId:65)
                    Target "AssignTargetPaths" skipped. Previously built successfully.
-03:48:30.217     1>Target "SplitResourcesByCulture: (TargetId:66)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareResourceNames" depends on it):
+00:21:57.071     1>Target "SplitResourcesByCulture: (TargetId:66)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareResourceNames" depends on it):
                    Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
                    Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
                    Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
@@ -1983,13 +1983,13 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                    Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignCulture" (TaskId:25)
                    Done executing task "AssignCulture". (TaskId:25)
-03:48:30.218     1>Done building target "SplitResourcesByCulture" in project "CSimpleArray_test.vcxproj".: (TargetId:66)
+00:21:57.072     1>Done building target "SplitResourcesByCulture" in project "CSimpleArray_test.vcxproj".: (TargetId:66)
                    Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
-03:48:30.218     1>Target "CreateCustomManifestResourceNames: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareResourceNames" depends on it):
-03:48:30.218     1>Done building target "CreateCustomManifestResourceNames" in project "CSimpleArray_test.vcxproj".: (TargetId:67)
-03:48:30.218     1>Target "PrepareResourceNames: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
-03:48:30.218     1>Done building target "PrepareResourceNames" in project "CSimpleArray_test.vcxproj".: (TargetId:68)
-03:48:30.218     1>Target "MakeDirsForLink: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.072     1>Target "CreateCustomManifestResourceNames: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareResourceNames" depends on it):
+00:21:57.072     1>Done building target "CreateCustomManifestResourceNames" in project "CSimpleArray_test.vcxproj".: (TargetId:67)
+00:21:57.072     1>Target "PrepareResourceNames: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.072     1>Done building target "PrepareResourceNames" in project "CSimpleArray_test.vcxproj".: (TargetId:68)
+00:21:57.072     1>Target "MakeDirsForLink: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
                    Task "MakeDir" (TaskId:26)
                      Task Parameter:
                          Directories=
@@ -1998,21 +1998,21 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                              C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release
                              C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\ (TaskId:26)
                    Done executing task "MakeDir". (TaskId:26)
-03:48:30.219     1>Done building target "MakeDirsForLink" in project "CSimpleArray_test.vcxproj".: (TargetId:69)
-03:48:30.219     1>Target "DoLinkOutputFilesMatch: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.074     1>Done building target "MakeDirsForLink" in project "CSimpleArray_test.vcxproj".: (TargetId:69)
+00:21:57.074     1>Target "DoLinkOutputFilesMatch: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe' == '').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe' != '' and 'C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe' != 'C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe' != '' and '.exe' != '' and '.exe' != '.exe').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe' != '' and 'CSimpleArray_test' != '' and 'CSimpleArray_test' != 'CSimpleArray_test').
                    Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('Console' == '' or 'Console' == 'NotSet')).
-03:48:30.220     1>Done building target "DoLinkOutputFilesMatch" in project "CSimpleArray_test.vcxproj".: (TargetId:70)
-03:48:30.220     1>Target "PreLinkEvent: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.074     1>Done building target "DoLinkOutputFilesMatch" in project "CSimpleArray_test.vcxproj".: (TargetId:70)
+00:21:57.074     1>Target "PreLinkEvent: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
-03:48:30.220     1>Done building target "PreLinkEvent" in project "CSimpleArray_test.vcxproj".: (TargetId:71)
-03:48:30.220     1>Target "ComputeLinkSwitches: (TargetId:72)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Link" depends on it):
-03:48:30.225     1>Done building target "ComputeLinkSwitches" in project "CSimpleArray_test.vcxproj".: (TargetId:72)
-03:48:30.225     1>Target "Link: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:57.078     1>Done building target "PreLinkEvent" in project "CSimpleArray_test.vcxproj".: (TargetId:71)
+00:21:57.078     1>Target "ComputeLinkSwitches: (TargetId:72)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Link" depends on it):
+00:21:57.078     1>Done building target "ComputeLinkSwitches" in project "CSimpleArray_test.vcxproj".: (TargetId:72)
+00:21:57.078     1>Target "Link: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
                    Using "Link" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
                    Task "Link" (TaskId:27)
                      Task Parameter:BuildingInIde=True (TaskId:27)
@@ -2211,18 +2211,24 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                      	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\VC\INCLUDE\MANIFEST\DPIAWARE.MANIFEST (TaskId:27)
                      Source compilation required: input C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\RELEASE\TEST.OBJ is newer than output C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\RELEASE\CSIMPLEARRAY_TEST.EXE. (TaskId:27)
                      Environment Variables passed to tool: (TaskId:27)
-                       VS_UNICODE_OUTPUT=2924 (TaskId:27)
+                       VS_UNICODE_OUTPUT=1472 (TaskId:27)
                      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
                      Release\test.obj (TaskId:27)
                      Tracking command: (TaskId:27)
-                     C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\Release\CSimpleA.A39469B8.tlog" /r "C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\RELEASE\STDAFX.OBJ|C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\RELEASE\TEST.OBJ" /b MSBuildConsole_CancelEvent0fee0c71313848f1903efc49b78d8d42  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
+                     C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\Release\CSimpleA.A39469B8.tlog" /r "C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\RELEASE\STDAFX.OBJ|C:\USERS\ALEXANDER RICCIO\DOCUMENTS\GITHUB\CSIMPLEARRAY_SAL_TEST\CSIMPLEARRAY_TEST\CSIMPLEARRAY_TEST\RELEASE\TEST.OBJ" /b MSBuildConsole_CancelEvent40838f6ddd714897879635eb526bd2f0  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
                      Release\test.obj (TaskId:27)
                      Generating code (TaskId:27)
                       (TaskId:27)
                      --- Analyzing function: void __thiscall myATL::CSimpleArray<int,class myATL::CSimpleArrayEqualHelper<int> >::RemoveAll(void) (TaskId:27)
                      c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp(185) : info C5002: loop not vectorized due to reason '501' (TaskId:27)
                       (TaskId:27)
+                     --- Analyzing function: void __thiscall ATL::CSimpleArray<int,class ATL::CSimpleArrayEqualHelper<int> >::RemoveAll(void) (TaskId:27)
+                     c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h(212) : info C5002: loop not vectorized due to reason '501' (TaskId:27)
+                      (TaskId:27)
                      --- Analyzing function: void __thiscall ATL::CSimpleArray<unsigned short,class ATL::CSimpleArrayEqualHelper<unsigned short> >::RemoveAll(void) (TaskId:27)
+                     c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h(212) : info C5002: loop not vectorized due to reason '501' (TaskId:27)
+                      (TaskId:27)
+                     --- Analyzing function: __thiscall ATL::CSimpleArray<int,class ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,class ATL::CSimpleArrayEqualHelper<int> >(void) (TaskId:27)
                      c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h(212) : info C5002: loop not vectorized due to reason '501' (TaskId:27)
                       (TaskId:27)
                      --- Analyzing function: __thiscall myATL::CSimpleArray<int,class myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,class myATL::CSimpleArrayEqualHelper<int> >(void) (TaskId:27)
@@ -2248,8 +2254,10 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                      c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h(212) : info C5002: loop not vectorized due to reason '501' (TaskId:27)
                       (TaskId:27)
                      --- Analyzing function: wmain (TaskId:27)
+                     c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h(212) : info C5002: loop not vectorized due to reason '1305' (TaskId:27)
                      c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp(185) : info C5002: loop not vectorized due to reason '1305' (TaskId:27)
                      c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp(185) : info C5002: loop not vectorized due to reason '1305' (TaskId:27)
+                     c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h(212) : info C5002: loop not vectorized due to reason '1305' (TaskId:27)
                       (TaskId:27)
                      --- Analyzing function: void __cdecl ATL::`dynamic atexit destructor for '_AtlWinModule''(void) (TaskId:27)
                      c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h(212) : info C5002: loop not vectorized due to reason '501' (TaskId:27)
@@ -2260,60 +2268,60 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                      Task Parameter:Importance=High (TaskId:28)
                      CSimpleArray_test.vcxproj -> C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe (TaskId:28)
                    Done executing task "Message". (TaskId:28)
-03:48:31.174     1>Done building target "Link" in project "CSimpleArray_test.vcxproj".: (TargetId:73)
+00:21:58.125     1>Done building target "Link" in project "CSimpleArray_test.vcxproj".: (TargetId:73)
                    Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
                    Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
                    Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
-03:48:31.174     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:74)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:58.125     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:74)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
                    Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkSecondaryOutput)' != '') was evaluated as ('' != '').
-03:48:31.175     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "CSimpleArray_test.vcxproj".: (TargetId:74)
-03:48:31.175     1>Target "AfterLink: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
-03:48:31.175     1>Done building target "AfterLink" in project "CSimpleArray_test.vcxproj".: (TargetId:75)
-03:48:31.175     1>Target "_Link: (TargetId:76)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
-03:48:31.175     1>Done building target "_Link" in project "CSimpleArray_test.vcxproj".: (TargetId:76)
-03:48:31.175     1>Target "_ALink: (TargetId:77)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
-03:48:31.175     1>Done building target "_ALink" in project "CSimpleArray_test.vcxproj".: (TargetId:77)
+00:21:58.125     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "CSimpleArray_test.vcxproj".: (TargetId:74)
+00:21:58.125     1>Target "AfterLink: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_Link" depends on it):
+00:21:58.125     1>Done building target "AfterLink" in project "CSimpleArray_test.vcxproj".: (TargetId:75)
+00:21:58.125     1>Target "_Link: (TargetId:76)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.125     1>Done building target "_Link" in project "CSimpleArray_test.vcxproj".: (TargetId:76)
+00:21:58.125     1>Target "_ALink: (TargetId:77)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.125     1>Done building target "_ALink" in project "CSimpleArray_test.vcxproj".: (TargetId:77)
                    Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
-03:48:31.175     1>Target "_Manifest: (TargetId:78)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.125     1>Target "_Manifest: (TargetId:78)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
-03:48:31.175     1>Done building target "_Manifest" in project "CSimpleArray_test.vcxproj".: (TargetId:78)
-03:48:31.175     1>Target "RegisterOutput: (TargetId:79)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.125     1>Done building target "_Manifest" in project "CSimpleArray_test.vcxproj".: (TargetId:78)
+00:21:58.125     1>Target "RegisterOutput: (TargetId:79)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
                    Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
-03:48:31.175     1>Done building target "RegisterOutput" in project "CSimpleArray_test.vcxproj".: (TargetId:79)
+00:21:58.125     1>Done building target "RegisterOutput" in project "CSimpleArray_test.vcxproj".: (TargetId:79)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-03:48:31.175     1>Target "ResolvedXDCMake: (TargetId:80)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_XdcMake" depends on it):
+00:21:58.125     1>Target "ResolvedXDCMake: (TargetId:80)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_XdcMake" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
-03:48:31.175     1>Done building target "ResolvedXDCMake" in project "CSimpleArray_test.vcxproj".: (TargetId:80)
-03:48:31.175     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:81)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_XdcMake" depends on it):
-03:48:31.176     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "CSimpleArray_test.vcxproj".: (TargetId:81)
-03:48:31.176     1>Target "MakeDirsForXdcMake: (TargetId:82)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_XdcMake" depends on it):
+00:21:58.126     1>Done building target "ResolvedXDCMake" in project "CSimpleArray_test.vcxproj".: (TargetId:80)
+00:21:58.126     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:81)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_XdcMake" depends on it):
+00:21:58.126     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "CSimpleArray_test.vcxproj".: (TargetId:81)
+00:21:58.126     1>Target "MakeDirsForXdcMake: (TargetId:82)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_XdcMake" depends on it):
                    Task "MakeDir" (TaskId:29)
                    Done executing task "MakeDir". (TaskId:29)
-03:48:31.176     1>Done building target "MakeDirsForXdcMake" in project "CSimpleArray_test.vcxproj".: (TargetId:82)
+00:21:58.126     1>Done building target "MakeDirsForXdcMake" in project "CSimpleArray_test.vcxproj".: (TargetId:82)
                    Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
-03:48:31.176     1>Target "_XdcMake: (TargetId:83)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
-03:48:31.176     1>Done building target "_XdcMake" in project "CSimpleArray_test.vcxproj".: (TargetId:83)
-03:48:31.176     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:84)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BscMake" depends on it):
-03:48:31.176     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "CSimpleArray_test.vcxproj".: (TargetId:84)
-03:48:31.176     1>Target "MakeDirsForBscMake: (TargetId:85)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BscMake" depends on it):
+00:21:58.126     1>Target "_XdcMake: (TargetId:83)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.126     1>Done building target "_XdcMake" in project "CSimpleArray_test.vcxproj".: (TargetId:83)
+00:21:58.126     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:84)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BscMake" depends on it):
+00:21:58.126     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "CSimpleArray_test.vcxproj".: (TargetId:84)
+00:21:58.126     1>Target "MakeDirsForBscMake: (TargetId:85)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BscMake" depends on it):
                    Task "MakeDir" (TaskId:30)
                    Done executing task "MakeDir". (TaskId:30)
-03:48:31.176     1>Done building target "MakeDirsForBscMake" in project "CSimpleArray_test.vcxproj".: (TargetId:85)
+00:21:58.126     1>Done building target "MakeDirsForBscMake" in project "CSimpleArray_test.vcxproj".: (TargetId:85)
                    Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
                    Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
-03:48:31.176     1>Target "_BscMake: (TargetId:86)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
-03:48:31.176     1>Done building target "_BscMake" in project "CSimpleArray_test.vcxproj".: (TargetId:86)
+00:21:58.126     1>Target "_BscMake: (TargetId:86)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.126     1>Done building target "_BscMake" in project "CSimpleArray_test.vcxproj".: (TargetId:86)
                    Target "ClCompile" skipped. Previously built successfully.
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('stdafx.cpp;test.cpp' != '' and 'false' == 'True').
                    Target "CheckIntelEnvironmentForVCLibsTBB" skipped, due to false condition; ('$(PlatformToolset)' == 'v120' AND '$(UseIntelTBB)' == 'true' AND '$(UseEnv)' != 'true') was evaluated as ('v120' == 'v120' AND 'false' == 'true' AND '' != 'true').
                    Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('stdafx.cpp;test.cpp' != '' and 'false' == 'True').
-03:48:31.176     1>Target "RunMergeNativeCodeAnalysis: (TargetId:87)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.126     1>Target "RunMergeNativeCodeAnalysis: (TargetId:87)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
                    Building target "RunMergeNativeCodeAnalysis" completely.
                    Input file "Release\test.nativecodeanalysis.xml" is newer than output file "Release\vc.nativecodeanalysis.all.xml".
                    Using "MergeNativeCodeAnalysis" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\.\FxCopTask.dll".
@@ -2324,14 +2332,14 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                              Release\test.nativecodeanalysis.xml (TaskId:31)
                      Task Parameter:OutputCodeAnalysisFile=Release\vc.nativecodeanalysis.all.xml (TaskId:31)
                    Done executing task "MergeNativeCodeAnalysis". (TaskId:31)
-03:48:31.179     1>Done building target "RunMergeNativeCodeAnalysis" in project "CSimpleArray_test.vcxproj".: (TargetId:87)
+00:21:58.131     1>Done building target "RunMergeNativeCodeAnalysis" in project "CSimpleArray_test.vcxproj".: (TargetId:87)
                    Target "ClCompile" skipped. Previously built successfully.
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('stdafx.cpp;test.cpp' != '' and 'false' == 'True').
                    Target "CheckIntelEnvironmentForVCLibsTBB" skipped, due to false condition; ('$(PlatformToolset)' == 'v120' AND '$(UseIntelTBB)' == 'true' AND '$(UseEnv)' != 'true') was evaluated as ('v120' == 'v120' AND 'false' == 'true' AND '' != 'true').
                    Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('stdafx.cpp;test.cpp' != '' and 'false' == 'True').
                    Target "RunMergeNativeCodeAnalysis" skipped. Previously built successfully.
-03:48:31.179     1>Target "RunNativeCodeAnalysis: (TargetId:88)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.131     1>Target "RunNativeCodeAnalysis: (TargetId:88)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
                    Building target "RunNativeCodeAnalysis" completely.
                    Input file "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe" is newer than output file "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe.lastcodeanalysissucceeded".
                    Using "NativeCodeAnalysis" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\.\FxCopTask.dll".
@@ -2345,44 +2353,44 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                      Task Parameter:TreatWarningsAsErrors=False (TaskId:32)
                      Task Parameter:CodeAnalysisSucceededFile=C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\Release\CSimpleArray_test.exe.lastcodeanalysissucceeded (TaskId:32)
                    Done executing task "NativeCodeAnalysis". (TaskId:32)
-03:48:31.184     1>Done building target "RunNativeCodeAnalysis" in project "CSimpleArray_test.vcxproj".: (TargetId:88)
-03:48:31.184     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:89)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+00:21:58.140     1>Done building target "RunNativeCodeAnalysis" in project "CSimpleArray_test.vcxproj".: (TargetId:88)
+00:21:58.141     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:89)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
                    Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
                    Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
-03:48:31.184     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "CSimpleArray_test.vcxproj".: (TargetId:89)
+00:21:58.142     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "CSimpleArray_test.vcxproj".: (TargetId:89)
                    Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
                    Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
-03:48:31.184     1>Target "CreateSatelliteAssemblies: (TargetId:90)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
-03:48:31.184     1>Done building target "CreateSatelliteAssemblies" in project "CSimpleArray_test.vcxproj".: (TargetId:90)
-03:48:31.184     1>Target "_Appverifier: (TargetId:91)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
-03:48:31.184     1>Done building target "_Appverifier" in project "CSimpleArray_test.vcxproj".: (TargetId:91)
-03:48:31.184     1>Target "_Deploy: (TargetId:92)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
-03:48:31.184     1>Done building target "_Deploy" in project "CSimpleArray_test.vcxproj".: (TargetId:92)
+00:21:58.142     1>Target "CreateSatelliteAssemblies: (TargetId:90)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.142     1>Done building target "CreateSatelliteAssemblies" in project "CSimpleArray_test.vcxproj".: (TargetId:90)
+00:21:58.142     1>Target "_Appverifier: (TargetId:91)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.142     1>Done building target "_Appverifier" in project "CSimpleArray_test.vcxproj".: (TargetId:91)
+00:21:58.142     1>Target "_Deploy: (TargetId:92)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.142     1>Done building target "_Deploy" in project "CSimpleArray_test.vcxproj".: (TargetId:92)
                    Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
                    Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
                    Target "AssignTargetPaths" skipped. Previously built successfully.
                    Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
-03:48:31.184     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:93)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+00:21:58.142     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:93)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Task "AssignTargetPath" (TaskId:33)
                      Task Parameter:RootFolder=C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test (TaskId:33)
                    Done executing task "AssignTargetPath". (TaskId:33)
-03:48:31.185     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "CSimpleArray_test.vcxproj".: (TargetId:93)
-03:48:31.185     1>Target "GetCopyToOutputDirectoryItems: (TargetId:94)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+00:21:58.143     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "CSimpleArray_test.vcxproj".: (TargetId:93)
+00:21:58.143     1>Target "GetCopyToOutputDirectoryItems: (TargetId:94)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
                    Task "AssignTargetPath" (TaskId:34)
                      Task Parameter:RootFolder=C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test (TaskId:34)
                    Done executing task "AssignTargetPath". (TaskId:34)
-03:48:31.185     1>Done building target "GetCopyToOutputDirectoryItems" in project "CSimpleArray_test.vcxproj".: (TargetId:94)
+00:21:58.144     1>Done building target "GetCopyToOutputDirectoryItems" in project "CSimpleArray_test.vcxproj".: (TargetId:94)
                    Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
                    Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
-03:48:31.185     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:95)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
-03:48:31.185     1>Done building target "_CopySourceItemsToOutputDirectory" in project "CSimpleArray_test.vcxproj".: (TargetId:95)
+00:21:58.144     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:95)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+00:21:58.144     1>Done building target "_CopySourceItemsToOutputDirectory" in project "CSimpleArray_test.vcxproj".: (TargetId:95)
                    Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
                    Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
-03:48:31.185     1>Target "_CheckForCompileOutputs: (TargetId:96)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
-03:48:31.185     1>Done building target "_CheckForCompileOutputs" in project "CSimpleArray_test.vcxproj".: (TargetId:96)
+00:21:58.144     1>Target "_CheckForCompileOutputs: (TargetId:96)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+00:21:58.144     1>Done building target "_CheckForCompileOutputs" in project "CSimpleArray_test.vcxproj".: (TargetId:96)
                    Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
-03:48:31.185     1>Target "CopyFilesToOutputDirectory: (TargetId:97)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareForRun" depends on it):
+00:21:58.144     1>Target "CopyFilesToOutputDirectory: (TargetId:97)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "PrepareForRun" depends on it):
                    Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
                    Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
                    Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
@@ -2393,22 +2401,22 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                    Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
                    Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
                    Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
-03:48:31.186     1>Done building target "CopyFilesToOutputDirectory" in project "CSimpleArray_test.vcxproj".: (TargetId:97)
-03:48:31.186     1>Target "PrepareForRun: (TargetId:98)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
-03:48:31.186     1>Done building target "PrepareForRun" in project "CSimpleArray_test.vcxproj".: (TargetId:98)
+00:21:58.144     1>Done building target "CopyFilesToOutputDirectory" in project "CSimpleArray_test.vcxproj".: (TargetId:97)
+00:21:58.144     1>Target "PrepareForRun: (TargetId:98)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.144     1>Done building target "PrepareForRun" in project "CSimpleArray_test.vcxproj".: (TargetId:98)
                    Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
-03:48:31.186     1>Target "PostBuildEvent: (TargetId:99)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
+00:21:58.144     1>Target "PostBuildEvent: (TargetId:99)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
-03:48:31.186     1>Done building target "PostBuildEvent" in project "CSimpleArray_test.vcxproj".: (TargetId:99)
-03:48:31.186     1>Target "_BuildLinkAction: (TargetId:100)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildLink" depends on it):
-03:48:31.186     1>Done building target "_BuildLinkAction" in project "CSimpleArray_test.vcxproj".: (TargetId:100)
-03:48:31.186     1>Target "BuildLink: (TargetId:101)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
-03:48:31.186     1>Done building target "BuildLink" in project "CSimpleArray_test.vcxproj".: (TargetId:101)
+00:21:58.144     1>Done building target "PostBuildEvent" in project "CSimpleArray_test.vcxproj".: (TargetId:99)
+00:21:58.144     1>Target "_BuildLinkAction: (TargetId:100)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "BuildLink" depends on it):
+00:21:58.144     1>Done building target "_BuildLinkAction" in project "CSimpleArray_test.vcxproj".: (TargetId:100)
+00:21:58.144     1>Target "BuildLink: (TargetId:101)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
+00:21:58.144     1>Done building target "BuildLink" in project "CSimpleArray_test.vcxproj".: (TargetId:101)
                    Target "CreateTfsBuildInfoResource" skipped, due to false condition; ( $(AddBuildInfoToAssembly)==true ) was evaluated as ( false==true ).
-03:48:31.186     1>Target "AfterBuild: (TargetId:102)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
-03:48:31.186     1>Done building target "AfterBuild" in project "CSimpleArray_test.vcxproj".: (TargetId:102)
-03:48:31.186     1>Target "FinalizeBuildStatus: (TargetId:103)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
+00:21:58.144     1>Target "AfterBuild: (TargetId:102)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
+00:21:58.144     1>Done building target "AfterBuild" in project "CSimpleArray_test.vcxproj".: (TargetId:102)
+00:21:58.144     1>Target "FinalizeBuildStatus: (TargetId:103)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (target "Build" depends on it):
                    Using "Delete" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "Delete" (TaskId:35)
                      Task Parameter:Files=Release\CSimpleA.A39469B8.tlog\unsuccessfulbuild (TaskId:35)
@@ -2418,47 +2426,49 @@ _NT_SYMBOL_PATH = srv*C:\SymCache*http://msdl.microsoft.com/download/symbols
                      Task Parameter:Files=Release\CSimpleA.A39469B8.tlog\CSimpleArray_test.lastbuildstate (TaskId:36)
                      Touching "Release\CSimpleA.A39469B8.tlog\CSimpleArray_test.lastbuildstate". (TaskId:36)
                    Done executing task "Touch". (TaskId:36)
-03:48:31.188     1>Done building target "FinalizeBuildStatus" in project "CSimpleArray_test.vcxproj".: (TargetId:103)
-03:48:31.188     1>Target "Build: (TargetId:104)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (entry point):
-03:48:31.188     1>Done building target "Build" in project "CSimpleArray_test.vcxproj".: (TargetId:104)
-03:48:31.188     1>Done Building Project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (Build target(s)).
+00:21:58.150     1>Done building target "FinalizeBuildStatus" in project "CSimpleArray_test.vcxproj".: (TargetId:103)
+00:21:58.150     1>Target "Build: (TargetId:104)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (entry point):
+00:21:58.150     1>Done building target "Build" in project "CSimpleArray_test.vcxproj".: (TargetId:104)
+00:21:58.150     1>Done Building Project "C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj" (Build target(s)).
 
 Project Performance Summary:
-     1431 ms  C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj   1 calls
-               1431 ms  Build                                      1 calls
+     1703 ms  C:\Users\Alexander Riccio\Documents\GitHub\CSimpleArray_SAL_test\CSimpleArray_test\CSimpleArray_test\CSimpleArray_test.vcxproj   1 calls
+               1703 ms  Build                                      1 calls
 
 Target Performance Summary:
         0 ms  AfterBuild                                 1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ResolveReferences                          1 calls
         0 ms  SelectClCompile                            1 calls
         0 ms  _CheckForCompileOutputs                    1 calls
         0 ms  GetResolvedWinMD                           1 calls
         0 ms  _Manifest                                  1 calls
         0 ms  _SelectedFiles                             1 calls
-        0 ms  _PrepareForBuild                           1 calls
         0 ms  PostBuildEvent                             1 calls
         0 ms  _Midl                                      1 calls
-        0 ms  ResolveReferences                          1 calls
         0 ms  SelectCustomBuild                          1 calls
-        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _ClCompile                                 1 calls
         0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
         0 ms  BeforeLink                                 1 calls
         0 ms  ComputeCLInputPDBName                      1 calls
         0 ms  AfterBuildCompileEvent                     1 calls
-        0 ms  GetCopyToOutputDirectoryItems              1 calls
         0 ms  _BuildLinkAction                           1 calls
-        0 ms  BeforeResourceCompile                      1 calls
-        0 ms  _ClCompile                                 1 calls
-        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
-        0 ms  AfterBuildGenerateSources                  1 calls
         0 ms  BuildCompileTraverse                       1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
         0 ms  BuildGenerateSources                       1 calls
         0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
         0 ms  GetFrameworkPaths                          1 calls
         0 ms  AfterResourceCompile                       1 calls
         0 ms  _Xsd                                       1 calls
         0 ms  ComputeCustomBuildOutput                   1 calls
         0 ms  MakeDirsForBscMake                         1 calls
-        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  ComputeLinkSwitches                        1 calls
         0 ms  MakeDirsForResourceCompile                 1 calls
         0 ms  _ResourceCompile                           1 calls
         0 ms  ComputeLinkInputsFromProject               1 calls
@@ -2466,89 +2476,87 @@ Target Performance Summary:
         0 ms  _Link                                      1 calls
         0 ms  BuildLinkTraverse                          1 calls
         0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  WarnCompileDuplicatedFilename              1 calls
         0 ms  ComputeRCOutputs                           1 calls
         0 ms  _XdcMake                                   1 calls
-        0 ms  CreateSatelliteAssemblies                  1 calls
-        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
         0 ms  AfterMidl                                  1 calls
-        0 ms  PreLinkEvent                               1 calls
         0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
-        0 ms  _PrepareForReferenceResolution             1 calls
-        0 ms  PrepareForRun                              1 calls
-        0 ms  ComputeReferenceCLInput                    1 calls
-        0 ms  RegisterOutput                             1 calls
         0 ms  _Deploy                                    1 calls
-        0 ms  BeforeResolveReferences                    1 calls
-        0 ms  AfterResolveReferences                     1 calls
-        0 ms  PreBuildEvent                              1 calls
-        0 ms  _BuildGenerateSourcesAction                1 calls
-        0 ms  BeforeClCompile                            1 calls
-        0 ms  AfterBuildGenerateSourcesEvent             1 calls
-        0 ms  PrepareResourceNames                       1 calls
         0 ms  AfterLink                                  1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  MakeDirsForMidl                            1 calls
         0 ms  _BscMake                                   1 calls
-        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
         0 ms  _Appverifier                               1 calls
         0 ms  BuildCompile                               1 calls
-        0 ms  MakeDirsForMidl                            1 calls
-        0 ms  AssignTargetPaths                          1 calls
-        0 ms  BuildGenerateSourcesTraverse               1 calls
-        0 ms  BeforeBuildGenerateSources                 1 calls
-        0 ms  _SplitProjectReferencesByFileExistence     1 calls
-        0 ms  ResolvedXDCMake                            1 calls
-        0 ms  BuildLink                                  1 calls
-        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
         0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  AfterClCompile                             1 calls
         0 ms  _ALink                                     1 calls
-        0 ms  ResolveSDKReferences                       1 calls
-        0 ms  GetInstalledSDKLocations                   1 calls
-        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
-        0 ms  _BuildCompileAction                        1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
         0 ms  MakeDirsForXdcMake                         1 calls
-        1 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
-        1 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  RegisterOutput                             1 calls
         1 ms  SplitResourcesByCulture                    1 calls
-        1 ms  AssignProjectConfiguration                 1 calls
-        1 ms  ComputeCLOutputs                           1 calls
-        1 ms  WarnCompileDuplicatedFilename              1 calls
-        1 ms  DoLinkOutputFilesMatch                     1 calls
-        1 ms  AfterClCompile                             1 calls
-        1 ms  ResolveAssemblyReferences                  1 calls
-        1 ms  ComputeLegacyManifestEmbedding             1 calls
-        1 ms  MakeDirsForLink                            1 calls
-        1 ms  ResolveProjectReferences                   1 calls
-        1 ms  MakeDirsForCl                              1 calls
+        1 ms  BuildGenerateSourcesTraverse               1 calls
+        1 ms  ResolvedXDCMake                            1 calls
         1 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
-        1 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        1 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  GetReferenceAssemblyPaths                  1 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  ComputeCLOutputs                           1 calls
+        1 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        1 ms  _PrepareForBuild                           1 calls
+        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        2 ms  MakeDirsForLink                            1 calls
         2 ms  PrepareForBuild                            1 calls
-        2 ms  FinalizeBuildStatus                        1 calls
-        3 ms  InitializeBuildStatus                      1 calls
-        3 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
-        3 ms  RunMergeNativeCodeAnalysis                 1 calls
-        5 ms  ComputeLinkSwitches                        1 calls
-        5 ms  RunNativeCodeAnalysis                      1 calls
+        4 ms  PreLinkEvent                               1 calls
+        4 ms  SetBuildDefaultEnvironmentVariables        1 calls
         5 ms  SetCABuildNativeEnvironmentVariables       1 calls
-        7 ms  SetBuildDefaultEnvironmentVariables        1 calls
-      428 ms  ClCompile                                  1 calls
-      949 ms  Link                                       1 calls
+        5 ms  RunMergeNativeCodeAnalysis                 1 calls
+        6 ms  FinalizeBuildStatus                        1 calls
+        8 ms  InitializeBuildStatus                      1 calls
+        9 ms  RunNativeCodeAnalysis                      1 calls
+      595 ms  ClCompile                                  1 calls
+     1047 ms  Link                                       1 calls
 
 Task Performance Summary:
-        0 ms  AssignTargetPath                           6 calls
         0 ms  SetEnvironmentVariable                     1 calls
         0 ms  AssignCulture                              1 calls
         0 ms  Message                                    3 calls
-        0 ms  ReadLinesFromFile                          1 calls
-        1 ms  AssignProjectConfiguration                 1 calls
-        1 ms  Delete                                     1 calls
         1 ms  MakeDir                                    9 calls
-        1 ms  Touch                                      2 calls
-        2 ms  WriteLinesToFile                           1 calls
-        2 ms  MergeNativeCodeAnalysis                    1 calls
-        5 ms  NativeCodeAnalysis                         1 calls
-        6 ms  SetEnv                                     4 calls
-      425 ms  CL                                         2 calls
-      949 ms  Link                                       1 calls
+        1 ms  AssignTargetPath                           6 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  ReadLinesFromFile                          1 calls
+        1 ms  Delete                                     1 calls
+        3 ms  WriteLinesToFile                           1 calls
+        3 ms  MergeNativeCodeAnalysis                    1 calls
+        4 ms  SetEnv                                     4 calls
+        8 ms  Touch                                      2 calls
+        9 ms  NativeCodeAnalysis                         1 calls
+      593 ms  CL                                         2 calls
+     1047 ms  Link                                       1 calls
 
 Build succeeded.
 
-Time Elapsed 00:00:01.43
+Time Elapsed 00:00:01.70

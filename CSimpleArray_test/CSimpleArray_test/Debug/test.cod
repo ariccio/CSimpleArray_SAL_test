@@ -53,19 +53,29 @@ PUBLIC	??RCTraceFileAndLineInfo@ATL@@QBAXHIPB_WZZ	; ATL::CTraceFileAndLineInfo::
 PUBLIC	?_AtlRaiseException@ATL@@YAXKK@Z		; ATL::_AtlRaiseException
 PUBLIC	?AtlThrowImpl@ATL@@YGXJ@Z			; ATL::AtlThrowImpl
 PUBLIC	?__autoclassinit2@CWinApp@@QAEXI@Z		; CWinApp::__autoclassinit2
+PUBLIC	?test_analyze_ten_or_onehundred@@YAXH@Z		; test_analyze_ten_or_onehundred
+PUBLIC	?test_analyze_one_or_two@@YAXH@Z		; test_analyze_one_or_two
+PUBLIC	?test_analyze_two_or_three@@YAXH@Z		; test_analyze_two_or_three
+PUBLIC	?test_analyze_zero@@YAXH@Z			; test_analyze_zero
 PUBLIC	_wmain
+PUBLIC	??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
+PUBLIC	??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
+PUBLIC	?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEHABH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Add
+PUBLIC	?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXXZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::RemoveAll
+PUBLIC	??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEAAHH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::operator[]
+PUBLIC	?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::InternalSetAtIndex
+PUBLIC	?__autoclassinit2@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXI@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::__autoclassinit2
 PUBLIC	??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
 PUBLIC	??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-PUBLIC	??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@ABV01@@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-PUBLIC	?GetSize@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEHXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetSize
 PUBLIC	?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
 PUBLIC	?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::RemoveAll
-PUBLIC	??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEABHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
 PUBLIC	??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
 PUBLIC	?GetData@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEPAHXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetData
-PUBLIC	?SetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::SetAtIndex
 PUBLIC	?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::InternalSetAtIndex
 PUBLIC	?__autoclassinit2@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXI@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::__autoclassinit2
+PUBLIC	??0Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@ABH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::Wrapper
+PUBLIC	??$?2H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@SAPAXIPAH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator new<int>
+PUBLIC	??$?3H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@SAXPAXPAH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator delete<int>
 PUBLIC	??0Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@ABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Wrapper::Wrapper
 PUBLIC	??$?2H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@SAPAXIPAH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator new<int>
 PUBLIC	??$?3H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@SAXPAXPAH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator delete<int>
@@ -84,12 +94,12 @@ PUBLIC	??_C@_0FC@OFGMOGKO@c?3?2program?5files?5?$CIx86?$CJ?2microsoft@ ; `string
 PUBLIC	??_C@_1CK@DFMKPFAK@?$AAA?$AAt?$AAl?$AAT?$AAh?$AAr?$AAo?$AAw?$AA?3?$AA?5?$AAh?$AAr?$AA?5?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AAx?$AA?6?$AA?$AA@ ; `string'
 PUBLIC	??_C@_1BM@GBBOFEAE@?$AA_?$AA_?$AAa?$AAt?$AAl?$AA_?$AAc?$AAo?$AAn?$AAd?$AAV?$AAa?$AAl?$AA?$AA@ ; `string'
 PUBLIC	??_C@_1EA@JHMKKLFC@?$AAn?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AAn?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DM?$AA?5?$AAm?$AA_?$AAn?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ ; `string'
+PUBLIC	??_C@_1KI@KJKLFHG@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@ ; `string'
 PUBLIC	??_C@_1BK@NHECDDNK@?$AAm?$AA_?$AAp?$AAD?$AAa?$AAt?$AAa?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA0?$AA?$AA@ ; `string'
 PUBLIC	?theApp@@3VCWinApp@@A				; theApp
 PUBLIC	??_C@_1DM@EBFIOLIP@?$AAC?$AAo?$AAu?$AAl?$AAd?$AAn?$AA?8?$AAt?$AA?5?$AAg?$AAe?$AAt?$AA?5?$AAm?$AAo?$AAd?$AAu?$AAl?$AAe?$AA?5?$AAh?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$CB?$AA?$AN?$AA?6?$AA?$AA@ ; `string'
 PUBLIC	??_C@_1FE@OLJODHIP@?$AAF?$AAa?$AAt?$AAa?$AAl?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?3?$AA?5?$AAM?$AAF?$AAC?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5@ ; `string'
-PUBLIC	??_C@_1CK@DJCKKDBM@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AN?$AA?6?$AA?$AA@ ; `string'
-PUBLIC	??_C@_1CM@GPPAFFIP@?$AAd?$AA?4?$AAS?$AAe?$AAt?$AAA?$AAt?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?$CI?$AA?5?$AA0?$AA?0?$AA?5?$AAz?$AA_?$AA?5?$AA?$CJ?$AA?$AA@ ; `string'
+PUBLIC	??_C@_1CG@OPPEHGBC@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AA@ ; `string'
 PUBLIC	??_C@_1NM@ICGFMKB@?$AAc?$AA?3?$AA?2?$AAu?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAa?$AAl?$AAe?$AAx?$AAa?$AAn?$AAd?$AAe?$AAr?$AA?5?$AAr?$AAi?$AAc?$AAc?$AAi?$AAo?$AA?2?$AAd?$AAo?$AAc?$AAu?$AAm?$AAe@ ; `string'
 EXTRN	_atexit:PROC
 EXTRN	__imp__wcscpy_s:PROC
@@ -102,7 +112,6 @@ EXTRN	__imp__fwprintf:PROC
 EXTRN	__imp__swprintf_s:PROC
 EXTRN	__imp___vsnwprintf_s:PROC
 EXTRN	__imp___vscwprintf:PROC
-EXTRN	__imp__calloc:PROC
 EXTRN	__imp__free:PROC
 EXTRN	__imp__malloc:PROC
 EXTRN	__imp___recalloc:PROC
@@ -160,21 +169,12 @@ CONST	SEGMENT
 	DB	's', 00H, 't', 00H, '\', 00H, 't', 00H, 'e', 00H, 's', 00H, 't'
 	DB	00H, '.', 00H, 'c', 00H, 'p', 00H, 'p', 00H, 00H, 00H ; `string'
 CONST	ENDS
-;	COMDAT ??_C@_1CM@GPPAFFIP@?$AAd?$AA?4?$AAS?$AAe?$AAt?$AAA?$AAt?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?$CI?$AA?5?$AA0?$AA?0?$AA?5?$AAz?$AA_?$AA?5?$AA?$CJ?$AA?$AA@
+;	COMDAT ??_C@_1CG@OPPEHGBC@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AA@
 CONST	SEGMENT
-??_C@_1CM@GPPAFFIP@?$AAd?$AA?4?$AAS?$AAe?$AAt?$AAA?$AAt?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?$CI?$AA?5?$AA0?$AA?0?$AA?5?$AAz?$AA_?$AA?5?$AA?$CJ?$AA?$AA@ DB 'd'
-	DB	00H, '.', 00H, 'S', 00H, 'e', 00H, 't', 00H, 'A', 00H, 't', 00H
-	DB	'I', 00H, 'n', 00H, 'd', 00H, 'e', 00H, 'x', 00H, '(', 00H, ' '
-	DB	00H, '0', 00H, ',', 00H, ' ', 00H, 'z', 00H, '_', 00H, ' ', 00H
-	DB	')', 00H, 00H, 00H				; `string'
-CONST	ENDS
-;	COMDAT ??_C@_1CK@DJCKKDBM@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AN?$AA?6?$AA?$AA@
-CONST	SEGMENT
-??_C@_1CK@DJCKKDBM@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AN?$AA?6?$AA?$AA@ DB 'd'
+??_C@_1CG@OPPEHGBC@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AA@ DB 'd'
 	DB	00H, '.', 00H, 'A', 00H, 'd', 00H, 'd', 00H, '(', 00H, ' ', 00H
 	DB	'5', 00H, ' ', 00H, ')', 00H, ' ', 00H, 'f', 00H, 'a', 00H, 'i'
-	DB	00H, 'l', 00H, 'e', 00H, 'd', 00H, '!', 00H, 0dH, 00H, 0aH, 00H
-	DB	00H, 00H					; `string'
+	DB	00H, 'l', 00H, 'e', 00H, 'd', 00H, '!', 00H, 00H, 00H ; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_1FE@OLJODHIP@?$AAF?$AAa?$AAt?$AAa?$AAl?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?3?$AA?5?$AAM?$AAF?$AAC?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5@
 CONST	SEGMENT
@@ -201,6 +201,23 @@ CONST	SEGMENT
 ??_C@_1BK@NHECDDNK@?$AAm?$AA_?$AAp?$AAD?$AAa?$AAt?$AAa?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA0?$AA?$AA@ DB 'm'
 	DB	00H, '_', 00H, 'p', 00H, 'D', 00H, 'a', 00H, 't', 00H, 'a', 00H
 	DB	' ', 00H, '=', 00H, '=', 00H, ' ', 00H, '0', 00H, 00H, 00H ; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1KI@KJKLFHG@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+CONST	SEGMENT
+??_C@_1KI@KJKLFHG@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@ DB 'c'
+	DB	00H, ':', 00H, '\', 00H, 'p', 00H, 'r', 00H, 'o', 00H, 'g', 00H
+	DB	'r', 00H, 'a', 00H, 'm', 00H, ' ', 00H, 'f', 00H, 'i', 00H, 'l'
+	DB	00H, 'e', 00H, 's', 00H, ' ', 00H, '(', 00H, 'x', 00H, '8', 00H
+	DB	'6', 00H, ')', 00H, '\', 00H, 'm', 00H, 'i', 00H, 'c', 00H, 'r'
+	DB	00H, 'o', 00H, 's', 00H, 'o', 00H, 'f', 00H, 't', 00H, ' ', 00H
+	DB	'v', 00H, 'i', 00H, 's', 00H, 'u', 00H, 'a', 00H, 'l', 00H, ' '
+	DB	00H, 's', 00H, 't', 00H, 'u', 00H, 'd', 00H, 'i', 00H, 'o', 00H
+	DB	' ', 00H, '1', 00H, '2', 00H, '.', 00H, '0', 00H, '\', 00H, 'v'
+	DB	00H, 'c', 00H, '\', 00H, 'a', 00H, 't', 00H, 'l', 00H, 'm', 00H
+	DB	'f', 00H, 'c', 00H, '\', 00H, 'i', 00H, 'n', 00H, 'c', 00H, 'l'
+	DB	00H, 'u', 00H, 'd', 00H, 'e', 00H, '\', 00H, 'a', 00H, 't', 00H
+	DB	'l', 00H, 's', 00H, 'i', 00H, 'm', 00H, 'p', 00H, 'c', 00H, 'o'
+	DB	00H, 'l', 00H, 'l', 00H, '.', 00H, 'h', 00H, 00H, 00H ; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_1EA@JHMKKLFC@?$AAn?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AAn?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DM?$AA?5?$AAm?$AA_?$AAn?$AAS?$AAi?$AAz?$AAe?$AA?$AA@
 CONST	SEGMENT
@@ -324,6 +341,18 @@ __ehfuncinfo$?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@my
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
+__unwindtable$?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z$0
+__ehfuncinfo$?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
 __unwindtable$_wmain DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$_wmain$0
 	DD	00H
@@ -359,7 +388,7 @@ ___formal$ = 8						; size = 4
 ___formal$ = 12						; size = 4
 ??$?3H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@SAXPAXPAH@Z PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator delete<int>, COMDAT
 
-; 284  : 		void __cdecl operator delete(
+; 272  : 		void __cdecl operator delete(
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -374,10 +403,10 @@ ___formal$ = 12						; size = 4
   00017	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
   0001c	f3 ab		 rep stosd
 
-; 285  : 			_In_ void* /* pv */,
-; 286  : 			_In_ _Ty* /* p */)
-; 287  : 		{
-; 288  : 		}
+; 273  : 			_In_ void* /* pv */,
+; 274  : 			_In_ _Ty* /* p */)
+; 275  : 		{
+; 276  : 		}
 
   0001e	5f		 pop	 edi
   0001f	5e		 pop	 esi
@@ -395,7 +424,7 @@ ___formal$ = 8						; size = 4
 _p$ = 12						; size = 4
 ??$?2H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@SAPAXIPAH@Z PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator new<int>, COMDAT
 
-; 277  : 		void * __cdecl operator new(
+; 265  : 		void * __cdecl operator new(
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -410,14 +439,14 @@ _p$ = 12						; size = 4
   00017	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
   0001c	f3 ab		 rep stosd
 
-; 278  : 			_In_ size_t,
-; 279  : 			_In_ _Ty* p)
-; 280  : 		{
-; 281  : 			return p;
+; 266  : 			_In_ size_t,
+; 267  : 			_In_ _Ty* p)
+; 268  : 		{
+; 269  : 			return p;
 
   0001e	8b 45 0c	 mov	 eax, DWORD PTR _p$[ebp]
 
-; 282  : 		}
+; 270  : 		}
 
   00021	5f		 pop	 edi
   00022	5e		 pop	 esi
@@ -436,7 +465,7 @@ __t$ = 8						; size = 4
 ??0Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@ABH@Z PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Wrapper::Wrapper, COMDAT
 ; _this$ = ecx
 
-; 274  : 		{
+; 262  : 		{
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -458,7 +487,7 @@ __t$ = 8						; size = 4
   00029	8b 11		 mov	 edx, DWORD PTR [ecx]
   0002b	89 10		 mov	 DWORD PTR [eax], edx
 
-; 275  : 		}
+; 263  : 		}
 
   0002d	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00030	5f		 pop	 edi
@@ -468,6 +497,124 @@ __t$ = 8						; size = 4
   00035	5d		 pop	 ebp
   00036	c2 04 00	 ret	 4
 ??0Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@ABH@Z ENDP ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Wrapper::Wrapper
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h
+;	COMDAT ??$?3H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@SAXPAXPAH@Z
+_TEXT	SEGMENT
+___formal$ = 8						; size = 4
+___formal$ = 12						; size = 4
+??$?3H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@SAXPAXPAH@Z PROC ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator delete<int>, COMDAT
+
+; 278  : 		void __cdecl operator delete(
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec c0 00 00
+	00		 sub	 esp, 192		; 000000c0H
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	8d bd 40 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-192]
+  00012	b9 30 00 00 00	 mov	 ecx, 48			; 00000030H
+  00017	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001c	f3 ab		 rep stosd
+
+; 279  : 			_In_ void* /* pv */,
+; 280  : 			_In_ _Ty* /* p */)
+; 281  : 		{
+; 282  : 		}
+
+  0001e	5f		 pop	 edi
+  0001f	5e		 pop	 esi
+  00020	5b		 pop	 ebx
+  00021	8b e5		 mov	 esp, ebp
+  00023	5d		 pop	 ebp
+  00024	c3		 ret	 0
+??$?3H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@SAXPAXPAH@Z ENDP ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator delete<int>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h
+;	COMDAT ??$?2H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@SAPAXIPAH@Z
+_TEXT	SEGMENT
+___formal$ = 8						; size = 4
+_p$ = 12						; size = 4
+??$?2H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@SAPAXIPAH@Z PROC ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator new<int>, COMDAT
+
+; 271  : 		void * __cdecl operator new(
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec c0 00 00
+	00		 sub	 esp, 192		; 000000c0H
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	8d bd 40 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-192]
+  00012	b9 30 00 00 00	 mov	 ecx, 48			; 00000030H
+  00017	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001c	f3 ab		 rep stosd
+
+; 272  : 			_In_ size_t,
+; 273  : 			_In_ _Ty* p)
+; 274  : 		{
+; 275  : 			return p;
+
+  0001e	8b 45 0c	 mov	 eax, DWORD PTR _p$[ebp]
+
+; 276  : 		}
+
+  00021	5f		 pop	 edi
+  00022	5e		 pop	 esi
+  00023	5b		 pop	 ebx
+  00024	8b e5		 mov	 esp, ebp
+  00026	5d		 pop	 ebp
+  00027	c3		 ret	 0
+??$?2H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@SAPAXIPAH@Z ENDP ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator new<int>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h
+;	COMDAT ??0Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@ABH@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__t$ = 8						; size = 4
+??0Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@ABH@Z PROC ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::Wrapper, COMDAT
+; _this$ = ecx
+
+; 268  : 		{
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec cc 00 00
+	00		 sub	 esp, 204		; 000000ccH
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	51		 push	 ecx
+  0000d	8d bd 34 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-204]
+  00013	b9 33 00 00 00	 mov	 ecx, 51			; 00000033H
+  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001d	f3 ab		 rep stosd
+  0001f	59		 pop	 ecx
+  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
+  00023	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00026	8b 4d 08	 mov	 ecx, DWORD PTR __t$[ebp]
+  00029	8b 11		 mov	 edx, DWORD PTR [ecx]
+  0002b	89 10		 mov	 DWORD PTR [eax], edx
+
+; 269  : 		}
+
+  0002d	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00030	5f		 pop	 edi
+  00031	5e		 pop	 esi
+  00032	5b		 pop	 ebx
+  00033	8b e5		 mov	 esp, ebp
+  00035	5d		 pop	 ebp
+  00036	c2 04 00	 ret	 4
+??0Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@ABH@Z ENDP ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::Wrapper
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ;	COMDAT ?__autoclassinit2@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXI@Z
@@ -524,7 +671,7 @@ _t$ = 12						; size = 4
 ?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXHABH@Z PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::InternalSetAtIndex, COMDAT
 ; _this$ = ecx
 
-; 298  : 	{
+; 284  : 	{
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -553,7 +700,7 @@ _t$ = 12						; size = 4
 	00		 mov	 DWORD PTR fs:0, eax
   0003f	89 4d ec	 mov	 DWORD PTR _this$[ebp], ecx
 
-; 299  : 		new(m_aT + nIndex) Wrapper(t);
+; 285  : 		new(m_aT + nIndex) Wrapper(t);
 
   00042	8b 45 ec	 mov	 eax, DWORD PTR _this$[ebp]
   00045	8b 08		 mov	 ecx, DWORD PTR [eax]
@@ -589,7 +736,7 @@ $LN4@InternalSe:
   0009b	c7 45 fc ff ff
 	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
 
-; 300  : 	}
+; 286  : 	}
 
   000a2	8b 4d f4	 mov	 ecx, DWORD PTR __$EHRec$[ebp]
   000a5	64 89 0d 00 00
@@ -633,85 +780,13 @@ text$x	ENDS
 ?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXHABH@Z ENDP ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::InternalSetAtIndex
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
-;	COMDAT ?SetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHHABH@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-_nIndex$ = 8						; size = 4
-_t$ = 12						; size = 4
-?SetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHHABH@Z PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::SetAtIndex, COMDAT
-; _this$ = ecx
-
-; 262  : 	{
-
-  00000	55		 push	 ebp
-  00001	8b ec		 mov	 ebp, esp
-  00003	81 ec cc 00 00
-	00		 sub	 esp, 204		; 000000ccH
-  00009	53		 push	 ebx
-  0000a	56		 push	 esi
-  0000b	57		 push	 edi
-  0000c	51		 push	 ecx
-  0000d	8d bd 34 ff ff
-	ff		 lea	 edi, DWORD PTR [ebp-204]
-  00013	b9 33 00 00 00	 mov	 ecx, 51			; 00000033H
-  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
-  0001d	f3 ab		 rep stosd
-  0001f	59		 pop	 ecx
-  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
-
-; 263  : 		if (nIndex < 0 || nIndex >= m_nSize)
-
-  00023	83 7d 08 00	 cmp	 DWORD PTR _nIndex$[ebp], 0
-  00027	7c 0b		 jl	 SHORT $LN1@SetAtIndex
-  00029	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
-  0002c	8b 4d 08	 mov	 ecx, DWORD PTR _nIndex$[ebp]
-  0002f	3b 48 04	 cmp	 ecx, DWORD PTR [eax+4]
-  00032	7c 04		 jl	 SHORT $LN2@SetAtIndex
-$LN1@SetAtIndex:
-
-; 264  : 			return FALSE;
-
-  00034	33 c0		 xor	 eax, eax
-  00036	eb 15		 jmp	 SHORT $LN3@SetAtIndex
-$LN2@SetAtIndex:
-
-; 265  : 		InternalSetAtIndex(nIndex, t);
-
-  00038	8b 45 0c	 mov	 eax, DWORD PTR _t$[ebp]
-  0003b	50		 push	 eax
-  0003c	8b 4d 08	 mov	 ecx, DWORD PTR _nIndex$[ebp]
-  0003f	51		 push	 ecx
-  00040	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
-  00043	e8 00 00 00 00	 call	 ?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::InternalSetAtIndex
-
-; 266  : 		return TRUE;
-
-  00048	b8 01 00 00 00	 mov	 eax, 1
-$LN3@SetAtIndex:
-
-; 267  : 	}
-
-  0004d	5f		 pop	 edi
-  0004e	5e		 pop	 esi
-  0004f	5b		 pop	 ebx
-  00050	81 c4 cc 00 00
-	00		 add	 esp, 204		; 000000ccH
-  00056	3b ec		 cmp	 ebp, esp
-  00058	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  0005d	8b e5		 mov	 esp, ebp
-  0005f	5d		 pop	 ebp
-  00060	c2 08 00	 ret	 8
-?SetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHHABH@Z ENDP ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::SetAtIndex
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
 ;	COMDAT ?GetData@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEPAHXZ
 _TEXT	SEGMENT
 _this$ = -8						; size = 4
 ?GetData@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEPAHXZ PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetData, COMDAT
 ; _this$ = ecx
 
-; 235  : 	{
+; 227  : 	{
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -729,12 +804,12 @@ _this$ = -8						; size = 4
   0001f	59		 pop	 ecx
   00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
 
-; 236  : 		return m_aT;
+; 228  : 		return m_aT;
 
   00023	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00026	8b 00		 mov	 eax, DWORD PTR [eax]
 
-; 237  : 	}
+; 229  : 	}
 
   00028	5f		 pop	 edi
   00029	5e		 pop	 esi
@@ -753,7 +828,7 @@ _nIndex$ = 8						; size = 4
 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[], COMDAT
 ; _this$ = ecx
 
-; 217  : 	{
+; 211  : 	{
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -771,7 +846,7 @@ _nIndex$ = 8						; size = 4
   0001f	59		 pop	 ecx
   00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
 
-; 218  : 		ATLASSERT(nIndex >= 0 && nIndex < m_nSize);
+; 212  : 		ATLASSERT(nIndex >= 0 && nIndex < m_nSize);
 
   00023	83 7d 08 00	 cmp	 DWORD PTR _nIndex$[ebp], 0
   00027	7c 0b		 jl	 SHORT $LN5@operator
@@ -784,7 +859,7 @@ $LN5@operator:
   00036	68 00 00 00 00	 push	 OFFSET ??_C@_1EA@JHMKKLFC@?$AAn?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AAn?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DM?$AA?5?$AAm?$AA_?$AAn?$AAS?$AAi?$AAz?$AAe?$AA?$AA@
   0003b	68 00 00 00 00	 push	 OFFSET ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@
   00040	6a 00		 push	 0
-  00042	68 da 00 00 00	 push	 218			; 000000daH
+  00042	68 d4 00 00 00	 push	 212			; 000000d4H
   00047	68 00 00 00 00	 push	 OFFSET ??_C@_1NM@ICGFMKB@?$AAc?$AA?3?$AA?2?$AAu?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAa?$AAl?$AAe?$AAx?$AAa?$AAn?$AAd?$AAe?$AAr?$AA?5?$AAr?$AAi?$AAc?$AAc?$AAi?$AAo?$AA?2?$AAd?$AAo?$AAc?$AAu?$AAm?$AAe@
   0004c	6a 02		 push	 2
   0004e	ff 15 00 00 00
@@ -797,7 +872,7 @@ $LN5@operator:
   00063	cc		 int	 3
 $LN6@operator:
 
-; 219  : 		if(nIndex < 0 || nIndex >= m_nSize)
+; 213  : 		if(nIndex < 0 || nIndex >= m_nSize)
 
   00064	83 7d 08 00	 cmp	 DWORD PTR _nIndex$[ebp], 0
   00068	7c 0b		 jl	 SHORT $LN1@operator
@@ -807,16 +882,16 @@ $LN6@operator:
   00073	7c 0c		 jl	 SHORT $LN2@operator
 $LN1@operator:
 
-; 220  : 		{
-; 221  : 			_AtlRaiseException((DWORD)EXCEPTION_ARRAY_BOUNDS_EXCEEDED);
+; 214  : 		{
+; 215  : 			_AtlRaiseException((DWORD)EXCEPTION_ARRAY_BOUNDS_EXCEEDED);
 
   00075	6a 01		 push	 1
   00077	68 8c 00 00 c0	 push	 -1073741684		; c000008cH
   0007c	e8 00 00 00 00	 call	 ?_AtlRaiseException@ATL@@YAXKK@Z ; ATL::_AtlRaiseException
 $LN2@operator:
 
-; 222  : 		}
-; 223  : 		return m_aT[nIndex];
+; 216  : 		}
+; 217  : 		return m_aT[nIndex];
 
   00081	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00084	8b 08		 mov	 ecx, DWORD PTR [eax]
@@ -824,7 +899,7 @@ $LN2@operator:
   00089	8d 04 91	 lea	 eax, DWORD PTR [ecx+edx*4]
 $LN4@operator:
 
-; 224  : 	}
+; 218  : 	}
 
   0008c	5f		 pop	 edi
   0008d	5e		 pop	 esi
@@ -840,100 +915,6 @@ $LN4@operator:
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
-;	COMDAT ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEABHH@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-_nIndex$ = 8						; size = 4
-??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEABHH@Z PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[], COMDAT
-; _this$ = ecx
-
-; 202  : 	{
-
-  00000	55		 push	 ebp
-  00001	8b ec		 mov	 ebp, esp
-  00003	81 ec cc 00 00
-	00		 sub	 esp, 204		; 000000ccH
-  00009	53		 push	 ebx
-  0000a	56		 push	 esi
-  0000b	57		 push	 edi
-  0000c	51		 push	 ecx
-  0000d	8d bd 34 ff ff
-	ff		 lea	 edi, DWORD PTR [ebp-204]
-  00013	b9 33 00 00 00	 mov	 ecx, 51			; 00000033H
-  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
-  0001d	f3 ab		 rep stosd
-  0001f	59		 pop	 ecx
-  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
-
-; 203  : 		ATLASSERT(nIndex >= 0 && nIndex < m_nSize);
-
-  00023	83 7d 08 00	 cmp	 DWORD PTR _nIndex$[ebp], 0
-  00027	7c 0b		 jl	 SHORT $LN5@operator
-  00029	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
-  0002c	8b 4d 08	 mov	 ecx, DWORD PTR _nIndex$[ebp]
-  0002f	3b 48 04	 cmp	 ecx, DWORD PTR [eax+4]
-  00032	7c 30		 jl	 SHORT $LN6@operator
-$LN5@operator:
-  00034	8b f4		 mov	 esi, esp
-  00036	68 00 00 00 00	 push	 OFFSET ??_C@_1EA@JHMKKLFC@?$AAn?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AAn?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DM?$AA?5?$AAm?$AA_?$AAn?$AAS?$AAi?$AAz?$AAe?$AA?$AA@
-  0003b	68 00 00 00 00	 push	 OFFSET ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@
-  00040	6a 00		 push	 0
-  00042	68 cb 00 00 00	 push	 203			; 000000cbH
-  00047	68 00 00 00 00	 push	 OFFSET ??_C@_1NM@ICGFMKB@?$AAc?$AA?3?$AA?2?$AAu?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAa?$AAl?$AAe?$AAx?$AAa?$AAn?$AAd?$AAe?$AAr?$AA?5?$AAr?$AAi?$AAc?$AAc?$AAi?$AAo?$AA?2?$AAd?$AAo?$AAc?$AAu?$AAm?$AAe@
-  0004c	6a 02		 push	 2
-  0004e	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp___CrtDbgReportW
-  00054	83 c4 18	 add	 esp, 24			; 00000018H
-  00057	3b f4		 cmp	 esi, esp
-  00059	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  0005e	83 f8 01	 cmp	 eax, 1
-  00061	75 01		 jne	 SHORT $LN6@operator
-  00063	cc		 int	 3
-$LN6@operator:
-
-; 204  : 		if(nIndex < 0 || nIndex >= m_nSize)
-
-  00064	83 7d 08 00	 cmp	 DWORD PTR _nIndex$[ebp], 0
-  00068	7c 0b		 jl	 SHORT $LN1@operator
-  0006a	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
-  0006d	8b 4d 08	 mov	 ecx, DWORD PTR _nIndex$[ebp]
-  00070	3b 48 04	 cmp	 ecx, DWORD PTR [eax+4]
-  00073	7c 0c		 jl	 SHORT $LN2@operator
-$LN1@operator:
-
-; 205  : 		{
-; 206  : 			_AtlRaiseException((DWORD)EXCEPTION_ARRAY_BOUNDS_EXCEEDED);
-
-  00075	6a 01		 push	 1
-  00077	68 8c 00 00 c0	 push	 -1073741684		; c000008cH
-  0007c	e8 00 00 00 00	 call	 ?_AtlRaiseException@ATL@@YAXKK@Z ; ATL::_AtlRaiseException
-$LN2@operator:
-
-; 207  : 		}
-; 208  : 		return m_aT[nIndex];
-
-  00081	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
-  00084	8b 08		 mov	 ecx, DWORD PTR [eax]
-  00086	8b 55 08	 mov	 edx, DWORD PTR _nIndex$[ebp]
-  00089	8d 04 91	 lea	 eax, DWORD PTR [ecx+edx*4]
-$LN4@operator:
-
-; 209  : 	}
-
-  0008c	5f		 pop	 edi
-  0008d	5e		 pop	 esi
-  0008e	5b		 pop	 ebx
-  0008f	81 c4 cc 00 00
-	00		 add	 esp, 204		; 000000ccH
-  00095	3b ec		 cmp	 ebp, esp
-  00097	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  0009c	8b e5		 mov	 esp, ebp
-  0009e	5d		 pop	 ebp
-  0009f	c2 04 00	 ret	 4
-??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEABHH@Z ENDP ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
 ;	COMDAT ?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXXZ
 _TEXT	SEGMENT
 _i$1 = -20						; size = 4
@@ -941,7 +922,7 @@ _this$ = -8						; size = 4
 ?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXXZ PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::RemoveAll, COMDAT
 ; _this$ = ecx
 
-; 185  : 	{
+; 182  : 	{
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -959,14 +940,14 @@ _this$ = -8						; size = 4
   0001f	59		 pop	 ecx
   00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
 
-; 186  : 		if(m_aT != NULL)
+; 183  : 		if(m_aT != NULL)
 
   00023	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00026	83 38 00	 cmp	 DWORD PTR [eax], 0
   00029	74 40		 je	 SHORT $LN4@RemoveAll
 
-; 187  : 		{
-; 188  : 			for(int i = 0; i < m_nSize; i++)
+; 184  : 		{
+; 185  : 			for(int i = 0; i < m_nSize; i++)
 
   0002b	c7 45 ec 00 00
 	00 00		 mov	 DWORD PTR _i$1[ebp], 0
@@ -981,12 +962,12 @@ $LN3@RemoveAll:
   00043	3b 48 04	 cmp	 ecx, DWORD PTR [eax+4]
   00046	7d 02		 jge	 SHORT $LN1@RemoveAll
 
-; 189  : 				m_aT[i].~T();
+; 186  : 				m_aT[i].~T();
 
   00048	eb ea		 jmp	 SHORT $LN2@RemoveAll
 $LN1@RemoveAll:
 
-; 190  : 			free(m_aT);
+; 187  : 			free(m_aT);
 
   0004a	8b f4		 mov	 esi, esp
   0004c	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
@@ -998,27 +979,27 @@ $LN1@RemoveAll:
   0005b	3b f4		 cmp	 esi, esp
   0005d	e8 00 00 00 00	 call	 __RTC_CheckEsp
 
-; 191  : 			m_aT = NULL;
+; 188  : 			m_aT = NULL;
 
   00062	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00065	c7 00 00 00 00
 	00		 mov	 DWORD PTR [eax], 0
 $LN4@RemoveAll:
 
-; 192  : 		}
-; 193  : 		m_nSize = 0;
+; 189  : 		}
+; 190  : 		m_nSize = 0;
 
   0006b	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   0006e	c7 40 04 00 00
 	00 00		 mov	 DWORD PTR [eax+4], 0
 
-; 194  : 		m_nAllocSize = 0;
+; 191  : 		m_nAllocSize = 0;
 
   00075	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00078	c7 40 08 00 00
 	00 00		 mov	 DWORD PTR [eax+8], 0
 
-; 195  :     }
+; 192  :     }
 
   0007f	5f		 pop	 edi
   00080	5e		 pop	 esi
@@ -1046,7 +1027,7 @@ _t$ = 8							; size = 4
 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add, COMDAT
 ; _this$ = ecx
 
-; 129  : 	{
+; 125  : 	{
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -1064,7 +1045,7 @@ _t$ = 8							; size = 4
   0001f	59		 pop	 ecx
   00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
 
-; 130  : 		if(m_nSize == m_nAllocSize)
+; 126  : 		if(m_nSize == m_nAllocSize)
 
   00023	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00026	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
@@ -1074,10 +1055,10 @@ _t$ = 8							; size = 4
 	00		 jne	 $LN11@Add
 $LN10@Add:
 
-; 131  : 		{
-; 132  : 			// Make sure newElement is not a reference to an element in the array.
-; 133  : 			// Or else, it will be invalidated by the reallocation.
-; 134  : 			ATLENSURE(	(&t < m_aT) ||
+; 127  : 		{
+; 128  : 			// Make sure newElement is not a reference to an element in the array.
+; 129  : 			// Or else, it will be invalidated by the reallocation.
+; 130  : 			ATLENSURE(	(&t < m_aT) ||
 
   00035	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00038	8b 4d 08	 mov	 ecx, DWORD PTR _t$[ebp]
@@ -1102,7 +1083,7 @@ $LN15@Add:
   0006e	89 4d ec	 mov	 DWORD PTR ___atl_condVal$3[ebp], ecx
 $LN7@Add:
 
-; 135  : 						(&t >= (m_aT + m_nAllocSize) ) );
+; 131  : 						(&t >= (m_aT + m_nAllocSize) ) );
 
   00071	83 7d ec 00	 cmp	 DWORD PTR ___atl_condVal$3[ebp], 0
   00075	75 30		 jne	 SHORT $LN6@Add
@@ -1110,7 +1091,7 @@ $LN7@Add:
   00079	68 00 00 00 00	 push	 OFFSET ??_C@_1BM@GBBOFEAE@?$AA_?$AA_?$AAa?$AAt?$AAl?$AA_?$AAc?$AAo?$AAn?$AAd?$AAV?$AAa?$AAl?$AA?$AA@
   0007e	68 00 00 00 00	 push	 OFFSET ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@
   00083	6a 00		 push	 0
-  00085	68 87 00 00 00	 push	 135			; 00000087H
+  00085	68 83 00 00 00	 push	 131			; 00000083H
   0008a	68 00 00 00 00	 push	 OFFSET ??_C@_1NM@ICGFMKB@?$AAc?$AA?3?$AA?2?$AAu?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAa?$AAl?$AAe?$AAx?$AAa?$AAn?$AAd?$AAe?$AAr?$AA?5?$AAr?$AAi?$AAc?$AAc?$AAi?$AAo?$AA?2?$AAd?$AAo?$AAc?$AAu?$AAm?$AAe@
   0008f	6a 02		 push	 2
   00091	ff 15 00 00 00
@@ -1133,9 +1114,9 @@ $LN9@Add:
   000bd	0f 85 72 ff ff
 	ff		 jne	 $LN10@Add
 
-; 136  : 
-; 137  : 			T* aT;
-; 138  : 			int nNewAllocSize = (m_nAllocSize == 0) ? 1 : (m_nSize * 2);
+; 132  : 
+; 133  : 			T* aT;
+; 134  : 			int nNewAllocSize = (m_nAllocSize == 0) ? 1 : (m_nSize * 2);
 
   000c3	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   000c6	83 78 08 00	 cmp	 DWORD PTR [eax+8], 0
@@ -1154,8 +1135,8 @@ $LN18@Add:
 	ff		 mov	 eax, DWORD PTR tv93[ebp]
   000ec	89 45 d4	 mov	 DWORD PTR _nNewAllocSize$1[ebp], eax
 
-; 139  : 
-; 140  : 			if (nNewAllocSize<0||nNewAllocSize>INT_MAX/sizeof(T))
+; 135  : 
+; 136  : 			if (nNewAllocSize<0||nNewAllocSize>INT_MAX/sizeof(T))
 
   000ef	83 7d d4 00	 cmp	 DWORD PTR _nNewAllocSize$1[ebp], 0
   000f3	7c 09		 jl	 SHORT $LN2@Add
@@ -1164,16 +1145,16 @@ $LN18@Add:
   000fc	76 04		 jbe	 SHORT $LN3@Add
 $LN2@Add:
 
-; 141  : 			{
-; 142  : 				return FALSE;
+; 137  : 			{
+; 138  : 				return FALSE;
 
   000fe	33 c0		 xor	 eax, eax
   00100	eb 63		 jmp	 SHORT $LN13@Add
 $LN3@Add:
 
-; 143  : 			}
-; 144  : 
-; 145  : 			aT = (T*)_recalloc(m_aT, nNewAllocSize, sizeof(T));
+; 139  : 			}
+; 140  : 
+; 141  : 			aT = (T*)_recalloc(m_aT, nNewAllocSize, sizeof(T));
 
   00102	8b f4		 mov	 esi, esp
   00104	6a 04		 push	 4
@@ -1189,32 +1170,32 @@ $LN3@Add:
   0011b	e8 00 00 00 00	 call	 __RTC_CheckEsp
   00120	89 45 e0	 mov	 DWORD PTR _aT$2[ebp], eax
 
-; 146  : 			if(aT == NULL)
+; 142  : 			if(aT == NULL)
 
   00123	83 7d e0 00	 cmp	 DWORD PTR _aT$2[ebp], 0
   00127	75 04		 jne	 SHORT $LN1@Add
 
-; 147  : 				return FALSE;
+; 143  : 				return FALSE;
 
   00129	33 c0		 xor	 eax, eax
   0012b	eb 38		 jmp	 SHORT $LN13@Add
 $LN1@Add:
 
-; 148  : 			m_nAllocSize = nNewAllocSize;
+; 144  : 			m_nAllocSize = nNewAllocSize;
 
   0012d	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00130	8b 4d d4	 mov	 ecx, DWORD PTR _nNewAllocSize$1[ebp]
   00133	89 48 08	 mov	 DWORD PTR [eax+8], ecx
 
-; 149  : 			m_aT = aT;
+; 145  : 			m_aT = aT;
 
   00136	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00139	8b 4d e0	 mov	 ecx, DWORD PTR _aT$2[ebp]
   0013c	89 08		 mov	 DWORD PTR [eax], ecx
 $LN11@Add:
 
-; 150  : 		}
-; 151  : 		InternalSetAtIndex(m_nSize, t);
+; 146  : 		}
+; 147  : 		InternalSetAtIndex(m_nSize, t);
 
   0013e	8b 45 08	 mov	 eax, DWORD PTR _t$[ebp]
   00141	50		 push	 eax
@@ -1224,7 +1205,7 @@ $LN11@Add:
   00149	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
   0014c	e8 00 00 00 00	 call	 ?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::InternalSetAtIndex
 
-; 152  : 		m_nSize++;
+; 148  : 		m_nSize++;
 
   00151	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00154	8b 48 04	 mov	 ecx, DWORD PTR [eax+4]
@@ -1232,12 +1213,12 @@ $LN11@Add:
   0015a	8b 55 f8	 mov	 edx, DWORD PTR _this$[ebp]
   0015d	89 4a 04	 mov	 DWORD PTR [edx+4], ecx
 
-; 153  : 		return TRUE;
+; 149  : 		return TRUE;
 
   00160	b8 01 00 00 00	 mov	 eax, 1
 $LN13@Add:
 
-; 154  : 	}
+; 150  : 	}
 
   00165	5f		 pop	 edi
   00166	5e		 pop	 esi
@@ -1253,172 +1234,13 @@ $LN13@Add:
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
-;	COMDAT ?GetSize@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEHXZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?GetSize@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEHXZ PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetSize, COMDAT
-; _this$ = ecx
-
-; 119  : 	{
-
-  00000	55		 push	 ebp
-  00001	8b ec		 mov	 ebp, esp
-  00003	81 ec cc 00 00
-	00		 sub	 esp, 204		; 000000ccH
-  00009	53		 push	 ebx
-  0000a	56		 push	 esi
-  0000b	57		 push	 edi
-  0000c	51		 push	 ecx
-  0000d	8d bd 34 ff ff
-	ff		 lea	 edi, DWORD PTR [ebp-204]
-  00013	b9 33 00 00 00	 mov	 ecx, 51			; 00000033H
-  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
-  0001d	f3 ab		 rep stosd
-  0001f	59		 pop	 ecx
-  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
-
-; 120  : 		return m_nSize;
-
-  00023	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
-  00026	8b 40 04	 mov	 eax, DWORD PTR [eax+4]
-
-; 121  : 	}
-
-  00029	5f		 pop	 edi
-  0002a	5e		 pop	 esi
-  0002b	5b		 pop	 ebx
-  0002c	8b e5		 mov	 esp, ebp
-  0002e	5d		 pop	 ebp
-  0002f	c3		 ret	 0
-?GetSize@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEHXZ ENDP ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetSize
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
-;	COMDAT ??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@ABV01@@Z
-_TEXT	SEGMENT
-_i$1 = -20						; size = 4
-_this$ = -8						; size = 4
-_src$ = 8						; size = 4
-??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@ABV01@@Z PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >, COMDAT
-; _this$ = ecx
-
-; 81   : 	{
-
-  00000	55		 push	 ebp
-  00001	8b ec		 mov	 ebp, esp
-  00003	81 ec d8 00 00
-	00		 sub	 esp, 216		; 000000d8H
-  00009	53		 push	 ebx
-  0000a	56		 push	 esi
-  0000b	57		 push	 edi
-  0000c	51		 push	 ecx
-  0000d	8d bd 28 ff ff
-	ff		 lea	 edi, DWORD PTR [ebp-216]
-  00013	b9 36 00 00 00	 mov	 ecx, 54			; 00000036H
-  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
-  0001d	f3 ab		 rep stosd
-  0001f	59		 pop	 ecx
-  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
-  00023	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
-  00026	c7 00 00 00 00
-	00		 mov	 DWORD PTR [eax], 0
-  0002c	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
-  0002f	c7 40 04 00 00
-	00 00		 mov	 DWORD PTR [eax+4], 0
-  00036	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
-  00039	c7 40 08 00 00
-	00 00		 mov	 DWORD PTR [eax+8], 0
-
-; 82   :         if (src.GetSize())
-
-  00040	8b 4d 08	 mov	 ecx, DWORD PTR _src$[ebp]
-  00043	e8 00 00 00 00	 call	 ?GetSize@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEHXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetSize
-  00048	85 c0		 test	 eax, eax
-  0004a	74 6e		 je	 SHORT $LN6@CSimpleArr
-
-; 83   :         {
-; 84   : 			m_aT = (T*)calloc(src.GetSize(), sizeof(T));
-
-  0004c	8b f4		 mov	 esi, esp
-  0004e	6a 04		 push	 4
-  00050	8b 4d 08	 mov	 ecx, DWORD PTR _src$[ebp]
-  00053	e8 00 00 00 00	 call	 ?GetSize@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEHXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetSize
-  00058	50		 push	 eax
-  00059	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp__calloc
-  0005f	83 c4 08	 add	 esp, 8
-  00062	3b f4		 cmp	 esi, esp
-  00064	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  00069	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
-  0006c	89 01		 mov	 DWORD PTR [ecx], eax
-
-; 85   : 			if (m_aT != NULL)
-
-  0006e	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
-  00071	83 38 00	 cmp	 DWORD PTR [eax], 0
-  00074	74 44		 je	 SHORT $LN6@CSimpleArr
-
-; 86   : 			{
-; 87   : 				m_nAllocSize = src.GetSize();
-
-  00076	8b 4d 08	 mov	 ecx, DWORD PTR _src$[ebp]
-  00079	e8 00 00 00 00	 call	 ?GetSize@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEHXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetSize
-  0007e	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
-  00081	89 41 08	 mov	 DWORD PTR [ecx+8], eax
-
-; 88   : 				for (int i=0; i<src.GetSize(); i++)
-
-  00084	c7 45 ec 00 00
-	00 00		 mov	 DWORD PTR _i$1[ebp], 0
-  0008b	eb 09		 jmp	 SHORT $LN3@CSimpleArr
-$LN2@CSimpleArr:
-  0008d	8b 45 ec	 mov	 eax, DWORD PTR _i$1[ebp]
-  00090	83 c0 01	 add	 eax, 1
-  00093	89 45 ec	 mov	 DWORD PTR _i$1[ebp], eax
-$LN3@CSimpleArr:
-  00096	8b 4d 08	 mov	 ecx, DWORD PTR _src$[ebp]
-  00099	e8 00 00 00 00	 call	 ?GetSize@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEHXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetSize
-  0009e	39 45 ec	 cmp	 DWORD PTR _i$1[ebp], eax
-  000a1	7d 17		 jge	 SHORT $LN6@CSimpleArr
-
-; 89   : 					Add(src[i]);
-
-  000a3	8b 45 ec	 mov	 eax, DWORD PTR _i$1[ebp]
-  000a6	50		 push	 eax
-  000a7	8b 4d 08	 mov	 ecx, DWORD PTR _src$[ebp]
-  000aa	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEABHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  000af	50		 push	 eax
-  000b0	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
-  000b3	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
-  000b8	eb d3		 jmp	 SHORT $LN2@CSimpleArr
-$LN6@CSimpleArr:
-
-; 90   : 			}
-; 91   : 		}
-; 92   : 	}
-
-  000ba	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
-  000bd	5f		 pop	 edi
-  000be	5e		 pop	 esi
-  000bf	5b		 pop	 ebx
-  000c0	81 c4 d8 00 00
-	00		 add	 esp, 216		; 000000d8H
-  000c6	3b ec		 cmp	 ebp, esp
-  000c8	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  000cd	8b e5		 mov	 esp, ebp
-  000cf	5d		 pop	 ebp
-  000d0	c2 04 00	 ret	 4
-??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@ABV01@@Z ENDP ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
 ;	COMDAT ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ
 _TEXT	SEGMENT
 _this$ = -8						; size = 4
 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >, COMDAT
 ; _this$ = ecx
 
-; 314  : {
+; 297  : {
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -1436,12 +1258,12 @@ _this$ = -8						; size = 4
   0001f	59		 pop	 ecx
   00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
 
-; 315  : 	RemoveAll();
+; 298  : 	RemoveAll();
 
   00023	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
   00026	e8 00 00 00 00	 call	 ?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::RemoveAll
 
-; 316  : }
+; 299  : }
 
   0002b	5f		 pop	 edi
   0002c	5e		 pop	 esi
@@ -1463,7 +1285,7 @@ _this$ = -8						; size = 4
 ??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ PROC ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >, COMDAT
 ; _this$ = ecx
 
-; 72   : 	{
+; 70   : 	{
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -1490,7 +1312,7 @@ _this$ = -8						; size = 4
   00039	c7 40 08 00 00
 	00 00		 mov	 DWORD PTR [eax+8], 0
 
-; 73   : 	}
+; 71   : 	}
 
   00040	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
   00043	5f		 pop	 edi
@@ -1502,41 +1324,696 @@ _this$ = -8						; size = 4
 ??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ENDP ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ?__autoclassinit2@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXI@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+_classSize$ = 8						; size = 4
+?__autoclassinit2@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXI@Z PROC ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::__autoclassinit2, COMDAT
+; _this$ = ecx
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec cc 00 00
+	00		 sub	 esp, 204		; 000000ccH
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	51		 push	 ecx
+  0000d	8d bd 34 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-204]
+  00013	b9 33 00 00 00	 mov	 ecx, 51			; 00000033H
+  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001d	f3 ab		 rep stosd
+  0001f	59		 pop	 ecx
+  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
+  00023	8b 45 08	 mov	 eax, DWORD PTR _classSize$[ebp]
+  00026	50		 push	 eax
+  00027	6a 00		 push	 0
+  00029	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
+  0002c	51		 push	 ecx
+  0002d	e8 00 00 00 00	 call	 _memset
+  00032	83 c4 0c	 add	 esp, 12			; 0000000cH
+  00035	5f		 pop	 edi
+  00036	5e		 pop	 esi
+  00037	5b		 pop	 ebx
+  00038	81 c4 cc 00 00
+	00		 add	 esp, 204		; 000000ccH
+  0003e	3b ec		 cmp	 ebp, esp
+  00040	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  00045	8b e5		 mov	 esp, ebp
+  00047	5d		 pop	 ebp
+  00048	c2 04 00	 ret	 4
+?__autoclassinit2@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXI@Z ENDP ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::__autoclassinit2
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h
+;	COMDAT ?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z
+_TEXT	SEGMENT
+tv80 = -244						; size = 4
+$T2 = -236						; size = 4
+$T3 = -224						; size = 4
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+_nIndex$ = 8						; size = 4
+_t$ = 12						; size = 4
+?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z PROC ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::InternalSetAtIndex, COMDAT
+; _this$ = ecx
+
+; 290  : 	{
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	6a ff		 push	 -1
+  00005	68 00 00 00 00	 push	 __ehhandler$?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z
+  0000a	64 a1 00 00 00
+	00		 mov	 eax, DWORD PTR fs:0
+  00010	50		 push	 eax
+  00011	81 ec e8 00 00
+	00		 sub	 esp, 232		; 000000e8H
+  00017	53		 push	 ebx
+  00018	56		 push	 esi
+  00019	57		 push	 edi
+  0001a	51		 push	 ecx
+  0001b	8d bd 0c ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-244]
+  00021	b9 3a 00 00 00	 mov	 ecx, 58			; 0000003aH
+  00026	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0002b	f3 ab		 rep stosd
+  0002d	59		 pop	 ecx
+  0002e	a1 00 00 00 00	 mov	 eax, DWORD PTR ___security_cookie
+  00033	33 c5		 xor	 eax, ebp
+  00035	50		 push	 eax
+  00036	8d 45 f4	 lea	 eax, DWORD PTR __$EHRec$[ebp]
+  00039	64 a3 00 00 00
+	00		 mov	 DWORD PTR fs:0, eax
+  0003f	89 4d ec	 mov	 DWORD PTR _this$[ebp], ecx
+
+; 291  : 		new(m_aT + nIndex) Wrapper(t);
+
+  00042	8b 45 ec	 mov	 eax, DWORD PTR _this$[ebp]
+  00045	8b 08		 mov	 ecx, DWORD PTR [eax]
+  00047	8b 55 08	 mov	 edx, DWORD PTR _nIndex$[ebp]
+  0004a	8d 04 91	 lea	 eax, DWORD PTR [ecx+edx*4]
+  0004d	50		 push	 eax
+  0004e	6a 04		 push	 4
+  00050	e8 00 00 00 00	 call	 ??$?2H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@SAPAXIPAH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator new<int>
+  00055	83 c4 08	 add	 esp, 8
+  00058	89 85 20 ff ff
+	ff		 mov	 DWORD PTR $T3[ebp], eax
+  0005e	c7 45 fc 00 00
+	00 00		 mov	 DWORD PTR __$EHRec$[ebp+8], 0
+  00065	83 bd 20 ff ff
+	ff 00		 cmp	 DWORD PTR $T3[ebp], 0
+  0006c	74 17		 je	 SHORT $LN3@InternalSe
+  0006e	8b 4d 0c	 mov	 ecx, DWORD PTR _t$[ebp]
+  00071	51		 push	 ecx
+  00072	8b 8d 20 ff ff
+	ff		 mov	 ecx, DWORD PTR $T3[ebp]
+  00078	e8 00 00 00 00	 call	 ??0Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@ABH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::Wrapper
+  0007d	89 85 0c ff ff
+	ff		 mov	 DWORD PTR tv80[ebp], eax
+  00083	eb 0a		 jmp	 SHORT $LN4@InternalSe
+$LN3@InternalSe:
+  00085	c7 85 0c ff ff
+	ff 00 00 00 00	 mov	 DWORD PTR tv80[ebp], 0
+$LN4@InternalSe:
+  0008f	8b 95 0c ff ff
+	ff		 mov	 edx, DWORD PTR tv80[ebp]
+  00095	89 95 14 ff ff
+	ff		 mov	 DWORD PTR $T2[ebp], edx
+  0009b	c7 45 fc ff ff
+	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
+
+; 292  : 	}
+
+  000a2	8b 4d f4	 mov	 ecx, DWORD PTR __$EHRec$[ebp]
+  000a5	64 89 0d 00 00
+	00 00		 mov	 DWORD PTR fs:0, ecx
+  000ac	59		 pop	 ecx
+  000ad	5f		 pop	 edi
+  000ae	5e		 pop	 esi
+  000af	5b		 pop	 ebx
+  000b0	81 c4 f4 00 00
+	00		 add	 esp, 244		; 000000f4H
+  000b6	3b ec		 cmp	 ebp, esp
+  000b8	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  000bd	8b e5		 mov	 esp, ebp
+  000bf	5d		 pop	 ebp
+  000c0	c2 08 00	 ret	 8
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z$0:
+  00000	8b 4d ec	 mov	 ecx, DWORD PTR _this$[ebp]
+  00003	8b 09		 mov	 ecx, DWORD PTR [ecx]
+  00005	8b 45 08	 mov	 eax, DWORD PTR _nIndex$[ebp]
+  00008	8d 04 81	 lea	 eax, DWORD PTR [ecx+eax*4]
+  0000b	50		 push	 eax
+  0000c	8b 85 20 ff ff
+	ff		 mov	 eax, DWORD PTR $T3[ebp]
+  00012	50		 push	 eax
+  00013	e8 00 00 00 00	 call	 ??$?3H@Wrapper@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@SAXPAXPAH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Wrapper::operator delete<int>
+  00018	83 c4 08	 add	 esp, 8
+  0001b	c3		 ret	 0
+__ehhandler$?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z:
+  0001c	8b 54 24 08	 mov	 edx, DWORD PTR [esp+8]
+  00020	8d 42 0c	 lea	 eax, DWORD PTR [edx+12]
+  00023	8b 8a 08 ff ff
+	ff		 mov	 ecx, DWORD PTR [edx-248]
+  00029	33 c8		 xor	 ecx, eax
+  0002b	e8 00 00 00 00	 call	 @__security_check_cookie@4
+  00030	b8 00 00 00 00	 mov	 eax, OFFSET __ehfuncinfo$?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z
+  00035	e9 00 00 00 00	 jmp	 ___CxxFrameHandler3
+text$x	ENDS
+?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z ENDP ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::InternalSetAtIndex
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h
+;	COMDAT ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEAAHH@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+_nIndex$ = 8						; size = 4
+??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEAAHH@Z PROC ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::operator[], COMDAT
+; _this$ = ecx
+
+; 230  : 	{
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec cc 00 00
+	00		 sub	 esp, 204		; 000000ccH
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	51		 push	 ecx
+  0000d	8d bd 34 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-204]
+  00013	b9 33 00 00 00	 mov	 ecx, 51			; 00000033H
+  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001d	f3 ab		 rep stosd
+  0001f	59		 pop	 ecx
+  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
+
+; 231  : 		ATLASSERT(nIndex >= 0 && nIndex < m_nSize);
+
+  00023	83 7d 08 00	 cmp	 DWORD PTR _nIndex$[ebp], 0
+  00027	7c 0b		 jl	 SHORT $LN5@operator
+  00029	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  0002c	8b 4d 08	 mov	 ecx, DWORD PTR _nIndex$[ebp]
+  0002f	3b 48 04	 cmp	 ecx, DWORD PTR [eax+4]
+  00032	7c 30		 jl	 SHORT $LN6@operator
+$LN5@operator:
+  00034	8b f4		 mov	 esi, esp
+  00036	68 00 00 00 00	 push	 OFFSET ??_C@_1EA@JHMKKLFC@?$AAn?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AAn?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DM?$AA?5?$AAm?$AA_?$AAn?$AAS?$AAi?$AAz?$AAe?$AA?$AA@
+  0003b	68 00 00 00 00	 push	 OFFSET ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@
+  00040	6a 00		 push	 0
+  00042	68 e7 00 00 00	 push	 231			; 000000e7H
+  00047	68 00 00 00 00	 push	 OFFSET ??_C@_1KI@KJKLFHG@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+  0004c	6a 02		 push	 2
+  0004e	ff 15 00 00 00
+	00		 call	 DWORD PTR __imp___CrtDbgReportW
+  00054	83 c4 18	 add	 esp, 24			; 00000018H
+  00057	3b f4		 cmp	 esi, esp
+  00059	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  0005e	83 f8 01	 cmp	 eax, 1
+  00061	75 01		 jne	 SHORT $LN6@operator
+  00063	cc		 int	 3
+$LN6@operator:
+
+; 232  : 		if(nIndex < 0 || nIndex >= m_nSize)
+
+  00064	83 7d 08 00	 cmp	 DWORD PTR _nIndex$[ebp], 0
+  00068	7c 0b		 jl	 SHORT $LN1@operator
+  0006a	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  0006d	8b 4d 08	 mov	 ecx, DWORD PTR _nIndex$[ebp]
+  00070	3b 48 04	 cmp	 ecx, DWORD PTR [eax+4]
+  00073	7c 0c		 jl	 SHORT $LN2@operator
+$LN1@operator:
+
+; 233  : 		{
+; 234  : 			_AtlRaiseException((DWORD)EXCEPTION_ARRAY_BOUNDS_EXCEEDED);
+
+  00075	6a 01		 push	 1
+  00077	68 8c 00 00 c0	 push	 -1073741684		; c000008cH
+  0007c	e8 00 00 00 00	 call	 ?_AtlRaiseException@ATL@@YAXKK@Z ; ATL::_AtlRaiseException
+$LN2@operator:
+
+; 235  : 		}
+; 236  : 		return m_aT[nIndex];
+
+  00081	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00084	8b 08		 mov	 ecx, DWORD PTR [eax]
+  00086	8b 55 08	 mov	 edx, DWORD PTR _nIndex$[ebp]
+  00089	8d 04 91	 lea	 eax, DWORD PTR [ecx+edx*4]
+$LN4@operator:
+
+; 237  : 	}
+
+  0008c	5f		 pop	 edi
+  0008d	5e		 pop	 esi
+  0008e	5b		 pop	 ebx
+  0008f	81 c4 cc 00 00
+	00		 add	 esp, 204		; 000000ccH
+  00095	3b ec		 cmp	 ebp, esp
+  00097	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  0009c	8b e5		 mov	 esp, ebp
+  0009e	5d		 pop	 ebp
+  0009f	c2 04 00	 ret	 4
+??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEAAHH@Z ENDP ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::operator[]
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h
+;	COMDAT ?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXXZ
+_TEXT	SEGMENT
+_i$1 = -20						; size = 4
+_this$ = -8						; size = 4
+?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXXZ PROC ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::RemoveAll, COMDAT
+; _this$ = ecx
+
+; 209  : 	{
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec d8 00 00
+	00		 sub	 esp, 216		; 000000d8H
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	51		 push	 ecx
+  0000d	8d bd 28 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-216]
+  00013	b9 36 00 00 00	 mov	 ecx, 54			; 00000036H
+  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001d	f3 ab		 rep stosd
+  0001f	59		 pop	 ecx
+  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
+
+; 210  : 		if(m_aT != NULL)
+
+  00023	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00026	83 38 00	 cmp	 DWORD PTR [eax], 0
+  00029	74 40		 je	 SHORT $LN4@RemoveAll
+
+; 211  : 		{
+; 212  : 			for(int i = 0; i < m_nSize; i++)
+
+  0002b	c7 45 ec 00 00
+	00 00		 mov	 DWORD PTR _i$1[ebp], 0
+  00032	eb 09		 jmp	 SHORT $LN3@RemoveAll
+$LN2@RemoveAll:
+  00034	8b 45 ec	 mov	 eax, DWORD PTR _i$1[ebp]
+  00037	83 c0 01	 add	 eax, 1
+  0003a	89 45 ec	 mov	 DWORD PTR _i$1[ebp], eax
+$LN3@RemoveAll:
+  0003d	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00040	8b 4d ec	 mov	 ecx, DWORD PTR _i$1[ebp]
+  00043	3b 48 04	 cmp	 ecx, DWORD PTR [eax+4]
+  00046	7d 02		 jge	 SHORT $LN1@RemoveAll
+
+; 213  : 				m_aT[i].~T();
+
+  00048	eb ea		 jmp	 SHORT $LN2@RemoveAll
+$LN1@RemoveAll:
+
+; 214  : 			free(m_aT);
+
+  0004a	8b f4		 mov	 esi, esp
+  0004c	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  0004f	8b 08		 mov	 ecx, DWORD PTR [eax]
+  00051	51		 push	 ecx
+  00052	ff 15 00 00 00
+	00		 call	 DWORD PTR __imp__free
+  00058	83 c4 04	 add	 esp, 4
+  0005b	3b f4		 cmp	 esi, esp
+  0005d	e8 00 00 00 00	 call	 __RTC_CheckEsp
+
+; 215  : 			m_aT = NULL;
+
+  00062	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00065	c7 00 00 00 00
+	00		 mov	 DWORD PTR [eax], 0
+$LN4@RemoveAll:
+
+; 216  : 		}
+; 217  : 		m_nSize = 0;
+
+  0006b	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  0006e	c7 40 04 00 00
+	00 00		 mov	 DWORD PTR [eax+4], 0
+
+; 218  : 		m_nAllocSize = 0;
+
+  00075	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00078	c7 40 08 00 00
+	00 00		 mov	 DWORD PTR [eax+8], 0
+
+; 219  :     }
+
+  0007f	5f		 pop	 edi
+  00080	5e		 pop	 esi
+  00081	5b		 pop	 ebx
+  00082	81 c4 d8 00 00
+	00		 add	 esp, 216		; 000000d8H
+  00088	3b ec		 cmp	 ebp, esp
+  0008a	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  0008f	8b e5		 mov	 esp, ebp
+  00091	5d		 pop	 ebp
+  00092	c3		 ret	 0
+?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXXZ ENDP ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::RemoveAll
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h
+;	COMDAT ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEHABH@Z
+_TEXT	SEGMENT
+tv93 = -244						; size = 4
+tv74 = -244						; size = 4
+_nNewAllocSize$1 = -44					; size = 4
+_aT$2 = -32						; size = 4
+___atl_condVal$3 = -20					; size = 4
+_this$ = -8						; size = 4
+_t$ = 8							; size = 4
+?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEHABH@Z PROC ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Add, COMDAT
+; _this$ = ecx
+
+; 164  : 	{
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec f4 00 00
+	00		 sub	 esp, 244		; 000000f4H
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	51		 push	 ecx
+  0000d	8d bd 0c ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-244]
+  00013	b9 3d 00 00 00	 mov	 ecx, 61			; 0000003dH
+  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001d	f3 ab		 rep stosd
+  0001f	59		 pop	 ecx
+  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
+
+; 165  : 		if(m_nSize == m_nAllocSize)
+
+  00023	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00026	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
+  00029	8b 50 04	 mov	 edx, DWORD PTR [eax+4]
+  0002c	3b 51 08	 cmp	 edx, DWORD PTR [ecx+8]
+  0002f	0f 85 09 01 00
+	00		 jne	 $LN11@Add
+$LN10@Add:
+
+; 166  : 		{
+; 167  : 			// Make sure newElement is not a reference to an element in the array.
+; 168  : 			// Or else, it will be invalidated by the reallocation.
+; 169  : 			ATLENSURE(	(&t < m_aT) ||
+
+  00035	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00038	8b 4d 08	 mov	 ecx, DWORD PTR _t$[ebp]
+  0003b	3b 08		 cmp	 ecx, DWORD PTR [eax]
+  0003d	72 1f		 jb	 SHORT $LN14@Add
+  0003f	8b 55 f8	 mov	 edx, DWORD PTR _this$[ebp]
+  00042	8b 42 08	 mov	 eax, DWORD PTR [edx+8]
+  00045	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
+  00048	8b 11		 mov	 edx, DWORD PTR [ecx]
+  0004a	8d 04 82	 lea	 eax, DWORD PTR [edx+eax*4]
+  0004d	39 45 08	 cmp	 DWORD PTR _t$[ebp], eax
+  00050	73 0c		 jae	 SHORT $LN14@Add
+  00052	c7 85 0c ff ff
+	ff 00 00 00 00	 mov	 DWORD PTR tv74[ebp], 0
+  0005c	eb 0a		 jmp	 SHORT $LN15@Add
+$LN14@Add:
+  0005e	c7 85 0c ff ff
+	ff 01 00 00 00	 mov	 DWORD PTR tv74[ebp], 1
+$LN15@Add:
+  00068	8b 8d 0c ff ff
+	ff		 mov	 ecx, DWORD PTR tv74[ebp]
+  0006e	89 4d ec	 mov	 DWORD PTR ___atl_condVal$3[ebp], ecx
+$LN7@Add:
+
+; 170  : 						(&t >= (m_aT + m_nAllocSize) ) );
+
+  00071	83 7d ec 00	 cmp	 DWORD PTR ___atl_condVal$3[ebp], 0
+  00075	75 30		 jne	 SHORT $LN6@Add
+  00077	8b f4		 mov	 esi, esp
+  00079	68 00 00 00 00	 push	 OFFSET ??_C@_1BM@GBBOFEAE@?$AA_?$AA_?$AAa?$AAt?$AAl?$AA_?$AAc?$AAo?$AAn?$AAd?$AAV?$AAa?$AAl?$AA?$AA@
+  0007e	68 00 00 00 00	 push	 OFFSET ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@
+  00083	6a 00		 push	 0
+  00085	68 aa 00 00 00	 push	 170			; 000000aaH
+  0008a	68 00 00 00 00	 push	 OFFSET ??_C@_1KI@KJKLFHG@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+  0008f	6a 02		 push	 2
+  00091	ff 15 00 00 00
+	00		 call	 DWORD PTR __imp___CrtDbgReportW
+  00097	83 c4 18	 add	 esp, 24			; 00000018H
+  0009a	3b f4		 cmp	 esi, esp
+  0009c	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  000a1	83 f8 01	 cmp	 eax, 1
+  000a4	75 01		 jne	 SHORT $LN6@Add
+  000a6	cc		 int	 3
+$LN6@Add:
+  000a7	33 c0		 xor	 eax, eax
+  000a9	75 c6		 jne	 SHORT $LN7@Add
+  000ab	83 7d ec 00	 cmp	 DWORD PTR ___atl_condVal$3[ebp], 0
+  000af	75 0a		 jne	 SHORT $LN9@Add
+  000b1	68 05 40 00 80	 push	 -2147467259		; 80004005H
+  000b6	e8 00 00 00 00	 call	 ?AtlThrowImpl@ATL@@YGXJ@Z ; ATL::AtlThrowImpl
+$LN9@Add:
+  000bb	33 c0		 xor	 eax, eax
+  000bd	0f 85 72 ff ff
+	ff		 jne	 $LN10@Add
+
+; 171  : 
+; 172  : 			T* aT;
+; 173  : 			int nNewAllocSize = (m_nAllocSize == 0) ? 1 : (m_nSize * 2);
+
+  000c3	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  000c6	83 78 08 00	 cmp	 DWORD PTR [eax+8], 0
+  000ca	75 0c		 jne	 SHORT $LN17@Add
+  000cc	c7 85 0c ff ff
+	ff 01 00 00 00	 mov	 DWORD PTR tv93[ebp], 1
+  000d6	eb 0e		 jmp	 SHORT $LN18@Add
+$LN17@Add:
+  000d8	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
+  000db	8b 51 04	 mov	 edx, DWORD PTR [ecx+4]
+  000de	d1 e2		 shl	 edx, 1
+  000e0	89 95 0c ff ff
+	ff		 mov	 DWORD PTR tv93[ebp], edx
+$LN18@Add:
+  000e6	8b 85 0c ff ff
+	ff		 mov	 eax, DWORD PTR tv93[ebp]
+  000ec	89 45 d4	 mov	 DWORD PTR _nNewAllocSize$1[ebp], eax
+
+; 174  : 
+; 175  : 			if (nNewAllocSize<0||nNewAllocSize>INT_MAX/sizeof(T))
+
+  000ef	83 7d d4 00	 cmp	 DWORD PTR _nNewAllocSize$1[ebp], 0
+  000f3	7c 09		 jl	 SHORT $LN2@Add
+  000f5	81 7d d4 ff ff
+	ff 1f		 cmp	 DWORD PTR _nNewAllocSize$1[ebp], 536870911 ; 1fffffffH
+  000fc	76 04		 jbe	 SHORT $LN3@Add
+$LN2@Add:
+
+; 176  : 			{
+; 177  : 				return FALSE;
+
+  000fe	33 c0		 xor	 eax, eax
+  00100	eb 63		 jmp	 SHORT $LN13@Add
+$LN3@Add:
+
+; 178  : 			}
+; 179  : 
+; 180  : 			aT = (T*)_recalloc(m_aT, nNewAllocSize, sizeof(T));
+
+  00102	8b f4		 mov	 esi, esp
+  00104	6a 04		 push	 4
+  00106	8b 45 d4	 mov	 eax, DWORD PTR _nNewAllocSize$1[ebp]
+  00109	50		 push	 eax
+  0010a	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
+  0010d	8b 11		 mov	 edx, DWORD PTR [ecx]
+  0010f	52		 push	 edx
+  00110	ff 15 00 00 00
+	00		 call	 DWORD PTR __imp___recalloc
+  00116	83 c4 0c	 add	 esp, 12			; 0000000cH
+  00119	3b f4		 cmp	 esi, esp
+  0011b	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  00120	89 45 e0	 mov	 DWORD PTR _aT$2[ebp], eax
+
+; 181  : 			if(aT == NULL)
+
+  00123	83 7d e0 00	 cmp	 DWORD PTR _aT$2[ebp], 0
+  00127	75 04		 jne	 SHORT $LN1@Add
+
+; 182  : 				return FALSE;
+
+  00129	33 c0		 xor	 eax, eax
+  0012b	eb 38		 jmp	 SHORT $LN13@Add
+$LN1@Add:
+
+; 183  : 			m_nAllocSize = nNewAllocSize;
+
+  0012d	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00130	8b 4d d4	 mov	 ecx, DWORD PTR _nNewAllocSize$1[ebp]
+  00133	89 48 08	 mov	 DWORD PTR [eax+8], ecx
+
+; 184  : 			m_aT = aT;
+
+  00136	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00139	8b 4d e0	 mov	 ecx, DWORD PTR _aT$2[ebp]
+  0013c	89 08		 mov	 DWORD PTR [eax], ecx
+$LN11@Add:
+
+; 185  : 		}
+; 186  : 		InternalSetAtIndex(m_nSize, t);
+
+  0013e	8b 45 08	 mov	 eax, DWORD PTR _t$[ebp]
+  00141	50		 push	 eax
+  00142	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
+  00145	8b 51 04	 mov	 edx, DWORD PTR [ecx+4]
+  00148	52		 push	 edx
+  00149	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
+  0014c	e8 00 00 00 00	 call	 ?InternalSetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXHABH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::InternalSetAtIndex
+
+; 187  : 		m_nSize++;
+
+  00151	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00154	8b 48 04	 mov	 ecx, DWORD PTR [eax+4]
+  00157	83 c1 01	 add	 ecx, 1
+  0015a	8b 55 f8	 mov	 edx, DWORD PTR _this$[ebp]
+  0015d	89 4a 04	 mov	 DWORD PTR [edx+4], ecx
+
+; 188  : 		return TRUE;
+
+  00160	b8 01 00 00 00	 mov	 eax, 1
+$LN13@Add:
+
+; 189  : 	}
+
+  00165	5f		 pop	 edi
+  00166	5e		 pop	 esi
+  00167	5b		 pop	 ebx
+  00168	81 c4 f4 00 00
+	00		 add	 esp, 244		; 000000f4H
+  0016e	3b ec		 cmp	 ebp, esp
+  00170	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  00175	8b e5		 mov	 esp, ebp
+  00177	5d		 pop	 ebp
+  00178	c2 04 00	 ret	 4
+?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEHABH@Z ENDP ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Add
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h
+;	COMDAT ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ PROC ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >, COMDAT
+; _this$ = ecx
+
+; 303  : {
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec cc 00 00
+	00		 sub	 esp, 204		; 000000ccH
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	51		 push	 ecx
+  0000d	8d bd 34 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-204]
+  00013	b9 33 00 00 00	 mov	 ecx, 51			; 00000033H
+  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001d	f3 ab		 rep stosd
+  0001f	59		 pop	 ecx
+  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
+
+; 304  : 	RemoveAll();
+
+  00023	8b 4d f8	 mov	 ecx, DWORD PTR _this$[ebp]
+  00026	e8 00 00 00 00	 call	 ?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXXZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::RemoveAll
+
+; 305  : }
+
+  0002b	5f		 pop	 edi
+  0002c	5e		 pop	 esi
+  0002d	5b		 pop	 ebx
+  0002e	81 c4 cc 00 00
+	00		 add	 esp, 204		; 000000ccH
+  00034	3b ec		 cmp	 ebp, esp
+  00036	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  0003b	8b e5		 mov	 esp, ebp
+  0003d	5d		 pop	 ebp
+  0003e	c3		 ret	 0
+??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ENDP ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\atlsimpcoll.h
+;	COMDAT ??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ PROC ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >, COMDAT
+; _this$ = ecx
+
+; 120  : 	{
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec cc 00 00
+	00		 sub	 esp, 204		; 000000ccH
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	51		 push	 ecx
+  0000d	8d bd 34 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-204]
+  00013	b9 33 00 00 00	 mov	 ecx, 51			; 00000033H
+  00018	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001d	f3 ab		 rep stosd
+  0001f	59		 pop	 ecx
+  00020	89 4d f8	 mov	 DWORD PTR _this$[ebp], ecx
+  00023	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00026	c7 00 00 00 00
+	00		 mov	 DWORD PTR [eax], 0
+  0002c	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  0002f	c7 40 04 00 00
+	00 00		 mov	 DWORD PTR [eax+4], 0
+  00036	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00039	c7 40 08 00 00
+	00 00		 mov	 DWORD PTR [eax+8], 0
+
+; 121  : 	}
+
+  00040	8b 45 f8	 mov	 eax, DWORD PTR _this$[ebp]
+  00043	5f		 pop	 edi
+  00044	5e		 pop	 esi
+  00045	5b		 pop	 ebx
+  00046	8b e5		 mov	 esp, ebp
+  00048	5d		 pop	 ebp
+  00049	c3		 ret	 0
+??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ENDP ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
 ;	COMDAT _wmain
 _TEXT	SEGMENT
-$T2 = -628						; size = 4
-$T3 = -616						; size = 4
-$T4 = -604						; size = 4
-$T5 = -592						; size = 4
-$T6 = -580						; size = 4
-$T7 = -568						; size = 4
-$T8 = -556						; size = 4
-$T9 = -544						; size = 4
-$T10 = -532						; size = 4
-$T11 = -520						; size = 4
-$T12 = -508						; size = 4
-$T13 = -496						; size = 4
-$T14 = -484						; size = 4
-_s$ = -280						; size = 4
-_r$ = -268						; size = 4
-_other_array$ = -256					; size = 12
-_j$ = -236						; size = 4
-_i$ = -224						; size = 4
-_h$ = -212						; size = 4
-_z_$ = -200						; size = 4
-_q$ = -188						; size = 4
-_m$ = -176						; size = 4
-_l$ = -164						; size = 4
-_k$ = -152						; size = 4
-_g$ = -140						; size = 4
-_p$ = -128						; size = 4
-_e$ = -116						; size = 4
-_u$ = -104						; size = 4
-_t$ = -92						; size = 4
-_f$ = -80						; size = 4
-_z$15 = -68						; size = 4
-_d$ = -56						; size = 12
+$T2 = -496						; size = 4
+$T3 = -484						; size = 4
+$T4 = -472						; size = 4
+$T5 = -460						; size = 4
+$T6 = -448						; size = 4
+$T7 = -436						; size = 4
+$T8 = -424						; size = 4
+$T9 = -412						; size = 4
+_j$ = -208						; size = 4
+_i$ = -196						; size = 4
+_h$ = -184						; size = 4
+_m$ = -172						; size = 4
+_l$ = -160						; size = 4
+_k$ = -148						; size = 4
+_g$ = -136						; size = 4
+_p$ = -124						; size = 4
+_e$ = -112						; size = 4
+_f$ = -100						; size = 4
+_d$ = -88						; size = 12
+_c$ = -68						; size = 4
+_b$ = -56						; size = 12
 _nRetCode$ = -36					; size = 4
 _hModule$ = -24						; size = 4
 __$ArrayPad$ = -16					; size = 4
@@ -1546,7 +2023,7 @@ _argv$ = 12						; size = 4
 _envp$ = 16						; size = 4
 _wmain	PROC						; COMDAT
 
-; 361  : int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[ ], WCHAR* envp[ ] ) {
+; 340  : int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[ ], WCHAR* envp[ ] ) {
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
@@ -1555,14 +2032,14 @@ _wmain	PROC						; COMDAT
   0000a	64 a1 00 00 00
 	00		 mov	 eax, DWORD PTR fs:0
   00010	50		 push	 eax
-  00011	81 ec 6c 02 00
-	00		 sub	 esp, 620		; 0000026cH
+  00011	81 ec e8 01 00
+	00		 sub	 esp, 488		; 000001e8H
   00017	53		 push	 ebx
   00018	56		 push	 esi
   00019	57		 push	 edi
-  0001a	8d bd 88 fd ff
-	ff		 lea	 edi, DWORD PTR [ebp-632]
-  00020	b9 9b 00 00 00	 mov	 ecx, 155		; 0000009bH
+  0001a	8d bd 0c fe ff
+	ff		 lea	 edi, DWORD PTR [ebp-500]
+  00020	b9 7a 00 00 00	 mov	 ecx, 122		; 0000007aH
   00025	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
   0002a	f3 ab		 rep stosd
   0002c	a1 00 00 00 00	 mov	 eax, DWORD PTR ___security_cookie
@@ -1573,8 +2050,8 @@ _wmain	PROC						; COMDAT
   0003a	64 a3 00 00 00
 	00		 mov	 DWORD PTR fs:0, eax
 
-; 362  : 	//printf( "start!\r\n" );
-; 363  : 	HMODULE hModule = ::GetModuleHandleW( NULL );
+; 341  : 	//printf( "start!\r\n" );
+; 342  : 	HMODULE hModule = ::GetModuleHandleW( NULL );
 
   00040	8b f4		 mov	 esi, esp
   00042	6a 00		 push	 0
@@ -1584,18 +2061,18 @@ _wmain	PROC						; COMDAT
   0004c	e8 00 00 00 00	 call	 __RTC_CheckEsp
   00051	89 45 e8	 mov	 DWORD PTR _hModule$[ebp], eax
 
-; 364  : 	int nRetCode = 0;
+; 343  : 	int nRetCode = 0;
 
   00054	c7 45 dc 00 00
 	00 00		 mov	 DWORD PTR _nRetCode$[ebp], 0
 
-; 365  : 
-; 366  : 	if ( hModule == NULL ) {
+; 344  : 
+; 345  : 	if ( hModule == NULL ) {
 
   0005b	83 7d e8 00	 cmp	 DWORD PTR _hModule$[ebp], 0
-  0005f	75 3a		 jne	 SHORT $LN10@wmain
+  0005f	75 3a		 jne	 SHORT $LN4@wmain
 
-; 367  : 		fwprintf( stderr, L"Couldn't get module handle!\r\n" );
+; 346  : 		fwprintf( stderr, L"Couldn't get module handle!\r\n" );
 
   00061	8b f4		 mov	 esi, esp
   00063	68 00 00 00 00	 push	 OFFSET ??_C@_1DM@EBFIOLIP@?$AAC?$AAo?$AAu?$AAl?$AAd?$AAn?$AA?8?$AAt?$AA?5?$AAg?$AAe?$AAt?$AA?5?$AAm?$AAo?$AAd?$AAu?$AAl?$AAe?$AA?5?$AAh?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$CB?$AA?$AN?$AA?6?$AA?$AA@
@@ -1614,15 +2091,15 @@ _wmain	PROC						; COMDAT
   0008a	3b f4		 cmp	 esi, esp
   0008c	e8 00 00 00 00	 call	 __RTC_CheckEsp
 
-; 368  : 		return ERROR_MOD_NOT_FOUND;
+; 347  : 		return ERROR_MOD_NOT_FOUND;
 
   00091	b8 7e 00 00 00	 mov	 eax, 126		; 0000007eH
-  00096	e9 17 05 00 00	 jmp	 $LN11@wmain
-$LN10@wmain:
+  00096	e9 58 03 00 00	 jmp	 $LN5@wmain
+$LN4@wmain:
 
-; 369  : 		}
-; 370  : 
-; 371  : 	if ( !AfxWinInit( hModule, NULL, ::GetCommandLine( ), 0 ) ) {
+; 348  : 		}
+; 349  : 
+; 350  : 	if ( !AfxWinInit( hModule, NULL, ::GetCommandLine( ), 0 ) ) {
 
   0009b	6a 00		 push	 0
   0009d	8b f4		 mov	 esi, esp
@@ -1636,9 +2113,9 @@ $LN10@wmain:
   000b2	50		 push	 eax
   000b3	e8 00 00 00 00	 call	 ?AfxWinInit@@YGHPAUHINSTANCE__@@0PA_WH@Z ; AfxWinInit
   000b8	85 c0		 test	 eax, eax
-  000ba	75 3a		 jne	 SHORT $LN9@wmain
+  000ba	75 3a		 jne	 SHORT $LN3@wmain
 
-; 372  : 		fwprintf( stderr, L"Fatal Error: MFC initialization failed!\r\n" );
+; 351  : 		fwprintf( stderr, L"Fatal Error: MFC initialization failed!\r\n" );
 
   000bc	8b f4		 mov	 esi, esp
   000be	68 00 00 00 00	 push	 OFFSET ??_C@_1FE@OLJODHIP@?$AAF?$AAa?$AAt?$AAa?$AAl?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?3?$AA?5?$AAM?$AAF?$AAC?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5@
@@ -1657,722 +2134,632 @@ $LN10@wmain:
   000e5	3b f4		 cmp	 esi, esp
   000e7	e8 00 00 00 00	 call	 __RTC_CheckEsp
 
-; 373  : 		return ERROR_APP_INIT_FAILURE;
+; 352  : 		return ERROR_APP_INIT_FAILURE;
 
   000ec	b8 3f 02 00 00	 mov	 eax, 575		; 0000023fH
-  000f1	e9 bc 04 00 00	 jmp	 $LN11@wmain
-$LN9@wmain:
+  000f1	e9 fd 02 00 00	 jmp	 $LN5@wmain
+$LN3@wmain:
 
-; 374  : 		}
-; 375  : 
-; 376  : 	//built-in CSimpleArray
-; 377  : 	//ATL::CSimpleArray<int> b;
-; 378  : 
-; 379  : 	//b.Add( 5 );
-; 380  : 
-; 381  : 	//b.RemoveAll( );
-; 382  : 	//With SAL, /analyze will NOT catch this
-; 383  : 	//const auto c = b[ 2 ];
-; 384  : 
-; 385  : 
-; 386  : 
-; 387  : 
-; 388  : 
-; 389  : 	//modified CSimpleArray
-; 390  : 	myATL::CSimpleArray<int> d;
+; 353  : 		}
+; 354  : 
+; 355  : 	//built-in CSimpleArray
+; 356  : 	ATL::CSimpleArray<int> b;
 
   000f6	6a 0c		 push	 12			; 0000000cH
-  000f8	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  000fb	e8 00 00 00 00	 call	 ?__autoclassinit2@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXI@Z
-  00100	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00103	e8 00 00 00 00	 call	 ??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
+  000f8	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
+  000fb	e8 00 00 00 00	 call	 ?__autoclassinit2@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXI@Z
+  00100	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
+  00103	e8 00 00 00 00	 call	 ??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
   00108	c7 45 fc 00 00
 	00 00		 mov	 DWORD PTR __$EHRec$[ebp+8], 0
 
-; 391  : 
-; 392  : 	if ( !d.Add( 5 ) ) {
+; 357  : 
+; 358  : 	b.Add( 5 );
 
-  0010f	c7 85 8c fd ff
+  0010f	c7 85 10 fe ff
 	ff 05 00 00 00	 mov	 DWORD PTR $T2[ebp], 5
-  00119	8d 85 8c fd ff
+  00119	8d 85 10 fe ff
 	ff		 lea	 eax, DWORD PTR $T2[ebp]
   0011f	50		 push	 eax
-  00120	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00123	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
-  00128	85 c0		 test	 eax, eax
-  0012a	75 0f		 jne	 SHORT $LN8@wmain
+  00120	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
+  00123	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEHABH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::Add
 
-; 393  : 		const auto z = d[ 0 ];
+; 359  : 
+; 360  : 	b.RemoveAll( );
 
-  0012c	6a 00		 push	 0
-  0012e	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00131	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  00136	8b 00		 mov	 eax, DWORD PTR [eax]
-  00138	89 45 bc	 mov	 DWORD PTR _z$15[ebp], eax
-$LN8@wmain:
+  00128	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
+  0012b	e8 00 00 00 00	 call	 ?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEXXZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::RemoveAll
 
-; 394  : 		}
-; 395  : 
-; 396  : 	d.RemoveAll( );
+; 361  : 	//With SAL, /analyze will NOT catch this
+; 362  : 	const auto c = b[ 2 ];
 
-  0013b	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  0013e	e8 00 00 00 00	 call	 ?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::RemoveAll
+  00130	6a 02		 push	 2
+  00132	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
+  00135	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAEAAHH@Z ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::operator[]
+  0013a	8b 00		 mov	 eax, DWORD PTR [eax]
+  0013c	89 45 bc	 mov	 DWORD PTR _c$[ebp], eax
 
-; 397  : 
-; 398  : 	////this should not fail!
-; 399  : 	//test_analyze_zero( d.m_nSize );
-; 400  : 
-; 401  : 
-; 402  : 	////these should fail!
-; 403  : 	//test_analyze_ten_or_onehundred( d.m_nSize );
-; 404  : 	//test_analyze_one_or_two( d.m_nSize );
-; 405  : 	//test_analyze_two_or_three( d.m_nSize );
-; 406  : 
-; 407  : 
-; 408  : 
-; 409  : 	//this should fail!
-; 410  : 	const auto f = d[ 20 ];
+; 363  : 
+; 364  : 
+; 365  : 
+; 366  : 
+; 367  : 
+; 368  : 	//modified CSimpleArray
+; 369  : 	myATL::CSimpleArray<int> d;
 
-  00143	6a 14		 push	 20			; 00000014H
-  00145	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00148	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  0014d	8b 00		 mov	 eax, DWORD PTR [eax]
-  0014f	89 45 b0	 mov	 DWORD PTR _f$[ebp], eax
+  0013f	6a 0c		 push	 12			; 0000000cH
+  00141	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  00144	e8 00 00 00 00	 call	 ?__autoclassinit2@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXI@Z
+  00149	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  0014c	e8 00 00 00 00	 call	 ??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
+  00151	c6 45 fc 01	 mov	 BYTE PTR __$EHRec$[ebp+8], 1
 
-; 411  : 
-; 412  : 	if ( !d.Add( 5 ) ) {
+; 370  : 
+; 371  : 	//this should not fail!
+; 372  : 	test_analyze_zero( d.m_nSize );
 
-  00152	c7 85 98 fd ff
+  00155	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  00158	50		 push	 eax
+  00159	e8 00 00 00 00	 call	 ?test_analyze_zero@@YAXH@Z ; test_analyze_zero
+  0015e	83 c4 04	 add	 esp, 4
+
+; 373  : 
+; 374  : 
+; 375  : 	//these should fail!
+; 376  : 	test_analyze_ten_or_onehundred( d.m_nSize );
+
+  00161	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  00164	50		 push	 eax
+  00165	e8 00 00 00 00	 call	 ?test_analyze_ten_or_onehundred@@YAXH@Z ; test_analyze_ten_or_onehundred
+  0016a	83 c4 04	 add	 esp, 4
+
+; 377  : 	test_analyze_one_or_two( d.m_nSize );
+
+  0016d	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  00170	50		 push	 eax
+  00171	e8 00 00 00 00	 call	 ?test_analyze_one_or_two@@YAXH@Z ; test_analyze_one_or_two
+  00176	83 c4 04	 add	 esp, 4
+
+; 378  : 	test_analyze_two_or_three( d.m_nSize );
+
+  00179	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  0017c	50		 push	 eax
+  0017d	e8 00 00 00 00	 call	 ?test_analyze_two_or_three@@YAXH@Z ; test_analyze_two_or_three
+  00182	83 c4 04	 add	 esp, 4
+
+; 379  : 
+; 380  : 
+; 381  : 
+; 382  : 	//this should fail!
+; 383  : 	const auto f = d[ 20 ];
+
+  00185	6a 14		 push	 20			; 00000014H
+  00187	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  0018a	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
+  0018f	8b 00		 mov	 eax, DWORD PTR [eax]
+  00191	89 45 9c	 mov	 DWORD PTR _f$[ebp], eax
+
+; 384  : 
+; 385  : 	if ( !d.Add( 5 ) ) {
+
+  00194	c7 85 1c fe ff
 	ff 05 00 00 00	 mov	 DWORD PTR $T3[ebp], 5
-  0015c	8d 85 98 fd ff
+  0019e	8d 85 1c fe ff
 	ff		 lea	 eax, DWORD PTR $T3[ebp]
-  00162	50		 push	 eax
-  00163	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00166	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
-  0016b	85 c0		 test	 eax, eax
-  0016d	75 54		 jne	 SHORT $LN7@wmain
+  001a4	50		 push	 eax
+  001a5	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  001a8	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
+  001ad	85 c0		 test	 eax, eax
+  001af	75 60		 jne	 SHORT $LN2@wmain
 
-; 413  : 		fwprintf( stderr, L"d.Add( 5 ) failed!\r\n" );
+; 386  : 		fwprintf( stderr, L"d.Add( 5 ) failed!" );
 
-  0016f	8b f4		 mov	 esi, esp
-  00171	68 00 00 00 00	 push	 OFFSET ??_C@_1CK@DJCKKDBM@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AN?$AA?6?$AA?$AA@
-  00176	8b fc		 mov	 edi, esp
-  00178	ff 15 00 00 00
+  001b1	8b f4		 mov	 esi, esp
+  001b3	68 00 00 00 00	 push	 OFFSET ??_C@_1CG@OPPEHGBC@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AA@
+  001b8	8b fc		 mov	 edi, esp
+  001ba	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp____iob_func
-  0017e	3b fc		 cmp	 edi, esp
-  00180	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  00185	b9 20 00 00 00	 mov	 ecx, 32			; 00000020H
-  0018a	d1 e1		 shl	 ecx, 1
-  0018c	03 c1		 add	 eax, ecx
-  0018e	50		 push	 eax
-  0018f	ff 15 00 00 00
+  001c0	3b fc		 cmp	 edi, esp
+  001c2	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  001c7	b9 20 00 00 00	 mov	 ecx, 32			; 00000020H
+  001cc	d1 e1		 shl	 ecx, 1
+  001ce	03 c1		 add	 eax, ecx
+  001d0	50		 push	 eax
+  001d1	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp__fwprintf
-  00195	83 c4 08	 add	 esp, 8
-  00198	3b f4		 cmp	 esi, esp
-  0019a	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  001d7	83 c4 08	 add	 esp, 8
+  001da	3b f4		 cmp	 esi, esp
+  001dc	e8 00 00 00 00	 call	 __RTC_CheckEsp
 
-; 414  : 		return ERROR_FUNCTION_FAILED;
+; 387  : 		return ERROR_FUNCTION_FAILED;
 
-  0019f	c7 85 a4 fd ff
+  001e1	c7 85 28 fe ff
 	ff 5b 06 00 00	 mov	 DWORD PTR $T4[ebp], 1627 ; 0000065bH
-  001a9	c7 45 fc ff ff
+  001eb	c6 45 fc 00	 mov	 BYTE PTR __$EHRec$[ebp+8], 0
+  001ef	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  001f2	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
+  001f7	c7 45 fc ff ff
 	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
-  001b0	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  001b3	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  001b8	8b 85 a4 fd ff
+  001fe	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
+  00201	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
+  00206	8b 85 28 fe ff
 	ff		 mov	 eax, DWORD PTR $T4[ebp]
-  001be	e9 ef 03 00 00	 jmp	 $LN11@wmain
-$LN7@wmain:
-
-; 415  : 		}
-; 416  : 
-; 417  : 	//this should not fail!
-; 418  : 	const auto t = d[ 0 ];
-
-  001c3	6a 00		 push	 0
-  001c5	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  001c8	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  001cd	8b 00		 mov	 eax, DWORD PTR [eax]
-  001cf	89 45 a4	 mov	 DWORD PTR _t$[ebp], eax
-
-; 419  : 
-; 420  : 	//these should fail!
-; 421  : 	const auto u = d[ 1 ];
-
-  001d2	6a 01		 push	 1
-  001d4	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  001d7	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  001dc	8b 00		 mov	 eax, DWORD PTR [eax]
-  001de	89 45 98	 mov	 DWORD PTR _u$[ebp], eax
-
-; 422  : 	//test_analyze_zero( d.m_nSize );
-; 423  : 
-; 424  : 	d.RemoveAll( );
-
-  001e1	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  001e4	e8 00 00 00 00	 call	 ?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::RemoveAll
-
-; 425  : 	
-; 426  : 
-; 427  : 	//this should fail!
-; 428  : 	//With SAL, /analyze will catch this
-; 429  : 	const auto e = d[ 1 ];
-
-  001e9	6a 01		 push	 1
-  001eb	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  001ee	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  001f3	8b 00		 mov	 eax, DWORD PTR [eax]
-  001f5	89 45 8c	 mov	 DWORD PTR _e$[ebp], eax
-
-; 430  : 	
-; 431  : 	//this should fail!
-; 432  : 	//test_analyze_one_or_two( d.m_nSize );
-; 433  : 
-; 434  : 
-; 435  : 
-; 436  : 	if ( !d.Add( 5 ) ) {
-
-  001f8	c7 85 b0 fd ff
-	ff 05 00 00 00	 mov	 DWORD PTR $T5[ebp], 5
-  00202	8d 85 b0 fd ff
-	ff		 lea	 eax, DWORD PTR $T5[ebp]
-  00208	50		 push	 eax
-  00209	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  0020c	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
-  00211	85 c0		 test	 eax, eax
-  00213	75 54		 jne	 SHORT $LN6@wmain
-
-; 437  : 		fwprintf( stderr, L"d.Add( 5 ) failed!\r\n" );
-
-  00215	8b f4		 mov	 esi, esp
-  00217	68 00 00 00 00	 push	 OFFSET ??_C@_1CK@DJCKKDBM@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AN?$AA?6?$AA?$AA@
-  0021c	8b fc		 mov	 edi, esp
-  0021e	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp____iob_func
-  00224	3b fc		 cmp	 edi, esp
-  00226	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  0022b	b9 20 00 00 00	 mov	 ecx, 32			; 00000020H
-  00230	d1 e1		 shl	 ecx, 1
-  00232	03 c1		 add	 eax, ecx
-  00234	50		 push	 eax
-  00235	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp__fwprintf
-  0023b	83 c4 08	 add	 esp, 8
-  0023e	3b f4		 cmp	 esi, esp
-  00240	e8 00 00 00 00	 call	 __RTC_CheckEsp
-
-; 438  : 		return ERROR_FUNCTION_FAILED;
-
-  00245	c7 85 bc fd ff
-	ff 5b 06 00 00	 mov	 DWORD PTR $T6[ebp], 1627 ; 0000065bH
-  0024f	c7 45 fc ff ff
-	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
-  00256	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00259	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  0025e	8b 85 bc fd ff
-	ff		 mov	 eax, DWORD PTR $T6[ebp]
-  00264	e9 49 03 00 00	 jmp	 $LN11@wmain
-$LN6@wmain:
-
-; 439  : 		}
-; 440  : 	//there is now one item in d
-; 441  : 
-; 442  : 	//this should not fail!
-; 443  : 	const auto p = d[ 0 ];
-
-  00269	6a 00		 push	 0
-  0026b	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  0026e	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  00273	8b 00		 mov	 eax, DWORD PTR [eax]
-  00275	89 45 80	 mov	 DWORD PTR _p$[ebp], eax
-
-; 444  : 	
-; 445  : 	//these should fail!
-; 446  : 	const auto g = d[ 1 ];
-
-  00278	6a 01		 push	 1
-  0027a	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  0027d	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  00282	8b 00		 mov	 eax, DWORD PTR [eax]
-  00284	89 85 74 ff ff
-	ff		 mov	 DWORD PTR _g$[ebp], eax
-
-; 447  : 	//test_analyze_two_or_three( d.m_nSize );
-; 448  : 
-; 449  : 	//this should not fail!
-; 450  : 	//test_analyze_one_or_two( d.m_nSize );
-; 451  : 
-; 452  : 
-; 453  : 	if ( !d.Add( 5 ) ) {
-
-  0028a	c7 85 c8 fd ff
-	ff 05 00 00 00	 mov	 DWORD PTR $T7[ebp], 5
-  00294	8d 85 c8 fd ff
-	ff		 lea	 eax, DWORD PTR $T7[ebp]
-  0029a	50		 push	 eax
-  0029b	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  0029e	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
-  002a3	85 c0		 test	 eax, eax
-  002a5	75 54		 jne	 SHORT $LN5@wmain
-
-; 454  : 		fwprintf( stderr, L"d.Add( 5 ) failed!\r\n" );
-
-  002a7	8b f4		 mov	 esi, esp
-  002a9	68 00 00 00 00	 push	 OFFSET ??_C@_1CK@DJCKKDBM@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AN?$AA?6?$AA?$AA@
-  002ae	8b fc		 mov	 edi, esp
-  002b0	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp____iob_func
-  002b6	3b fc		 cmp	 edi, esp
-  002b8	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  002bd	b9 20 00 00 00	 mov	 ecx, 32			; 00000020H
-  002c2	d1 e1		 shl	 ecx, 1
-  002c4	03 c1		 add	 eax, ecx
-  002c6	50		 push	 eax
-  002c7	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp__fwprintf
-  002cd	83 c4 08	 add	 esp, 8
-  002d0	3b f4		 cmp	 esi, esp
-  002d2	e8 00 00 00 00	 call	 __RTC_CheckEsp
-
-; 455  : 		return ERROR_FUNCTION_FAILED;
-
-  002d7	c7 85 d4 fd ff
-	ff 5b 06 00 00	 mov	 DWORD PTR $T8[ebp], 1627 ; 0000065bH
-  002e1	c7 45 fc ff ff
-	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
-  002e8	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  002eb	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  002f0	8b 85 d4 fd ff
-	ff		 mov	 eax, DWORD PTR $T8[ebp]
-  002f6	e9 b7 02 00 00	 jmp	 $LN11@wmain
-$LN5@wmain:
-
-; 456  : 		}
-; 457  : 	if ( !d.Add( 5 ) ) {
-
-  002fb	c7 85 e0 fd ff
-	ff 05 00 00 00	 mov	 DWORD PTR $T9[ebp], 5
-  00305	8d 85 e0 fd ff
-	ff		 lea	 eax, DWORD PTR $T9[ebp]
-  0030b	50		 push	 eax
-  0030c	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  0030f	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
-  00314	85 c0		 test	 eax, eax
-  00316	75 54		 jne	 SHORT $LN4@wmain
-
-; 458  : 		fwprintf( stderr, L"d.Add( 5 ) failed!\r\n" );
-
-  00318	8b f4		 mov	 esi, esp
-  0031a	68 00 00 00 00	 push	 OFFSET ??_C@_1CK@DJCKKDBM@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AN?$AA?6?$AA?$AA@
-  0031f	8b fc		 mov	 edi, esp
-  00321	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp____iob_func
-  00327	3b fc		 cmp	 edi, esp
-  00329	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  0032e	b9 20 00 00 00	 mov	 ecx, 32			; 00000020H
-  00333	d1 e1		 shl	 ecx, 1
-  00335	03 c1		 add	 eax, ecx
-  00337	50		 push	 eax
-  00338	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp__fwprintf
-  0033e	83 c4 08	 add	 esp, 8
-  00341	3b f4		 cmp	 esi, esp
-  00343	e8 00 00 00 00	 call	 __RTC_CheckEsp
-
-; 459  : 		return ERROR_FUNCTION_FAILED;
-
-  00348	c7 85 ec fd ff
-	ff 5b 06 00 00	 mov	 DWORD PTR $T10[ebp], 1627 ; 0000065bH
-  00352	c7 45 fc ff ff
-	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
-  00359	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  0035c	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  00361	8b 85 ec fd ff
-	ff		 mov	 eax, DWORD PTR $T10[ebp]
-  00367	e9 46 02 00 00	 jmp	 $LN11@wmain
-$LN4@wmain:
-
-; 460  : 		}
-; 461  : 	//there are now three items in d
-; 462  : 
-; 463  : 
-; 464  : 	//these should not fail
-; 465  : 	const auto k = d[ 1 ];
-
-  0036c	6a 01		 push	 1
-  0036e	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00371	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  00376	8b 00		 mov	 eax, DWORD PTR [eax]
-  00378	89 85 68 ff ff
-	ff		 mov	 DWORD PTR _k$[ebp], eax
-
-; 466  : 	const auto l = d[ 2 ];
-
-  0037e	6a 02		 push	 2
-  00380	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00383	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  00388	8b 00		 mov	 eax, DWORD PTR [eax]
-  0038a	89 85 5c ff ff
-	ff		 mov	 DWORD PTR _l$[ebp], eax
-
-; 467  : 
-; 468  : 	//these should fail!
-; 469  : 	const auto m = d[ 4 ];
-
-  00390	6a 04		 push	 4
-  00392	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00395	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  0039a	8b 00		 mov	 eax, DWORD PTR [eax]
-  0039c	89 85 50 ff ff
-	ff		 mov	 DWORD PTR _m$[ebp], eax
-
-; 470  : 	const auto q = d[ d.GetSize( ) ];
-
-  003a2	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  003a5	e8 00 00 00 00	 call	 ?GetSize@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEHXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetSize
-  003aa	50		 push	 eax
-  003ab	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  003ae	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  003b3	8b 00		 mov	 eax, DWORD PTR [eax]
-  003b5	89 85 44 ff ff
-	ff		 mov	 DWORD PTR _q$[ebp], eax
-
-; 471  : 	//test_analyze_ten_or_onehundred( d.m_nSize );
-; 472  : 	//test_analyze_one_or_two( d.m_nSize );
-; 473  : 
-; 474  : 	//this should not fail!
-; 475  : 	//test_analyze_two_or_three( d.m_nSize );
-; 476  : 
-; 477  : 	//confirms that `/analyze`'s internal model thinks d is an array of 0 elements (should fail!)
-; 478  : 	//test_analyze_zero( d.m_nSize );
-; 479  : 
-; 480  : 	//For some reason, `/analyze`'s internal model thinks h is an array of 0 bytes.
-; 481  : 	//It seems to think that `this->m_nSize` == 0 bytes at the call.
-; 482  : 	//Actual text:
-; 483  : 	/*
-; 484  : 	C6385	Read overrun	Reading invalid data from 'h':  the readable size is 'this->m_nSize*4' bytes, but '12' bytes may be read.
-; 485  : 	
-; 486  : 	368 'h' is a 0 byte array
-; 487  : 	369 Invalid read from 'h', (outside its readable range)
-; 488  : 	
-; 489  : 	*/
-; 490  : 
-; 491  : 	const int z_ = 5;
-
-  003bb	c7 85 38 ff ff
-	ff 05 00 00 00	 mov	 DWORD PTR _z_$[ebp], 5
-
-; 492  : 
-; 493  : 	if ( !d.SetAtIndex( 0, z_ ) ) {
-
-  003c5	8d 85 38 ff ff
-	ff		 lea	 eax, DWORD PTR _z_$[ebp]
-  003cb	50		 push	 eax
-  003cc	6a 00		 push	 0
-  003ce	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  003d1	e8 00 00 00 00	 call	 ?SetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::SetAtIndex
-  003d6	85 c0		 test	 eax, eax
-  003d8	75 54		 jne	 SHORT $LN3@wmain
-
-; 494  : 		fwprintf( stderr, L"d.SetAtIndex( 0, z_ )" );
-
-  003da	8b f4		 mov	 esi, esp
-  003dc	68 00 00 00 00	 push	 OFFSET ??_C@_1CM@GPPAFFIP@?$AAd?$AA?4?$AAS?$AAe?$AAt?$AAA?$AAt?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?$CI?$AA?5?$AA0?$AA?0?$AA?5?$AAz?$AA_?$AA?5?$AA?$CJ?$AA?$AA@
-  003e1	8b fc		 mov	 edi, esp
-  003e3	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp____iob_func
-  003e9	3b fc		 cmp	 edi, esp
-  003eb	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  003f0	b9 20 00 00 00	 mov	 ecx, 32			; 00000020H
-  003f5	d1 e1		 shl	 ecx, 1
-  003f7	03 c1		 add	 eax, ecx
-  003f9	50		 push	 eax
-  003fa	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp__fwprintf
-  00400	83 c4 08	 add	 esp, 8
-  00403	3b f4		 cmp	 esi, esp
-  00405	e8 00 00 00 00	 call	 __RTC_CheckEsp
-
-; 495  : 		return ERROR_FUNCTION_FAILED;
-
-  0040a	c7 85 f8 fd ff
-	ff 5b 06 00 00	 mov	 DWORD PTR $T11[ebp], 1627 ; 0000065bH
-  00414	c7 45 fc ff ff
-	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
-  0041b	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  0041e	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  00423	8b 85 f8 fd ff
-	ff		 mov	 eax, DWORD PTR $T11[ebp]
-  00429	e9 84 01 00 00	 jmp	 $LN11@wmain
-$LN3@wmain:
-
-; 496  : 		}
-; 497  : 
-; 498  : 	if ( !d.SetAtIndex( 1, z_ ) ) {
-
-  0042e	8d 85 38 ff ff
-	ff		 lea	 eax, DWORD PTR _z_$[ebp]
-  00434	50		 push	 eax
-  00435	6a 01		 push	 1
-  00437	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  0043a	e8 00 00 00 00	 call	 ?SetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::SetAtIndex
-  0043f	85 c0		 test	 eax, eax
-  00441	75 54		 jne	 SHORT $LN2@wmain
-
-; 499  : 		fwprintf( stderr, L"d.SetAtIndex( 0, z_ )" );
-
-  00443	8b f4		 mov	 esi, esp
-  00445	68 00 00 00 00	 push	 OFFSET ??_C@_1CM@GPPAFFIP@?$AAd?$AA?4?$AAS?$AAe?$AAt?$AAA?$AAt?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?$CI?$AA?5?$AA0?$AA?0?$AA?5?$AAz?$AA_?$AA?5?$AA?$CJ?$AA?$AA@
-  0044a	8b fc		 mov	 edi, esp
-  0044c	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp____iob_func
-  00452	3b fc		 cmp	 edi, esp
-  00454	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  00459	b9 20 00 00 00	 mov	 ecx, 32			; 00000020H
-  0045e	d1 e1		 shl	 ecx, 1
-  00460	03 c1		 add	 eax, ecx
-  00462	50		 push	 eax
-  00463	ff 15 00 00 00
-	00		 call	 DWORD PTR __imp__fwprintf
-  00469	83 c4 08	 add	 esp, 8
-  0046c	3b f4		 cmp	 esi, esp
-  0046e	e8 00 00 00 00	 call	 __RTC_CheckEsp
-
-; 500  : 		return ERROR_FUNCTION_FAILED;
-
-  00473	c7 85 04 fe ff
-	ff 5b 06 00 00	 mov	 DWORD PTR $T12[ebp], 1627 ; 0000065bH
-  0047d	c7 45 fc ff ff
-	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
-  00484	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00487	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  0048c	8b 85 04 fe ff
-	ff		 mov	 eax, DWORD PTR $T12[ebp]
-  00492	e9 1b 01 00 00	 jmp	 $LN11@wmain
+  0020c	e9 e2 01 00 00	 jmp	 $LN5@wmain
 $LN2@wmain:
 
-; 501  : 		}
-; 502  : 
-; 503  : 	if ( !d.SetAtIndex( 2, z_ ) ) {
+; 388  : 		}
+; 389  : 
+; 390  : 	//this should fail!
+; 391  : 	test_analyze_zero( d.m_nSize );
 
-  00497	8d 85 38 ff ff
-	ff		 lea	 eax, DWORD PTR _z_$[ebp]
-  0049d	50		 push	 eax
-  0049e	6a 02		 push	 2
-  004a0	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  004a3	e8 00 00 00 00	 call	 ?SetAtIndex@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::SetAtIndex
-  004a8	85 c0		 test	 eax, eax
-  004aa	75 54		 jne	 SHORT $LN1@wmain
+  00211	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  00214	50		 push	 eax
+  00215	e8 00 00 00 00	 call	 ?test_analyze_zero@@YAXH@Z ; test_analyze_zero
+  0021a	83 c4 04	 add	 esp, 4
 
-; 504  : 		fwprintf( stderr, L"d.SetAtIndex( 0, z_ )" );
+; 392  : 
+; 393  : 	d.RemoveAll( );
 
-  004ac	8b f4		 mov	 esi, esp
-  004ae	68 00 00 00 00	 push	 OFFSET ??_C@_1CM@GPPAFFIP@?$AAd?$AA?4?$AAS?$AAe?$AAt?$AAA?$AAt?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?$CI?$AA?5?$AA0?$AA?0?$AA?5?$AAz?$AA_?$AA?5?$AA?$CJ?$AA?$AA@
-  004b3	8b fc		 mov	 edi, esp
-  004b5	ff 15 00 00 00
+  0021d	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  00220	e8 00 00 00 00	 call	 ?RemoveAll@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::RemoveAll
+
+; 394  : 	
+; 395  : 
+; 396  : 	//this should fail!
+; 397  : 	//With SAL, /analyze will catch this
+; 398  : 	const auto e = d[ 1 ];
+
+  00225	6a 01		 push	 1
+  00227	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  0022a	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
+  0022f	8b 00		 mov	 eax, DWORD PTR [eax]
+  00231	89 45 90	 mov	 DWORD PTR _e$[ebp], eax
+
+; 399  : 	
+; 400  : 	//this should fail!
+; 401  : 	test_analyze_one_or_two( d.m_nSize );
+
+  00234	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  00237	50		 push	 eax
+  00238	e8 00 00 00 00	 call	 ?test_analyze_one_or_two@@YAXH@Z ; test_analyze_one_or_two
+  0023d	83 c4 04	 add	 esp, 4
+
+; 402  : 
+; 403  : 
+; 404  : 
+; 405  : 	if ( !d.Add( 5 ) ) {
+
+  00240	c7 85 34 fe ff
+	ff 05 00 00 00	 mov	 DWORD PTR $T5[ebp], 5
+  0024a	8d 85 34 fe ff
+	ff		 lea	 eax, DWORD PTR $T5[ebp]
+  00250	50		 push	 eax
+  00251	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  00254	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
+  00259	85 c0		 test	 eax, eax
+  0025b	75 60		 jne	 SHORT $LN1@wmain
+
+; 406  : 		fwprintf( stderr, L"d.Add( 5 ) failed!" );
+
+  0025d	8b f4		 mov	 esi, esp
+  0025f	68 00 00 00 00	 push	 OFFSET ??_C@_1CG@OPPEHGBC@?$AAd?$AA?4?$AAA?$AAd?$AAd?$AA?$CI?$AA?5?$AA5?$AA?5?$AA?$CJ?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?$AA@
+  00264	8b fc		 mov	 edi, esp
+  00266	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp____iob_func
-  004bb	3b fc		 cmp	 edi, esp
-  004bd	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  004c2	b9 20 00 00 00	 mov	 ecx, 32			; 00000020H
-  004c7	d1 e1		 shl	 ecx, 1
-  004c9	03 c1		 add	 eax, ecx
-  004cb	50		 push	 eax
-  004cc	ff 15 00 00 00
+  0026c	3b fc		 cmp	 edi, esp
+  0026e	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  00273	b9 20 00 00 00	 mov	 ecx, 32			; 00000020H
+  00278	d1 e1		 shl	 ecx, 1
+  0027a	03 c1		 add	 eax, ecx
+  0027c	50		 push	 eax
+  0027d	ff 15 00 00 00
 	00		 call	 DWORD PTR __imp__fwprintf
-  004d2	83 c4 08	 add	 esp, 8
-  004d5	3b f4		 cmp	 esi, esp
-  004d7	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  00283	83 c4 08	 add	 esp, 8
+  00286	3b f4		 cmp	 esi, esp
+  00288	e8 00 00 00 00	 call	 __RTC_CheckEsp
 
-; 505  : 		return ERROR_FUNCTION_FAILED;
+; 407  : 		return ERROR_FUNCTION_FAILED;
 
-  004dc	c7 85 10 fe ff
-	ff 5b 06 00 00	 mov	 DWORD PTR $T13[ebp], 1627 ; 0000065bH
-  004e6	c7 45 fc ff ff
+  0028d	c7 85 40 fe ff
+	ff 5b 06 00 00	 mov	 DWORD PTR $T6[ebp], 1627 ; 0000065bH
+  00297	c6 45 fc 00	 mov	 BYTE PTR __$EHRec$[ebp+8], 0
+  0029b	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  0029e	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
+  002a3	c7 45 fc ff ff
 	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
-  004ed	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  004f0	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  004f5	8b 85 10 fe ff
-	ff		 mov	 eax, DWORD PTR $T13[ebp]
-  004fb	e9 b2 00 00 00	 jmp	 $LN11@wmain
+  002aa	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
+  002ad	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
+  002b2	8b 85 40 fe ff
+	ff		 mov	 eax, DWORD PTR $T6[ebp]
+  002b8	e9 36 01 00 00	 jmp	 $LN5@wmain
 $LN1@wmain:
 
-; 506  : 		}
-; 507  : 
-; 508  : 
-; 509  : 	const auto h = d.GetData( );
+; 408  : 		}
+; 409  : 	//there is now one item in d
+; 410  : 
+; 411  : 
+; 412  : 	const auto p = d[ 0 ];
 
-  00500	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00503	e8 00 00 00 00	 call	 ?GetData@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEPAHXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetData
-  00508	89 85 2c ff ff
+  002bd	6a 00		 push	 0
+  002bf	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  002c2	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
+  002c7	8b 00		 mov	 eax, DWORD PTR [eax]
+  002c9	89 45 84	 mov	 DWORD PTR _p$[ebp], eax
+
+; 413  : 	
+; 414  : 	//these should fail!
+; 415  : 	const auto g = d[ 1 ];
+
+  002cc	6a 01		 push	 1
+  002ce	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  002d1	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
+  002d6	8b 00		 mov	 eax, DWORD PTR [eax]
+  002d8	89 85 78 ff ff
+	ff		 mov	 DWORD PTR _g$[ebp], eax
+
+; 416  : 	test_analyze_two_or_three( d.m_nSize );
+
+  002de	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  002e1	50		 push	 eax
+  002e2	e8 00 00 00 00	 call	 ?test_analyze_two_or_three@@YAXH@Z ; test_analyze_two_or_three
+  002e7	83 c4 04	 add	 esp, 4
+
+; 417  : 
+; 418  : 	//this should not fail!
+; 419  : 	test_analyze_one_or_two( d.m_nSize );
+
+  002ea	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  002ed	50		 push	 eax
+  002ee	e8 00 00 00 00	 call	 ?test_analyze_one_or_two@@YAXH@Z ; test_analyze_one_or_two
+  002f3	83 c4 04	 add	 esp, 4
+
+; 420  : 
+; 421  : 
+; 422  : 	d.Add( 5 );
+
+  002f6	c7 85 4c fe ff
+	ff 05 00 00 00	 mov	 DWORD PTR $T7[ebp], 5
+  00300	8d 85 4c fe ff
+	ff		 lea	 eax, DWORD PTR $T7[ebp]
+  00306	50		 push	 eax
+  00307	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  0030a	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
+
+; 423  : 	d.Add( 5 );
+
+  0030f	c7 85 58 fe ff
+	ff 05 00 00 00	 mov	 DWORD PTR $T8[ebp], 5
+  00319	8d 85 58 fe ff
+	ff		 lea	 eax, DWORD PTR $T8[ebp]
+  0031f	50		 push	 eax
+  00320	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  00323	e8 00 00 00 00	 call	 ?Add@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEHABH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::Add
+
+; 424  : 	//there are now three items in d
+; 425  : 
+; 426  : 
+; 427  : 	//these should not fail
+; 428  : 	const auto k = d[ 1 ];
+
+  00328	6a 01		 push	 1
+  0032a	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  0032d	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
+  00332	8b 00		 mov	 eax, DWORD PTR [eax]
+  00334	89 85 6c ff ff
+	ff		 mov	 DWORD PTR _k$[ebp], eax
+
+; 429  : 	const auto l = d[ 2 ];
+
+  0033a	6a 02		 push	 2
+  0033c	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  0033f	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
+  00344	8b 00		 mov	 eax, DWORD PTR [eax]
+  00346	89 85 60 ff ff
+	ff		 mov	 DWORD PTR _l$[ebp], eax
+
+; 430  : 
+; 431  : 	//this should fail!
+; 432  : 	const auto m = d[ 4 ];
+
+  0034c	6a 04		 push	 4
+  0034e	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  00351	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEAAHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
+  00356	8b 00		 mov	 eax, DWORD PTR [eax]
+  00358	89 85 54 ff ff
+	ff		 mov	 DWORD PTR _m$[ebp], eax
+
+; 433  : 
+; 434  : 	//const auto g = d[ d.GetSize( ) ];
+; 435  : 
+; 436  : 	//const auto sizeof_array = d.m_nSize;
+; 437  : 
+; 438  : 	//these should fail!
+; 439  : 	test_analyze_ten_or_onehundred( d.m_nSize );
+
+  0035e	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  00361	50		 push	 eax
+  00362	e8 00 00 00 00	 call	 ?test_analyze_ten_or_onehundred@@YAXH@Z ; test_analyze_ten_or_onehundred
+  00367	83 c4 04	 add	 esp, 4
+
+; 440  : 	test_analyze_one_or_two( d.m_nSize );
+
+  0036a	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  0036d	50		 push	 eax
+  0036e	e8 00 00 00 00	 call	 ?test_analyze_one_or_two@@YAXH@Z ; test_analyze_one_or_two
+  00373	83 c4 04	 add	 esp, 4
+
+; 441  : 
+; 442  : 	//this should not fail!
+; 443  : 	test_analyze_two_or_three( d.m_nSize );
+
+  00376	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  00379	50		 push	 eax
+  0037a	e8 00 00 00 00	 call	 ?test_analyze_two_or_three@@YAXH@Z ; test_analyze_two_or_three
+  0037f	83 c4 04	 add	 esp, 4
+
+; 444  : 
+; 445  : 	//confirms that `/analyze`'s internal model thinks d is an array of 0 elements
+; 446  : 	test_analyze_zero( d.m_nSize );
+
+  00382	8b 45 ac	 mov	 eax, DWORD PTR _d$[ebp+4]
+  00385	50		 push	 eax
+  00386	e8 00 00 00 00	 call	 ?test_analyze_zero@@YAXH@Z ; test_analyze_zero
+  0038b	83 c4 04	 add	 esp, 4
+
+; 447  : 
+; 448  : 	//For some reason, `/analyze`'s internal model thinks h is an array of 0 bytes.
+; 449  : 	//It seems to think that `this->m_nSize` == 0 bytes at the call.
+; 450  : 	//Actual text:
+; 451  : 	/*
+; 452  : 	C6385	Read overrun	Reading invalid data from 'h':  the readable size is 'this->m_nSize*4' bytes, but '12' bytes may be read.
+; 453  : 	
+; 454  : 	368 'h' is a 0 byte array
+; 455  : 	369 Invalid read from 'h', (outside its readable range)
+; 456  : 	
+; 457  : 	*/
+; 458  : 	const auto h = d.GetData( );
+
+  0038e	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  00391	e8 00 00 00 00	 call	 ?GetData@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEPAHXZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::GetData
+  00396	89 85 48 ff ff
 	ff		 mov	 DWORD PTR _h$[ebp], eax
 
-; 510  : 
-; 511  : 	//this should not fail!
-; 512  : 	const auto i = h[ 2 ];
+; 459  : 	const auto i = h[ 2 ];
 
-  0050e	b8 04 00 00 00	 mov	 eax, 4
-  00513	d1 e0		 shl	 eax, 1
-  00515	8b 8d 2c ff ff
+  0039c	b8 04 00 00 00	 mov	 eax, 4
+  003a1	d1 e0		 shl	 eax, 1
+  003a3	8b 8d 48 ff ff
 	ff		 mov	 ecx, DWORD PTR _h$[ebp]
-  0051b	8b 14 01	 mov	 edx, DWORD PTR [ecx+eax]
-  0051e	89 95 20 ff ff
+  003a9	8b 14 01	 mov	 edx, DWORD PTR [ecx+eax]
+  003ac	89 95 3c ff ff
 	ff		 mov	 DWORD PTR _i$[ebp], edx
 
-; 513  : 
-; 514  : 	//this should fail!
-; 515  : 	const auto j = h[ 3 ];
+; 460  : 	const auto j = h[ 3 ];
 
-  00524	b8 04 00 00 00	 mov	 eax, 4
-  00529	6b c8 03	 imul	 ecx, eax, 3
-  0052c	8b 95 2c ff ff
+  003b2	b8 04 00 00 00	 mov	 eax, 4
+  003b7	6b c8 03	 imul	 ecx, eax, 3
+  003ba	8b 95 48 ff ff
 	ff		 mov	 edx, DWORD PTR _h$[ebp]
-  00532	8b 04 0a	 mov	 eax, DWORD PTR [edx+ecx]
-  00535	89 85 14 ff ff
+  003c0	8b 04 0a	 mov	 eax, DWORD PTR [edx+ecx]
+  003c3	89 85 30 ff ff
 	ff		 mov	 DWORD PTR _j$[ebp], eax
 
-; 516  : 
-; 517  : 
-; 518  : 	const auto other_array = d;
+; 461  : 
+; 462  : 	return nRetCode;
 
-  0053b	6a 0c		 push	 12			; 0000000cH
-  0053d	8d 8d 00 ff ff
-	ff		 lea	 ecx, DWORD PTR _other_array$[ebp]
-  00543	e8 00 00 00 00	 call	 ?__autoclassinit2@?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAEXI@Z
-  00548	8d 45 c8	 lea	 eax, DWORD PTR _d$[ebp]
-  0054b	50		 push	 eax
-  0054c	8d 8d 00 ff ff
-	ff		 lea	 ecx, DWORD PTR _other_array$[ebp]
-  00552	e8 00 00 00 00	 call	 ??0?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@ABV01@@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  00557	c6 45 fc 01	 mov	 BYTE PTR __$EHRec$[ebp+8], 1
-
-; 519  : 
-; 520  : 	//this should not fail!
-; 521  : 	const auto r = other_array[ 2 ];
-
-  0055b	6a 02		 push	 2
-  0055d	8d 8d 00 ff ff
-	ff		 lea	 ecx, DWORD PTR _other_array$[ebp]
-  00563	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEABHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  00568	8b 00		 mov	 eax, DWORD PTR [eax]
-  0056a	89 85 f4 fe ff
-	ff		 mov	 DWORD PTR _r$[ebp], eax
-
-; 522  : 
-; 523  : 	//this should fail!
-; 524  : 	const auto s = other_array[ 3 ];
-
-  00570	6a 03		 push	 3
-  00572	8d 8d 00 ff ff
-	ff		 lea	 ecx, DWORD PTR _other_array$[ebp]
-  00578	e8 00 00 00 00	 call	 ??A?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QBEABHH@Z ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::operator[]
-  0057d	8b 00		 mov	 eax, DWORD PTR [eax]
-  0057f	89 85 e8 fe ff
-	ff		 mov	 DWORD PTR _s$[ebp], eax
-
-; 525  : 
-; 526  : 
-; 527  : 
-; 528  : 	return nRetCode;
-
-  00585	8b 45 dc	 mov	 eax, DWORD PTR _nRetCode$[ebp]
-  00588	89 85 1c fe ff
-	ff		 mov	 DWORD PTR $T14[ebp], eax
-  0058e	c6 45 fc 00	 mov	 BYTE PTR __$EHRec$[ebp+8], 0
-  00592	8d 8d 00 ff ff
-	ff		 lea	 ecx, DWORD PTR _other_array$[ebp]
-  00598	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  0059d	c7 45 fc ff ff
+  003c9	8b 45 dc	 mov	 eax, DWORD PTR _nRetCode$[ebp]
+  003cc	89 85 64 fe ff
+	ff		 mov	 DWORD PTR $T9[ebp], eax
+  003d2	c6 45 fc 00	 mov	 BYTE PTR __$EHRec$[ebp+8], 0
+  003d6	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  003d9	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
+  003de	c7 45 fc ff ff
 	ff ff		 mov	 DWORD PTR __$EHRec$[ebp+8], -1
-  005a4	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  005a7	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
-  005ac	8b 85 1c fe ff
-	ff		 mov	 eax, DWORD PTR $T14[ebp]
-$LN11@wmain:
+  003e5	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
+  003e8	e8 00 00 00 00	 call	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
+  003ed	8b 85 64 fe ff
+	ff		 mov	 eax, DWORD PTR $T9[ebp]
+$LN5@wmain:
 
-; 529  : 	}
+; 463  : 	}
 
-  005b2	52		 push	 edx
-  005b3	8b cd		 mov	 ecx, ebp
-  005b5	50		 push	 eax
-  005b6	8d 15 00 00 00
-	00		 lea	 edx, DWORD PTR $LN20@wmain
-  005bc	e8 00 00 00 00	 call	 @_RTC_CheckStackVars@8
-  005c1	58		 pop	 eax
-  005c2	5a		 pop	 edx
-  005c3	8b 4d f4	 mov	 ecx, DWORD PTR __$EHRec$[ebp]
-  005c6	64 89 0d 00 00
+  003f3	52		 push	 edx
+  003f4	8b cd		 mov	 ecx, ebp
+  003f6	50		 push	 eax
+  003f7	8d 15 00 00 00
+	00		 lea	 edx, DWORD PTR $LN13@wmain
+  003fd	e8 00 00 00 00	 call	 @_RTC_CheckStackVars@8
+  00402	58		 pop	 eax
+  00403	5a		 pop	 edx
+  00404	8b 4d f4	 mov	 ecx, DWORD PTR __$EHRec$[ebp]
+  00407	64 89 0d 00 00
 	00 00		 mov	 DWORD PTR fs:0, ecx
-  005cd	59		 pop	 ecx
-  005ce	5f		 pop	 edi
-  005cf	5e		 pop	 esi
-  005d0	5b		 pop	 ebx
-  005d1	8b 4d f0	 mov	 ecx, DWORD PTR __$ArrayPad$[ebp]
-  005d4	33 cd		 xor	 ecx, ebp
-  005d6	e8 00 00 00 00	 call	 @__security_check_cookie@4
-  005db	81 c4 78 02 00
-	00		 add	 esp, 632		; 00000278H
-  005e1	3b ec		 cmp	 ebp, esp
-  005e3	e8 00 00 00 00	 call	 __RTC_CheckEsp
-  005e8	8b e5		 mov	 esp, ebp
-  005ea	5d		 pop	 ebp
-  005eb	c3		 ret	 0
-$LN20@wmain:
-  005ec	03 00 00 00	 DD	 3
-  005f0	00 00 00 00	 DD	 $LN19@wmain
-$LN19@wmain:
-  005f4	c8 ff ff ff	 DD	 -56			; ffffffc8H
-  005f8	0c 00 00 00	 DD	 12			; 0000000cH
-  005fc	00 00 00 00	 DD	 $LN15@wmain
-  00600	38 ff ff ff	 DD	 -200			; ffffff38H
-  00604	04 00 00 00	 DD	 4
-  00608	00 00 00 00	 DD	 $LN16@wmain
-  0060c	00 ff ff ff	 DD	 -256			; ffffff00H
-  00610	0c 00 00 00	 DD	 12			; 0000000cH
-  00614	00 00 00 00	 DD	 $LN17@wmain
-$LN17@wmain:
-  00618	6f		 DB	 111			; 0000006fH
-  00619	74		 DB	 116			; 00000074H
-  0061a	68		 DB	 104			; 00000068H
-  0061b	65		 DB	 101			; 00000065H
-  0061c	72		 DB	 114			; 00000072H
-  0061d	5f		 DB	 95			; 0000005fH
-  0061e	61		 DB	 97			; 00000061H
-  0061f	72		 DB	 114			; 00000072H
-  00620	72		 DB	 114			; 00000072H
-  00621	61		 DB	 97			; 00000061H
-  00622	79		 DB	 121			; 00000079H
-  00623	00		 DB	 0
-$LN16@wmain:
-  00624	7a		 DB	 122			; 0000007aH
-  00625	5f		 DB	 95			; 0000005fH
-  00626	00		 DB	 0
-$LN15@wmain:
-  00627	64		 DB	 100			; 00000064H
-  00628	00		 DB	 0
+  0040e	59		 pop	 ecx
+  0040f	5f		 pop	 edi
+  00410	5e		 pop	 esi
+  00411	5b		 pop	 ebx
+  00412	8b 4d f0	 mov	 ecx, DWORD PTR __$ArrayPad$[ebp]
+  00415	33 cd		 xor	 ecx, ebp
+  00417	e8 00 00 00 00	 call	 @__security_check_cookie@4
+  0041c	81 c4 f4 01 00
+	00		 add	 esp, 500		; 000001f4H
+  00422	3b ec		 cmp	 ebp, esp
+  00424	e8 00 00 00 00	 call	 __RTC_CheckEsp
+  00429	8b e5		 mov	 esp, ebp
+  0042b	5d		 pop	 ebp
+  0042c	c3		 ret	 0
+  0042d	8d 49 00	 npad	 3
+$LN13@wmain:
+  00430	02 00 00 00	 DD	 2
+  00434	00 00 00 00	 DD	 $LN12@wmain
+$LN12@wmain:
+  00438	c8 ff ff ff	 DD	 -56			; ffffffc8H
+  0043c	0c 00 00 00	 DD	 12			; 0000000cH
+  00440	00 00 00 00	 DD	 $LN9@wmain
+  00444	a8 ff ff ff	 DD	 -88			; ffffffa8H
+  00448	0c 00 00 00	 DD	 12			; 0000000cH
+  0044c	00 00 00 00	 DD	 $LN10@wmain
+$LN10@wmain:
+  00450	64		 DB	 100			; 00000064H
+  00451	00		 DB	 0
+$LN9@wmain:
+  00452	62		 DB	 98			; 00000062H
+  00453	00		 DB	 0
 _TEXT	ENDS
 ;	COMDAT text$x
 text$x	SEGMENT
 __unwindfunclet$_wmain$0:
-  00000	8d 4d c8	 lea	 ecx, DWORD PTR _d$[ebp]
-  00003	e9 00 00 00 00	 jmp	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
+  00000	8d 4d c8	 lea	 ecx, DWORD PTR _b$[ebp]
+  00003	e9 00 00 00 00	 jmp	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@ATL@@@ATL@@QAE@XZ ; ATL::CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,ATL::CSimpleArrayEqualHelper<int> >
 __unwindfunclet$_wmain$1:
-  00008	8d 8d 00 ff ff
-	ff		 lea	 ecx, DWORD PTR _other_array$[ebp]
-  0000e	e9 00 00 00 00	 jmp	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
+  00008	8d 4d a8	 lea	 ecx, DWORD PTR _d$[ebp]
+  0000b	e9 00 00 00 00	 jmp	 ??1?$CSimpleArray@HV?$CSimpleArrayEqualHelper@H@myATL@@@myATL@@QAE@XZ ; myATL::CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >::~CSimpleArray<int,myATL::CSimpleArrayEqualHelper<int> >
 __ehhandler$_wmain:
-  00013	8b 54 24 08	 mov	 edx, DWORD PTR [esp+8]
-  00017	8d 42 0c	 lea	 eax, DWORD PTR [edx+12]
-  0001a	8b 8a 84 fd ff
-	ff		 mov	 ecx, DWORD PTR [edx-636]
-  00020	33 c8		 xor	 ecx, eax
-  00022	e8 00 00 00 00	 call	 @__security_check_cookie@4
-  00027	8b 4a fc	 mov	 ecx, DWORD PTR [edx-4]
-  0002a	33 c8		 xor	 ecx, eax
-  0002c	e8 00 00 00 00	 call	 @__security_check_cookie@4
-  00031	b8 00 00 00 00	 mov	 eax, OFFSET __ehfuncinfo$_wmain
-  00036	e9 00 00 00 00	 jmp	 ___CxxFrameHandler3
+  00010	8b 54 24 08	 mov	 edx, DWORD PTR [esp+8]
+  00014	8d 42 0c	 lea	 eax, DWORD PTR [edx+12]
+  00017	8b 8a 08 fe ff
+	ff		 mov	 ecx, DWORD PTR [edx-504]
+  0001d	33 c8		 xor	 ecx, eax
+  0001f	e8 00 00 00 00	 call	 @__security_check_cookie@4
+  00024	8b 4a fc	 mov	 ecx, DWORD PTR [edx-4]
+  00027	33 c8		 xor	 ecx, eax
+  00029	e8 00 00 00 00	 call	 @__security_check_cookie@4
+  0002e	b8 00 00 00 00	 mov	 eax, OFFSET __ehfuncinfo$_wmain
+  00033	e9 00 00 00 00	 jmp	 ___CxxFrameHandler3
 text$x	ENDS
 _wmain	ENDP
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
+;	COMDAT ?test_analyze_zero@@YAXH@Z
+_TEXT	SEGMENT
+_in$ = 8						; size = 4
+?test_analyze_zero@@YAXH@Z PROC				; test_analyze_zero, COMDAT
+
+; 336  : void test_analyze_zero( int in ) {
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec c0 00 00
+	00		 sub	 esp, 192		; 000000c0H
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	8d bd 40 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-192]
+  00012	b9 30 00 00 00	 mov	 ecx, 48			; 00000030H
+  00017	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001c	f3 ab		 rep stosd
+
+; 337  : 
+; 338  : 	}
+
+  0001e	5f		 pop	 edi
+  0001f	5e		 pop	 esi
+  00020	5b		 pop	 ebx
+  00021	8b e5		 mov	 esp, ebp
+  00023	5d		 pop	 ebp
+  00024	c3		 ret	 0
+?test_analyze_zero@@YAXH@Z ENDP				; test_analyze_zero
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
+;	COMDAT ?test_analyze_two_or_three@@YAXH@Z
+_TEXT	SEGMENT
+_in$ = 8						; size = 4
+?test_analyze_two_or_three@@YAXH@Z PROC			; test_analyze_two_or_three, COMDAT
+
+; 330  : void test_analyze_two_or_three( int in ) {
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec c0 00 00
+	00		 sub	 esp, 192		; 000000c0H
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	8d bd 40 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-192]
+  00012	b9 30 00 00 00	 mov	 ecx, 48			; 00000030H
+  00017	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001c	f3 ab		 rep stosd
+
+; 331  : 
+; 332  : 	}
+
+  0001e	5f		 pop	 edi
+  0001f	5e		 pop	 esi
+  00020	5b		 pop	 ebx
+  00021	8b e5		 mov	 esp, ebp
+  00023	5d		 pop	 ebp
+  00024	c3		 ret	 0
+?test_analyze_two_or_three@@YAXH@Z ENDP			; test_analyze_two_or_three
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
+;	COMDAT ?test_analyze_one_or_two@@YAXH@Z
+_TEXT	SEGMENT
+_in$ = 8						; size = 4
+?test_analyze_one_or_two@@YAXH@Z PROC			; test_analyze_one_or_two, COMDAT
+
+; 325  : void test_analyze_one_or_two( int in ) {
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec c0 00 00
+	00		 sub	 esp, 192		; 000000c0H
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	8d bd 40 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-192]
+  00012	b9 30 00 00 00	 mov	 ecx, 48			; 00000030H
+  00017	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001c	f3 ab		 rep stosd
+
+; 326  : 
+; 327  : 	}
+
+  0001e	5f		 pop	 edi
+  0001f	5e		 pop	 esi
+  00020	5b		 pop	 ebx
+  00021	8b e5		 mov	 esp, ebp
+  00023	5d		 pop	 ebp
+  00024	c3		 ret	 0
+?test_analyze_one_or_two@@YAXH@Z ENDP			; test_analyze_one_or_two
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\users\alexander riccio\documents\github\csimplearray_sal_test\csimplearray_test\csimplearray_test\test.cpp
+;	COMDAT ?test_analyze_ten_or_onehundred@@YAXH@Z
+_TEXT	SEGMENT
+_in$ = 8						; size = 4
+?test_analyze_ten_or_onehundred@@YAXH@Z PROC		; test_analyze_ten_or_onehundred, COMDAT
+
+; 320  : void test_analyze_ten_or_onehundred( int in ) {
+
+  00000	55		 push	 ebp
+  00001	8b ec		 mov	 ebp, esp
+  00003	81 ec c0 00 00
+	00		 sub	 esp, 192		; 000000c0H
+  00009	53		 push	 ebx
+  0000a	56		 push	 esi
+  0000b	57		 push	 edi
+  0000c	8d bd 40 ff ff
+	ff		 lea	 edi, DWORD PTR [ebp-192]
+  00012	b9 30 00 00 00	 mov	 ecx, 48			; 00000030H
+  00017	b8 cc cc cc cc	 mov	 eax, -858993460		; ccccccccH
+  0001c	f3 ab		 rep stosd
+
+; 321  : 
+; 322  : 	}
+
+  0001e	5f		 pop	 edi
+  0001f	5e		 pop	 esi
+  00020	5b		 pop	 ebx
+  00021	8b e5		 mov	 esp, ebp
+  00023	5d		 pop	 ebp
+  00024	c3		 ret	 0
+?test_analyze_ten_or_onehundred@@YAXH@Z ENDP		; test_analyze_ten_or_onehundred
+_TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ;	COMDAT ??__FtheApp@@YAXXZ
 text$yd	SEGMENT
@@ -2409,7 +2796,7 @@ text$yd	ENDS
 text$di	SEGMENT
 ??__EtheApp@@YAXXZ PROC					; `dynamic initializer for 'theApp'', COMDAT
 
-; 334  : CWinApp theApp;
+; 317  : CWinApp theApp;
 
   00000	55		 push	 ebp
   00001	8b ec		 mov	 ebp, esp
